@@ -91,6 +91,8 @@ def extract_register(image: bytes | None, mime_type: str, medicines: list[dict])
     result, prov = run_structured(
         "extract_register", "v1", RegisterExtraction, {"medicine_master": medicine_master_json(medicines)},
         demo=lambda: DEMO_REGISTER.model_copy(deep=True), demo_model="demo-fixture", parts=parts,
+        # Handwriting: let the model reason about smudged / crossed-out cells so it flags them instead of guessing.
+        thinking_budget=-1,
     )
     codes = {m["drug_code"] for m in medicines}
     for r in result.rows:

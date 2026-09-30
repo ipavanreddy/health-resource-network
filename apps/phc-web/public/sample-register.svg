@@ -32,7 +32,7 @@
     </g>
   </g>
   <!-- ink blot makes the RL closing balance illegible -->
-  <ellipse cx="770" cy="405" rx="44" ry="22" fill="#27306e" opacity="0.88"/>
-  <circle cx="812" cy="392" r="7" fill="#27306e" opacity="0.8"/>
+  <ellipse cx="770" cy="405" rx="44" ry="22" fill="#27306e"/>
+  <circle cx="812" cy="392" r="7" fill="#27306e"/>
   <text x="600" y="600" font-family="Arial, sans-serif" font-size="14" fill="#a33">SAMPLE / SYNTHETIC - PHC Pulse demo</text>
 </svg>

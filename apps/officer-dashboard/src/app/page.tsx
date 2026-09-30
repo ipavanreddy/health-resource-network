@@ -11,6 +11,7 @@ import { TransferPanel } from "@/components/transfer-panel";
 import { FacilityTable } from "@/components/facility-table";
 import { FacilityDetailPanel } from "@/components/facility-detail";
 import { InteropPanel } from "@/components/interop-panel";
+import { ScenarioPanel } from "@/components/scenario-panel";
 import { SyntheticNote } from "@/components/bits";
 import { setRole } from "@/lib/api";
 import { useApi } from "@/lib/use-api";
@@ -177,6 +178,9 @@ export default function DhoDashboard() {
           <Section title="Facilities" aside={<span className="text-xs text-muted-foreground">Sorted by readiness (lowest first) · click a row for details</span>}>
             <FacilityTable facilities={facilities.data?.facilities} selectedId={selected} onSelect={select} drugNames={drugNames} />
             <SyntheticNote />
+          </Section>
+          <Section title="Emergency scenario" aside={<span className="text-xs text-muted-foreground">Apply an outbreak multiplier · projected stock-outs by week</span>}>
+            <ScenarioPanel key={`${stateId}/${district}`} state={stateId} district={district} medicines={medicineList} defaultGroup={scenario?.group} />
           </Section>
         </TabsContent>
 

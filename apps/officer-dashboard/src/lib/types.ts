@@ -14,6 +14,12 @@ export interface IntegrationMode {
   id: string;
   label: string;
   mode: "real" | "demo";
+  /** Env vars present (null when forced into demo mode). */
+  configured?: boolean;
+  /** Result of the start-up verification probe: true = working, false = configured but failing. */
+  verified?: boolean | null;
+  detail?: string;
+  checked_at?: string | null;
   enable_with: string;
   fallback: string;
 }
@@ -284,6 +290,8 @@ export interface Scenario {
   hero_facility_id: string;
   hero_facility_name: string;
   focus_drugs: string[];
+  group?: string;
+  multiplier?: number;
 }
 
 // ---------------------------------------------------------------- DHO dashboard additions

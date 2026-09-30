@@ -46,9 +46,13 @@ export function ModeBanner({ extraDemo }: { extraDemo?: string }) {
                   {m.mode === "real" ? "● live" : "○ demo"}
                 </span>{" "}
                 <span className="font-medium">{m.label}</span>
+                {m.mode === "real" && m.detail && <div className="text-muted-foreground">Verified: {m.detail}</div>}
                 {m.mode === "demo" && (
                   <div className="text-muted-foreground">
-                    Fallback: {m.fallback}. Enable with <code>{m.enable_with}</code>.
+                    {m.configured && m.verified === false ? (
+                      <span className="text-amber-700 dark:text-amber-400">{m.detail}. </span>
+                    ) : null}
+                    Fallback: {m.fallback}. {!m.configured && <>Enable with <code>{m.enable_with}</code>.</>}
                   </div>
                 )}
               </li>

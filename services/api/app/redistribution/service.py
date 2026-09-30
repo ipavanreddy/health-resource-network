@@ -1,5 +1,6 @@
 """Optimiser → Gemini explanation → proposed transfers awaiting District Health Officer approval."""
 import uuid
+from concurrent.futures import ThreadPoolExecutor
 
 from app.redistribution.explain import build_context, explain
 from app.redistribution.optimizer import Params, optimize
@@ -15,6 +16,7 @@ def run_optimization(store: Store, state: str | None, district: str | None, drug
     result = optimize(rows, params)
     proposals = []
     surge_by_f: dict[str, set[str]] = {}
+    items = []
     for t in result["transfers"]:
         donor, recv = store.facility(t["from_facility_id"]), store.facility(t["to_facility_id"])
         med = store.medicines[t["drug_code"]]
@@ -25,7 +27,11 @@ def run_optimization(store: Store, state: str | None, district: str | None, drug
             store.hours_since(store.status[donor["facility_id"]]["last_stock_report_at"]),
             store.hours_since(store.status[recv["facility_id"]]["last_stock_report_at"]),
         )
-        explanation, prov = explain(ctx, language)
+        items.append((t, donor, recv, med, ctx))
+    # Explanations are independent Gemini calls: run them concurrently (the optimiser already fixed quantities).
+    with ThreadPoolExecutor(max_workers=max(1, min(8, len(items)))) as pool:
+        explained = list(pool.map(lambda it: explain(it[4], language), items))
+    for (t, donor, recv, med, ctx), (explanation, prov) in zip(items, explained, strict=True):
         now = store.now()
         proposals.append({
             "transfer_id": f"TRF-{uuid.uuid4().hex[:8]}", "state": recv["state"], "district": recv["district"],

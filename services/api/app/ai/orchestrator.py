@@ -33,11 +33,13 @@ def run_structured[T: BaseModel](
     demo: Callable[[], T],
     demo_model: str,
     parts: list[types.Part] | None = None,
+    thinking_budget: int | None = None,
 ) -> tuple[T, dict]:
     prompt_version = f"{name}_{version}"
     if gemini_enabled():
         try:
-            result, prov = generate_structured(render_prompt(name, version, **values), schema, prompt_version, parts)
+            result, prov = generate_structured(render_prompt(name, version, **values), schema, prompt_version, parts,
+                                               thinking_budget)
             return result, {**prov.model_dump(mode="json"), "mode": "gemini", "is_demo": False}
         except Exception as exc:  # noqa: BLE001 - never break the journey; label the fallback
             log.warning("Gemini call %s failed, using demo fallback: %s", prompt_version, exc)

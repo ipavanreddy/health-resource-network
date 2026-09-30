@@ -3,6 +3,7 @@ from fastapi import APIRouter, Depends, File, Form, HTTPException, UploadFile
 from pydantic import BaseModel, Field
 
 from app.capture.extraction import extract_register, extract_stock, transcribe
+from app.integrations.cloud_sinks import store_media
 from app.routers.deps import store
 from app.store import Store
 
@@ -57,8 +58,10 @@ async def capture_voice(facility_id: str = Form(...), language: str = Form("en")
     data, mime = await _read(audio)
     tr = transcribe(data, mime, language, transcript)
     result, prov = extract_stock(tr["transcript"], language, list(s.medicines.values()))
-    return s.create_capture(facility_id, "voice", language, [i.model_dump() for i in result.items],
-                            result.unrecognised, prov, transcript=tr)
+    cap = s.create_capture(facility_id, "voice", language, [i.model_dump() for i in result.items],
+                           result.unrecognised, prov, transcript=tr)
+    cap["media"] = store_media("voice", facility_id, cap["capture_id"], data, mime)
+    return cap
 
 
 @router.post("/photo")
@@ -69,8 +72,10 @@ async def capture_photo(facility_id: str = Form(...), language: str = Form("en")
     result, prov = extract_register(data, mime, list(s.medicines.values()))
     items = [{"spoken_name": r.medicine_text, "drug_code": r.drug_code, "quantity": r.closing,
               "unit": None, "match_confidence": r.match_confidence} for r in result.rows if r.drug_code]
-    return s.create_capture(facility_id, "photo", language, items, result.unrecognised, prov,
-                            rows=[r.model_dump() for r in result.rows], register_date=result.register_date)
+    cap = s.create_capture(facility_id, "photo", language, items, result.unrecognised, prov,
+                           rows=[r.model_dump() for r in result.rows], register_date=result.register_date)
+    cap["media"] = store_media("photo", facility_id, cap["capture_id"], data, mime)
+    return cap
 
 
 @router.post("/form")

@@ -64,8 +64,30 @@ function routable(transfers: Transfer[]): Transfer[] {
   return transfers.filter((t) => t.status in ROUTE_STYLE);
 }
 
+const AUTH_FAILURE_EVENT = "phc-pulse:gmaps-auth-failure";
+let gmapsAuthFailed = false;
+
 export default function FacilityMap(props: FacilityMapProps) {
-  return MAPS_KEY ? <GoogleFacilityMap {...props} /> : <LeafletFacilityMap {...props} />;
+  // Google calls window.gm_authFailure when the key is rejected (e.g. referrer not allowed): fall back to Leaflet.
+  const [authFailed, setAuthFailed] = useState(gmapsAuthFailed);
+  useEffect(() => {
+    const onFail = () => setAuthFailed(true);
+    window.addEventListener(AUTH_FAILURE_EVENT, onFail);
+    return () => window.removeEventListener(AUTH_FAILURE_EVENT, onFail);
+  }, []);
+  if (!MAPS_KEY || authFailed) {
+    return (
+      <>
+        <LeafletFacilityMap {...props} />
+        {authFailed && (
+          <span className="pointer-events-none absolute bottom-2 left-2 z-[500] rounded bg-background/90 px-1.5 py-0.5 text-[10px] font-medium text-muted-foreground shadow">
+            Google Maps key rejected for this site: OpenStreetMap fallback
+          </span>
+        )}
+      </>
+    );
+  }
+  return <GoogleFacilityMap {...props} />;
 }
 
 // ------------------------------------------------------------------------------------------ Leaflet
@@ -207,6 +229,7 @@ interface GoogleMapsNS {
 declare global {
   interface Window {
     google?: { maps: GoogleMapsNS };
+    gm_authFailure?: () => void;
   }
 }
 
@@ -214,6 +237,10 @@ let gmapsPromise: Promise<GoogleMapsNS> | null = null;
 function loadGoogleMaps(): Promise<GoogleMapsNS> {
   if (window.google?.maps) return Promise.resolve(window.google.maps);
   if (!gmapsPromise) {
+    window.gm_authFailure = () => {
+      gmapsAuthFailed = true;
+      window.dispatchEvent(new Event(AUTH_FAILURE_EVENT));
+    };
     gmapsPromise = new Promise((resolve, reject) => {
       const s = document.createElement("script");
       s.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(MAPS_KEY)}`;

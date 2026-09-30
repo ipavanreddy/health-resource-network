@@ -2,10 +2,12 @@
 from datetime import datetime
 
 from fastapi import APIRouter, Depends, HTTPException
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
+from app.early_warning.scenario import simulate
 from app.forecasting.model_card import model_card, models
-from app.integrations.modes import all_modes, any_demo
+from app.integrations.cloud_sinks import sink_stats
+from app.integrations.modes import all_modes, run_probes
 from app.interop.adapters import AdapterError, adapter_summary, to_canonical
 from app.interop.canonical import CanonicalFacilityRecord
 from app.routers.deps import store
@@ -106,8 +108,13 @@ def card(model_id: str, s: Store = Depends(store)) -> dict:
 
 
 @router.get("/system/modes")
-def modes(s: Store = Depends(store)) -> dict:
-    return {"integrations": all_modes(), "demo_mode": any_demo(), "synthetic_data": True,
+def modes(refresh: bool = False, s: Store = Depends(store)) -> dict:
+    """Per-integration live/demo status. `refresh=true` re-runs the verification probes."""
+    if refresh:
+        run_probes()
+    integrations = all_modes()
+    return {"integrations": integrations, "demo_mode": any(m["mode"] == "demo" for m in integrations),
+            "bigquery_sink": sink_stats(), "synthetic_data": True,
             "data_label": s.data_label(), "notice": s.meta["notice"]}
 
 
@@ -124,3 +131,24 @@ class ResetIn(BaseModel):
 def reset(body: ResetIn | None = None) -> dict:
     s = reset_store(body.reference_time if body else None)
     return {"reset": True, "reference_time": s.reference_time}
+
+
+class ScenarioIn(BaseModel):
+    """Emergency what-if (PRD §15.3 / FR-11), e.g. dengue outbreak: 3x paracetamol + IV fluids for 4 weeks."""
+    state: str
+    district: str | None = None
+    blocks: list[str] | None = None
+    group: str | None = Field(default=None, description="Medicine group, e.g. fever, diarrhoea, malaria")
+    drug_codes: list[str] | None = None
+    multiplier: float = Field(default=3.0, ge=1.0, le=10.0)
+    duration_weeks: int = Field(default=4, ge=1, le=8)
+
+
+@router.post("/scenarios/simulate")
+def simulate_scenario(body: ScenarioIn, s: Store = Depends(store)) -> dict:
+    _state(s, body.state)
+    codes = body.drug_codes or [c for c, m in s.medicines.items() if body.group and m["group"] == body.group]
+    unknown = [c for c in codes if c not in s.medicines]
+    if not codes or unknown:
+        raise HTTPException(400, f"Give a known medicine group or drug_codes (unknown: {unknown})")
+    return simulate(s, body.state, body.district, codes, body.multiplier, body.duration_weeks, body.blocks)

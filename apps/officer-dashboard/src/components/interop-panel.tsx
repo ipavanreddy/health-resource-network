@@ -93,6 +93,7 @@ export function InteropPanel({ states, stateId }: { states: StateConfig[]; state
   const sample = useApi<SampleExport>(`/api/states/${stateId}/sample-export`);
   const analytics = useApi<StateAnalytics>(`/api/states/${stateId}/analytics`);
   const card = useApi<ModelCard>("/api/models/phc-demand-baseline/card");
+  const arima = useApi<ArimaCard>("/api/models/weekly_demand_arima/card");
   const stateName = states.find((s) => s.id === stateId)?.name ?? stateId;
 
   return (
@@ -210,9 +211,34 @@ export function InteropPanel({ states, stateId }: { states: StateConfig[]; state
         ) : (
           <ModelCardView c={card.data} />
         )}
+        {arima.data && (
+          <div className="mt-3 rounded-md border border-dashed p-2 text-xs">
+            <div className="font-medium">
+              Challenger: <code>weekly_demand_arima</code> · BigQuery ML ARIMA_PLUS · <span className="text-muted-foreground">{arima.data.status}</span>
+            </div>
+            {arima.data.training_summary ? (
+              <p className="text-muted-foreground">
+                {arima.data.training_summary.series.toLocaleString("en-IN")} facility × medicine series trained in BigQuery ML
+                {arima.data.training_summary.trained_at ? ` on ${arima.data.training_summary.trained_at.slice(0, 10)}` : ""} ·{" "}
+                {arima.data.training_summary.series_with_seasonality.toLocaleString("en-IN")} with seasonality · median AIC{" "}
+                {arima.data.training_summary.median_aic}. {arima.data.note}
+              </p>
+            ) : (
+              <p className="text-muted-foreground">{arima.data.summary}</p>
+            )}
+          </div>
+        )}
       </Panel>
     </div>
   );
+}
+
+interface ArimaCard {
+  id: string;
+  summary: string;
+  status: string;
+  note?: string;
+  training_summary?: { series: number; trained_at: string | null; median_aic: number; series_with_seasonality: number } | null;
 }
 
 function ModelCardView({ c }: { c: ModelCard }) {

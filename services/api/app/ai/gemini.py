@@ -9,6 +9,8 @@ from pydantic import BaseModel
 from app.config import REPO_ROOT, settings
 
 PROMPTS_DIR = REPO_ROOT / "ai" / "prompts"
+# Bounded latency: a slow call falls back to the labelled demo path instead of hanging the journey.
+HTTP_OPTIONS = types.HttpOptions(timeout=45_000, retry_options=types.HttpRetryOptions(attempts=2))
 
 
 class AIProvenance(BaseModel):
@@ -24,9 +26,10 @@ def client() -> genai.Client:
         return genai.Client(
             vertexai=True,
             project=settings.google_cloud_project,
-            location=settings.google_cloud_location,
+            location=settings.gemini_location or settings.google_cloud_location,
+            http_options=HTTP_OPTIONS,
         )
-    return genai.Client(api_key=settings.gemini_api_key)
+    return genai.Client(api_key=settings.gemini_api_key, http_options=HTTP_OPTIONS)
 
 
 def load_prompt(name: str, version: str) -> str:
@@ -39,6 +42,7 @@ def generate_structured[T: BaseModel](
     schema: type[T],
     prompt_version: str,
     parts: list[types.Part] | None = None,
+    thinking_budget: int | None = None,
 ) -> tuple[T, AIProvenance]:
     """Call Gemini with a response schema and return the validated object plus provenance."""
     response = client().models.generate_content(
@@ -47,6 +51,9 @@ def generate_structured[T: BaseModel](
         config=types.GenerateContentConfig(
             response_mime_type="application/json",
             response_schema=schema,
+            thinking_config=(types.ThinkingConfig(
+                thinking_budget=settings.gemini_thinking_budget if thinking_budget is None else thinking_budget)
+                if "2.5" in settings.gemini_model else None),
         ),
     )
     result = schema.model_validate_json(response.text)

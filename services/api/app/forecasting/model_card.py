@@ -2,6 +2,7 @@
 import numpy as np
 
 from app.forecasting import baseline as fc
+from app.integrations.cloud_sinks import arima_model_summary
 from app.integrations.modes import forecast_bigquery_enabled
 from app.store import Store
 
@@ -33,7 +34,9 @@ def models(store: Store) -> list[dict]:
          "registry": "local (demo); register in Vertex AI Model Registry for production",
          "shared_by_states": [s for s, d in store.states.items() if d["config"].get("forecast_model") == fc.MODEL_ID]},
         {"id": "weekly_demand_arima", "version": "bqml-arima-plus", "type": "BigQuery ML ARIMA_PLUS (per series)",
-         "status": "active" if forecast_bigquery_enabled() else "available (set FORECAST_BACKEND=bigquery)",
+         "status": "active" if forecast_bigquery_enabled() else
+         "trained in BigQuery ML (serve with FORECAST_BACKEND=bigquery)" if arima_model_summary() else
+         "available (run data/transformations/load_bigquery.py --all)",
          "registry": "BigQuery ML (infrastructure/bigquery/forecast_model.sql)",
          "shared_by_states": ["TN", "UP", "OD"]},
     ]
@@ -43,8 +46,12 @@ def model_card(store: Store, model_id: str) -> dict | None:
     if model_id != fc.MODEL_ID:
         if model_id == "weekly_demand_arima":
             return {"id": model_id, "summary": "Per facility x medicine weekly ARIMA_PLUS model trained in BigQuery ML "
-                    "on the canonical weekly demand table; see infrastructure/bigquery/forecast_model.sql.",
-                    "status": models(store)[1]["status"]}
+                    "on the canonical weekly demand table (stock-out weeks excluded, India holiday calendar); "
+                    "see infrastructure/bigquery/forecast_model.sql.",
+                    "status": models(store)[1]["status"], "training_summary": arima_model_summary(),
+                    "note": "Challenger to the shared baseline: ARIMA_PLUS smooths over a surge that started days "
+                            "ago, so the dashboard keeps the baseline (whose level term reacts within a week) as the "
+                            "serving model and uses surge detection for the gap."}
         return None
     per_state = _state_metrics(store)
     return {

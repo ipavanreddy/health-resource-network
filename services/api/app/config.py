@@ -11,16 +11,23 @@ class Settings(BaseSettings):
 
     project_name: str = "health-resource-network"
     gemini_api_key: str = ""
-    gemini_model: str = "gemini-flash-latest"
+    gemini_model: str = "gemini-2.5-flash"
     google_genai_use_vertexai: bool = False
     google_cloud_project: str = ""
     google_cloud_location: str = "asia-south1"
+    # Vertex AI endpoint for Gemini. "global" has the most capacity (regional endpoints can return 429);
+    # set asia-south1 for in-country processing.
+    gemini_location: str = "global"
+    # Gemini 2.5 "thinking" token budget: 0 = off (fastest; extraction is schema-constrained), -1 = dynamic.
+    gemini_thinking_budget: int = 0
     google_application_credentials: str = ""
     bigquery_dataset: str = "health_resource_network"
     gcs_bucket: str = ""
     firebase_project_id: str = ""
     maps_api_key: str = ""
     cors_origins: str = "http://localhost:3030,http://localhost:3031"
+    # Extra CORS origin regex, e.g. the project's Cloud Run URLs (https://health-resource-network-.*\\.run\\.app).
+    cors_origin_regex: str = ""
 
     # Cloud Speech-to-Text / Text-to-Speech / Translation REST APIs (API key restricted to those APIs).
     google_cloud_api_key: str = ""

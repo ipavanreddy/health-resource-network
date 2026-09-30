@@ -13,8 +13,38 @@ def test_health_reports_demo_mode(client):
 def test_system_modes_lists_every_integration(client):
     body = client.get("/api/system/modes").json()
     ids = {m["id"] for m in body["integrations"]}
-    assert ids == {"gemini", "speech", "routes", "bigquery", "forecast", "firestore"}
+    assert ids == {"gemini", "speech", "routes", "bigquery", "forecast", "storage", "firestore"}
     assert body["synthetic_data"] is True and body["data_label"]["is_synthetic"] is True
+    assert all(m["mode"] == "demo" for m in body["integrations"])  # tests force demo mode
+
+
+def test_configured_but_failing_integration_is_reported_as_demo(monkeypatch):
+    """The badge must never claim "live" for a key that does not work."""
+    from app.config import settings
+    from app.integrations import modes
+
+    monkeypatch.setattr(settings, "force_demo_mode", False)
+    monkeypatch.setattr(settings, "maps_api_key", "bad-key")
+    monkeypatch.setattr(settings, "gcs_bucket", "some-bucket")
+    monkeypatch.setattr(settings, "google_cloud_api_key", "")
+    monkeypatch.setattr(settings, "gemini_api_key", "")
+    monkeypatch.setattr(settings, "google_genai_use_vertexai", False)
+    monkeypatch.setattr(settings, "google_cloud_project", "")
+    monkeypatch.setattr(settings, "firebase_project_id", "")
+
+    def boom():
+        raise RuntimeError("API key not valid")
+
+    monkeypatch.setitem(modes.PROBES, "routes", boom)
+    monkeypatch.setitem(modes.PROBES, "storage", lambda: "ok")
+    monkeypatch.setattr(modes, "_status", {})
+    modes.run_probes()
+    by_id = {m["id"]: m for m in modes.all_modes()}
+    assert by_id["routes"]["mode"] == "demo" and by_id["routes"]["verified"] is False
+    assert "API key not valid" in by_id["routes"]["detail"]
+    assert not modes.routes_enabled()
+    assert by_id["storage"]["mode"] == "real" and by_id["storage"]["verified"] is True
+    assert by_id["speech"]["mode"] == "demo" and by_id["speech"]["detail"] == "not configured"
 
 
 def test_facilities_scope_and_labels(client):
@@ -172,3 +202,19 @@ def test_end_to_end_demo_journey(client):
     assert donor_after == donor_before - t["quantity"]
     hist = [h["status"] for h in client.get(f"/api/transfers?facility_id={HERO}").json()["transfers"][0]["history"]]
     assert hist == ["proposed", "approved", "dispatched", "received"]
+
+
+def test_emergency_scenario_projects_more_stockouts(client):
+    """FR-11: a demand multiplier on a region + medicine group shows projected stock-outs by week."""
+    body = {"state": "UP", "district": "GKP", "group": "fever", "multiplier": 3, "duration_weeks": 4}
+    res = client.post("/api/scenarios/simulate", json=body)
+    assert res.status_code == 200
+    d = res.json()
+    assert d["drug_codes"] == ["PCM-500-TAB", "IVF-RL-500"]
+    assert len(d["weeks"]) == d["horizon_weeks"] == 8
+    for w in d["weeks"]:
+        assert w["scenario_stocked_out"] >= w["baseline_stocked_out"]
+    assert d["weeks"][-1]["scenario_stocked_out"] > d["weeks"][-1]["baseline_stocked_out"]
+    assert 0 <= d["redistribution"]["coverable_share"] <= 1
+    assert d["data_label"]["is_synthetic"] is True
+    assert client.post("/api/scenarios/simulate", json={**body, "group": "nope"}).status_code == 400

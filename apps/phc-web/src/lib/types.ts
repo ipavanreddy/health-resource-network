@@ -14,6 +14,12 @@ export interface IntegrationMode {
   id: string;
   label: string;
   mode: "real" | "demo";
+  /** Env vars present (null when forced into demo mode). */
+  configured?: boolean;
+  /** Result of the start-up verification probe: true = working, false = configured but failing. */
+  verified?: boolean | null;
+  detail?: string;
+  checked_at?: string | null;
   enable_with: string;
   fallback: string;
 }
@@ -176,6 +182,8 @@ export interface Capture {
   transcript: { transcript: string; provider: string; is_demo?: boolean } | null;
   confirmation_text: string;
   provenance: Provenance;
+  /** Original photo / recording kept in Cloud Storage (real mode only). */
+  media?: { uri: string; bytes: number; content_type: string } | null;
 }
 
 export interface ConfirmResult {

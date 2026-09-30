@@ -110,10 +110,10 @@ export function PhcApp() {
           <ModeBanner />
         </div>
         <div className="grid gap-2 sm:grid-cols-3">
-          <label className="flex flex-col gap-1 text-xs text-muted-foreground">
+          <label className="flex min-w-0 flex-col gap-1 text-xs text-muted-foreground">
             {t("scenario", lang)}
             <select
-              className="h-10 rounded-lg border bg-background px-2 text-sm text-foreground"
+              className="h-10 w-full min-w-0 truncate rounded-lg border bg-background px-2 text-sm text-foreground"
               value={scenarioId}
               onChange={(e) => {
                 const s = scenarios.find((x) => x.id === e.target.value);
@@ -132,10 +132,10 @@ export function PhcApp() {
               ))}
             </select>
           </label>
-          <label className="flex flex-col gap-1 text-xs text-muted-foreground">
+          <label className="flex min-w-0 flex-col gap-1 text-xs text-muted-foreground">
             {t("facility", lang)}
             <select
-              className="h-10 rounded-lg border bg-background px-2 text-sm text-foreground"
+              className="h-10 w-full min-w-0 truncate rounded-lg border bg-background px-2 text-sm text-foreground"
               value={facilityId ?? ""}
               onChange={(e) => {
                 setFacilityId(e.target.value);
@@ -149,10 +149,10 @@ export function PhcApp() {
               ))}
             </select>
           </label>
-          <label className="flex flex-col gap-1 text-xs text-muted-foreground">
+          <label className="flex min-w-0 flex-col gap-1 text-xs text-muted-foreground">
             {t("language", lang)}
             <select
-              className="h-10 rounded-lg border bg-background px-2 text-sm text-foreground"
+              className="h-10 w-full min-w-0 truncate rounded-lg border bg-background px-2 text-sm text-foreground"
               value={lang}
               onChange={(e) => setLang(e.target.value as Lang)}
             >

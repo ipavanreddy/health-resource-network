@@ -209,6 +209,11 @@ export function ReportStock({
               {prov.model_name} · {prov.model_version} · {prov.prompt_version}
             </Badge>
             {prov.is_demo && <Badge className="bg-violet-100 text-violet-900">Demo AI ({prov.mode})</Badge>}
+            {capture.media?.uri && (
+              <Badge variant="outline" className="text-[10px]" title={capture.media.uri}>
+                Original {capture.source === "photo" ? "photo" : "recording"} kept in Cloud Storage
+              </Badge>
+            )}
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
