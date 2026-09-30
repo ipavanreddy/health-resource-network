@@ -7,7 +7,7 @@ per-state adapters lets any Indian state join without rebuilding the platform. I
 Speech, BigQuery and Cloud Run.
 
 Build with AI (Google) hackathon, Track 3. Full spec: [docs/PRD.md](docs/PRD.md) · Submission pack:
-[docs/SUBMISSION.md](docs/SUBMISSION.md) · Pitch deck: [docs/pitch/](docs/pitch/)
+[docs/SUBMISSION.md](docs/SUBMISSION.md) · Pitch deck: [PPTX](docs/pitch/PHC_Pulse_Spontom_Pitch.pptx) / [PDF](docs/pitch/PHC_Pulse_Spontom_Pitch.pdf)
 
 ## Live demo (Cloud Run, asia-south1)
 

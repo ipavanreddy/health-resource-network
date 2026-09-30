@@ -1,0 +1,6 @@
+{
+  "name": "spontom-pitch-deck",
+  "private": true,
+  "scripts": { "build": "node build-deck.js" },
+  "dependencies": { "pptxgenjs": "4.0.1" }
+}

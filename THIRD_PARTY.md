@@ -43,6 +43,8 @@ dependencies are pinned in `pnpm-lock.yaml` and `services/api/uv.lock`.
 | Ayushman Bharat Health Facility Registry (HFR) ID format | Reference | Public documentation | https://facility.abdm.gov.in | Shape of the synthetic `hfr_id` field (no real IDs) |
 | Sample register page (`apps/phc-web/public/sample-register.svg`) | Image (made by us) | Project licence | this repo | Synthetic register page for the photo demo |
 | Extraction golden set (`ai/evaluation/extraction_golden_v1.json`) | Dataset (made by us) | Project licence | this repo | Evaluating stock extraction |
+| Pitch-deck illustrations (`docs/pitch/assets/cover-phc-nurse.jpg`, `users-phc-register.jpg`) | Images generated with Gemini 2.5 Flash Image (`gemini-2.5-flash-image`) on Vertex AI | Google Cloud / Vertex AI Generative AI terms | https://cloud.google.com/vertex-ai/generative-ai/docs/models | Illustrative cover and users images in the pitch deck; labelled as generated; not real people or facilities (Imagen was not enabled on the project) |
+| Spontom Enterprise logo mark (`docs/pitch/assets/spontom-mark.png`) | Image | Spontom Enterprise Private Limited | this repo | Pitch-deck branding |
 
 ## Libraries: frontend
 
@@ -82,7 +84,7 @@ dependencies are pinned in `pnpm-lock.yaml` and `services/api/uv.lock`.
 | pytest | MIT | https://pytest.org | Tests |
 | Ruff | MIT | https://docs.astral.sh/ruff | Python lint |
 | uv (also `ghcr.io/astral-sh/uv` image) | MIT / Apache-2.0 | https://docs.astral.sh/uv | Python packaging and container builds |
-| python-pptx | MIT | https://github.com/scanny/python-pptx | Generating the pitch deck (`docs/pitch/build_deck.py`) |
+| PptxGenJS | MIT | https://github.com/gitbrent/PptxGenJS | Generating the pitch deck (`docs/pitch/build-deck.js`, `docs/pitch/deck-kit.js`) |
 
 ## Container base images
 
