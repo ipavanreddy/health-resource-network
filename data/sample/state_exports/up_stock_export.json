@@ -1,0 +1,4131 @@
+{
+ "metadata": {
+  "source": "PHC Pulse synthetic generator (data/generator/synth.py)",
+  "dataset_version": "phc-pulse-synthetic-1.0.0",
+  "generator_version": "1.0.0",
+  "seed": 20260930,
+  "reference_timestamp": "2026-09-30T10:30:00+05:30",
+  "history_start": "2023-10-01",
+  "history_end": "2026-09-30",
+  "history_days": 1096,
+  "geographic_scope": {
+   "TN": [
+    "Madurai",
+    "Thanjavur"
+   ],
+   "UP": [
+    "Gorakhpur",
+    "Deoria"
+   ],
+   "OD": [
+    "Koraput",
+    "Rayagada"
+   ]
+  },
+  "facility_count": 198,
+  "dispensing_facility_count": 192,
+  "medicine_count": 8,
+  "is_synthetic": true,
+  "is_sample": true,
+  "notice": "SYNTHETIC DATA: generated for demonstration; not real facility, stock or patient data."
+ },
+ "state": "UP",
+ "records": [
+  {
+   "nin": "IN0961683626",
+   "drugId": "UPD-17",
+   "balanceQty": 953,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T04:30:00+05:30"
+  },
+  {
+   "nin": "IN0961683626",
+   "drugId": "UPD-52",
+   "balanceQty": 789,
+   "pipelineQty": 0,
+   "expiringQty90d": 100,
+   "asOn": "2026-09-29T04:30:00+05:30"
+  },
+  {
+   "nin": "IN0961683626",
+   "drugId": "UPD-53",
+   "balanceQty": 1103,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T04:30:00+05:30"
+  },
+  {
+   "nin": "IN0961683626",
+   "drugId": "UPD-08",
+   "balanceQty": 1699,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T04:30:00+05:30"
+  },
+  {
+   "nin": "IN0961683626",
+   "drugId": "UPD-71",
+   "balanceQty": 20.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-29T04:30:00+05:30"
+  },
+  {
+   "nin": "IN0961683626",
+   "drugId": "UPD-66",
+   "balanceQty": 148,
+   "pipelineQty": 0,
+   "expiringQty90d": 30,
+   "asOn": "2026-09-29T04:30:00+05:30"
+  },
+  {
+   "nin": "IN0961683626",
+   "drugId": "UPD-90",
+   "balanceQty": 3485,
+   "pipelineQty": 1176,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T04:30:00+05:30"
+  },
+  {
+   "nin": "IN0961683626",
+   "drugId": "UPD-31",
+   "balanceQty": 2825,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T04:30:00+05:30"
+  },
+  {
+   "nin": "IN0934138314",
+   "drugId": "UPD-17",
+   "balanceQty": 2750,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:54:37.307214+05:30"
+  },
+  {
+   "nin": "IN0934138314",
+   "drugId": "UPD-52",
+   "balanceQty": 1762,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:54:37.307214+05:30"
+  },
+  {
+   "nin": "IN0934138314",
+   "drugId": "UPD-53",
+   "balanceQty": 0,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:54:37.307214+05:30"
+  },
+  {
+   "nin": "IN0934138314",
+   "drugId": "UPD-08",
+   "balanceQty": 2813,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:54:37.307214+05:30"
+  },
+  {
+   "nin": "IN0934138314",
+   "drugId": "UPD-71",
+   "balanceQty": 31.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T02:54:37.307214+05:30"
+  },
+  {
+   "nin": "IN0934138314",
+   "drugId": "UPD-66",
+   "balanceQty": 775,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:54:37.307214+05:30"
+  },
+  {
+   "nin": "IN0934138314",
+   "drugId": "UPD-90",
+   "balanceQty": 3839,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:54:37.307214+05:30"
+  },
+  {
+   "nin": "IN0934138314",
+   "drugId": "UPD-31",
+   "balanceQty": 5892,
+   "pipelineQty": 0,
+   "expiringQty90d": 922,
+   "asOn": "2026-09-30T02:54:37.307214+05:30"
+  },
+  {
+   "nin": "IN0995156116",
+   "drugId": "UPD-17",
+   "balanceQty": 684,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:25:50.233185+05:30"
+  },
+  {
+   "nin": "IN0995156116",
+   "drugId": "UPD-52",
+   "balanceQty": 239,
+   "pipelineQty": 0,
+   "expiringQty90d": 45,
+   "asOn": "2026-09-30T03:25:50.233185+05:30"
+  },
+  {
+   "nin": "IN0995156116",
+   "drugId": "UPD-53",
+   "balanceQty": 389,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:25:50.233185+05:30"
+  },
+  {
+   "nin": "IN0995156116",
+   "drugId": "UPD-08",
+   "balanceQty": 1321,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:25:50.233185+05:30"
+  },
+  {
+   "nin": "IN0995156116",
+   "drugId": "UPD-71",
+   "balanceQty": 7.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T03:25:50.233185+05:30"
+  },
+  {
+   "nin": "IN0995156116",
+   "drugId": "UPD-66",
+   "balanceQty": 326,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:25:50.233185+05:30"
+  },
+  {
+   "nin": "IN0995156116",
+   "drugId": "UPD-90",
+   "balanceQty": 1349,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:25:50.233185+05:30"
+  },
+  {
+   "nin": "IN0995156116",
+   "drugId": "UPD-31",
+   "balanceQty": 1248,
+   "pipelineQty": 477,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:25:50.233185+05:30"
+  },
+  {
+   "nin": "IN0987439410",
+   "drugId": "UPD-17",
+   "balanceQty": 847,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T09:46:43.032386+05:30"
+  },
+  {
+   "nin": "IN0987439410",
+   "drugId": "UPD-52",
+   "balanceQty": 688,
+   "pipelineQty": 0,
+   "expiringQty90d": 105,
+   "asOn": "2026-09-30T09:46:43.032386+05:30"
+  },
+  {
+   "nin": "IN0987439410",
+   "drugId": "UPD-53",
+   "balanceQty": 436,
+   "pipelineQty": 216,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T09:46:43.032386+05:30"
+  },
+  {
+   "nin": "IN0987439410",
+   "drugId": "UPD-08",
+   "balanceQty": 979,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T09:46:43.032386+05:30"
+  },
+  {
+   "nin": "IN0987439410",
+   "drugId": "UPD-71",
+   "balanceQty": 15.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T09:46:43.032386+05:30"
+  },
+  {
+   "nin": "IN0987439410",
+   "drugId": "UPD-66",
+   "balanceQty": 213,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T09:46:43.032386+05:30"
+  },
+  {
+   "nin": "IN0987439410",
+   "drugId": "UPD-90",
+   "balanceQty": 2479,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T09:46:43.032386+05:30"
+  },
+  {
+   "nin": "IN0987439410",
+   "drugId": "UPD-31",
+   "balanceQty": 1413,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T09:46:43.032386+05:30"
+  },
+  {
+   "nin": "IN0962950006",
+   "drugId": "UPD-17",
+   "balanceQty": 733,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T23:23:31.401777+05:30"
+  },
+  {
+   "nin": "IN0962950006",
+   "drugId": "UPD-52",
+   "balanceQty": 553,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T23:23:31.401777+05:30"
+  },
+  {
+   "nin": "IN0962950006",
+   "drugId": "UPD-53",
+   "balanceQty": 780,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T23:23:31.401777+05:30"
+  },
+  {
+   "nin": "IN0962950006",
+   "drugId": "UPD-08",
+   "balanceQty": 1560,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T23:23:31.401777+05:30"
+  },
+  {
+   "nin": "IN0962950006",
+   "drugId": "UPD-71",
+   "balanceQty": 16.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-29T23:23:31.401777+05:30"
+  },
+  {
+   "nin": "IN0962950006",
+   "drugId": "UPD-66",
+   "balanceQty": 121,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T23:23:31.401777+05:30"
+  },
+  {
+   "nin": "IN0962950006",
+   "drugId": "UPD-90",
+   "balanceQty": 2743,
+   "pipelineQty": 0,
+   "expiringQty90d": 523,
+   "asOn": "2026-09-29T23:23:31.401777+05:30"
+  },
+  {
+   "nin": "IN0962950006",
+   "drugId": "UPD-31",
+   "balanceQty": 1620,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T23:23:31.401777+05:30"
+  },
+  {
+   "nin": "IN0942060452",
+   "drugId": "UPD-17",
+   "balanceQty": 2855,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-21T08:51:59.980682+05:30"
+  },
+  {
+   "nin": "IN0942060452",
+   "drugId": "UPD-52",
+   "balanceQty": 1842,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-21T08:51:59.980682+05:30"
+  },
+  {
+   "nin": "IN0942060452",
+   "drugId": "UPD-53",
+   "balanceQty": 1355,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-21T08:51:59.980682+05:30"
+  },
+  {
+   "nin": "IN0942060452",
+   "drugId": "UPD-08",
+   "balanceQty": 4465,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-21T08:51:59.980682+05:30"
+  },
+  {
+   "nin": "IN0942060452",
+   "drugId": "UPD-71",
+   "balanceQty": 56.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-21T08:51:59.980682+05:30"
+  },
+  {
+   "nin": "IN0942060452",
+   "drugId": "UPD-66",
+   "balanceQty": 431,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-21T08:51:59.980682+05:30"
+  },
+  {
+   "nin": "IN0942060452",
+   "drugId": "UPD-90",
+   "balanceQty": 1639,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-21T08:51:59.980682+05:30"
+  },
+  {
+   "nin": "IN0942060452",
+   "drugId": "UPD-31",
+   "balanceQty": 11999,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-21T08:51:59.980682+05:30"
+  },
+  {
+   "nin": "IN0990590691",
+   "drugId": "UPD-17",
+   "balanceQty": 944,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:20:07.130757+05:30"
+  },
+  {
+   "nin": "IN0990590691",
+   "drugId": "UPD-52",
+   "balanceQty": 151,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:20:07.130757+05:30"
+  },
+  {
+   "nin": "IN0990590691",
+   "drugId": "UPD-53",
+   "balanceQty": 752,
+   "pipelineQty": 361,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:20:07.130757+05:30"
+  },
+  {
+   "nin": "IN0990590691",
+   "drugId": "UPD-08",
+   "balanceQty": 936,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:20:07.130757+05:30"
+  },
+  {
+   "nin": "IN0990590691",
+   "drugId": "UPD-71",
+   "balanceQty": 20.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T05:20:07.130757+05:30"
+  },
+  {
+   "nin": "IN0990590691",
+   "drugId": "UPD-66",
+   "balanceQty": 280,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:20:07.130757+05:30"
+  },
+  {
+   "nin": "IN0990590691",
+   "drugId": "UPD-90",
+   "balanceQty": 2051,
+   "pipelineQty": 457,
+   "expiringQty90d": 420,
+   "asOn": "2026-09-30T05:20:07.130757+05:30"
+  },
+  {
+   "nin": "IN0990590691",
+   "drugId": "UPD-31",
+   "balanceQty": 1257,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:20:07.130757+05:30"
+  },
+  {
+   "nin": "IN0936902865",
+   "drugId": "UPD-17",
+   "balanceQty": 1086,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T22:58:25.905712+05:30"
+  },
+  {
+   "nin": "IN0936902865",
+   "drugId": "UPD-52",
+   "balanceQty": 839,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T22:58:25.905712+05:30"
+  },
+  {
+   "nin": "IN0936902865",
+   "drugId": "UPD-53",
+   "balanceQty": 242,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T22:58:25.905712+05:30"
+  },
+  {
+   "nin": "IN0936902865",
+   "drugId": "UPD-08",
+   "balanceQty": 870,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T22:58:25.905712+05:30"
+  },
+  {
+   "nin": "IN0936902865",
+   "drugId": "UPD-71",
+   "balanceQty": 16.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-29T22:58:25.905712+05:30"
+  },
+  {
+   "nin": "IN0936902865",
+   "drugId": "UPD-66",
+   "balanceQty": 111,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T22:58:25.905712+05:30"
+  },
+  {
+   "nin": "IN0936902865",
+   "drugId": "UPD-90",
+   "balanceQty": 0,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T22:58:25.905712+05:30"
+  },
+  {
+   "nin": "IN0936902865",
+   "drugId": "UPD-31",
+   "balanceQty": 1281,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T22:58:25.905712+05:30"
+  },
+  {
+   "nin": "IN0970092890",
+   "drugId": "UPD-17",
+   "balanceQty": 11472,
+   "pipelineQty": 0,
+   "expiringQty90d": 3442,
+   "asOn": "2026-09-30T00:17:49.643793+05:30"
+  },
+  {
+   "nin": "IN0970092890",
+   "drugId": "UPD-52",
+   "balanceQty": 644,
+   "pipelineQty": 0,
+   "expiringQty90d": 69,
+   "asOn": "2026-09-30T00:17:49.643793+05:30"
+  },
+  {
+   "nin": "IN0970092890",
+   "drugId": "UPD-53",
+   "balanceQty": 572,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T00:17:49.643793+05:30"
+  },
+  {
+   "nin": "IN0970092890",
+   "drugId": "UPD-08",
+   "balanceQty": 1954,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T00:17:49.643793+05:30"
+  },
+  {
+   "nin": "IN0970092890",
+   "drugId": "UPD-71",
+   "balanceQty": 255.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 76.5,
+   "asOn": "2026-09-30T00:17:49.643793+05:30"
+  },
+  {
+   "nin": "IN0970092890",
+   "drugId": "UPD-66",
+   "balanceQty": 343,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T00:17:49.643793+05:30"
+  },
+  {
+   "nin": "IN0970092890",
+   "drugId": "UPD-90",
+   "balanceQty": 2820,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T00:17:49.643793+05:30"
+  },
+  {
+   "nin": "IN0970092890",
+   "drugId": "UPD-31",
+   "balanceQty": 2950,
+   "pipelineQty": 1172,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T00:17:49.643793+05:30"
+  },
+  {
+   "nin": "IN0962897336",
+   "drugId": "UPD-17",
+   "balanceQty": 12803,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T23:36:01.134672+05:30"
+  },
+  {
+   "nin": "IN0962897336",
+   "drugId": "UPD-52",
+   "balanceQty": 0,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T23:36:01.134672+05:30"
+  },
+  {
+   "nin": "IN0962897336",
+   "drugId": "UPD-53",
+   "balanceQty": 1330,
+   "pipelineQty": 0,
+   "expiringQty90d": 253,
+   "asOn": "2026-09-29T23:36:01.134672+05:30"
+  },
+  {
+   "nin": "IN0962897336",
+   "drugId": "UPD-08",
+   "balanceQty": 2367,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T23:36:01.134672+05:30"
+  },
+  {
+   "nin": "IN0962897336",
+   "drugId": "UPD-71",
+   "balanceQty": 365.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-29T23:36:01.134672+05:30"
+  },
+  {
+   "nin": "IN0962897336",
+   "drugId": "UPD-66",
+   "balanceQty": 332,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T23:36:01.134672+05:30"
+  },
+  {
+   "nin": "IN0962897336",
+   "drugId": "UPD-90",
+   "balanceQty": 5688,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T23:36:01.134672+05:30"
+  },
+  {
+   "nin": "IN0962897336",
+   "drugId": "UPD-31",
+   "balanceQty": 4253,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T23:36:01.134672+05:30"
+  },
+  {
+   "nin": "IN0924307877",
+   "drugId": "UPD-17",
+   "balanceQty": 15018,
+   "pipelineQty": 0,
+   "expiringQty90d": 4505,
+   "asOn": "2026-09-30T08:16:54.760464+05:30"
+  },
+  {
+   "nin": "IN0924307877",
+   "drugId": "UPD-52",
+   "balanceQty": 811,
+   "pipelineQty": 282,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:16:54.760464+05:30"
+  },
+  {
+   "nin": "IN0924307877",
+   "drugId": "UPD-53",
+   "balanceQty": 910,
+   "pipelineQty": 0,
+   "expiringQty90d": 183,
+   "asOn": "2026-09-30T08:16:54.760464+05:30"
+  },
+  {
+   "nin": "IN0924307877",
+   "drugId": "UPD-08",
+   "balanceQty": 511,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:16:54.760464+05:30"
+  },
+  {
+   "nin": "IN0924307877",
+   "drugId": "UPD-71",
+   "balanceQty": 323.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 97.0,
+   "asOn": "2026-09-30T08:16:54.760464+05:30"
+  },
+  {
+   "nin": "IN0924307877",
+   "drugId": "UPD-66",
+   "balanceQty": 725,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:16:54.760464+05:30"
+  },
+  {
+   "nin": "IN0924307877",
+   "drugId": "UPD-90",
+   "balanceQty": 0,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:16:54.760464+05:30"
+  },
+  {
+   "nin": "IN0924307877",
+   "drugId": "UPD-31",
+   "balanceQty": 3249,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:16:54.760464+05:30"
+  },
+  {
+   "nin": "IN0943373633",
+   "drugId": "UPD-17",
+   "balanceQty": 7196,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:57:16.262941+05:30"
+  },
+  {
+   "nin": "IN0943373633",
+   "drugId": "UPD-52",
+   "balanceQty": 596,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:57:16.262941+05:30"
+  },
+  {
+   "nin": "IN0943373633",
+   "drugId": "UPD-53",
+   "balanceQty": 102,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:57:16.262941+05:30"
+  },
+  {
+   "nin": "IN0943373633",
+   "drugId": "UPD-08",
+   "balanceQty": 715,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:57:16.262941+05:30"
+  },
+  {
+   "nin": "IN0943373633",
+   "drugId": "UPD-71",
+   "balanceQty": 156.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T05:57:16.262941+05:30"
+  },
+  {
+   "nin": "IN0943373633",
+   "drugId": "UPD-66",
+   "balanceQty": 146,
+   "pipelineQty": 30,
+   "expiringQty90d": 43,
+   "asOn": "2026-09-30T05:57:16.262941+05:30"
+  },
+  {
+   "nin": "IN0943373633",
+   "drugId": "UPD-90",
+   "balanceQty": 3271,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:57:16.262941+05:30"
+  },
+  {
+   "nin": "IN0943373633",
+   "drugId": "UPD-31",
+   "balanceQty": 3077,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:57:16.262941+05:30"
+  },
+  {
+   "nin": "IN0915238384",
+   "drugId": "UPD-17",
+   "balanceQty": 10405,
+   "pipelineQty": 0,
+   "expiringQty90d": 3122,
+   "asOn": "2026-09-30T01:21:32.815841+05:30"
+  },
+  {
+   "nin": "IN0915238384",
+   "drugId": "UPD-52",
+   "balanceQty": 598,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T01:21:32.815841+05:30"
+  },
+  {
+   "nin": "IN0915238384",
+   "drugId": "UPD-53",
+   "balanceQty": 270,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T01:21:32.815841+05:30"
+  },
+  {
+   "nin": "IN0915238384",
+   "drugId": "UPD-08",
+   "balanceQty": 1139,
+   "pipelineQty": 428,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T01:21:32.815841+05:30"
+  },
+  {
+   "nin": "IN0915238384",
+   "drugId": "UPD-71",
+   "balanceQty": 175.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 52.5,
+   "asOn": "2026-09-30T01:21:32.815841+05:30"
+  },
+  {
+   "nin": "IN0915238384",
+   "drugId": "UPD-66",
+   "balanceQty": 236,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T01:21:32.815841+05:30"
+  },
+  {
+   "nin": "IN0915238384",
+   "drugId": "UPD-90",
+   "balanceQty": 626,
+   "pipelineQty": 0,
+   "expiringQty90d": 166,
+   "asOn": "2026-09-30T01:21:32.815841+05:30"
+  },
+  {
+   "nin": "IN0915238384",
+   "drugId": "UPD-31",
+   "balanceQty": 522,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T01:21:32.815841+05:30"
+  },
+  {
+   "nin": "IN0920947698",
+   "drugId": "UPD-17",
+   "balanceQty": 16799,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T21:32:35.761459+05:30"
+  },
+  {
+   "nin": "IN0920947698",
+   "drugId": "UPD-52",
+   "balanceQty": 2674,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T21:32:35.761459+05:30"
+  },
+  {
+   "nin": "IN0920947698",
+   "drugId": "UPD-53",
+   "balanceQty": 641,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T21:32:35.761459+05:30"
+  },
+  {
+   "nin": "IN0920947698",
+   "drugId": "UPD-08",
+   "balanceQty": 4037,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T21:32:35.761459+05:30"
+  },
+  {
+   "nin": "IN0920947698",
+   "drugId": "UPD-71",
+   "balanceQty": 504.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-29T21:32:35.761459+05:30"
+  },
+  {
+   "nin": "IN0920947698",
+   "drugId": "UPD-66",
+   "balanceQty": 921,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T21:32:35.761459+05:30"
+  },
+  {
+   "nin": "IN0920947698",
+   "drugId": "UPD-90",
+   "balanceQty": 3897,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T21:32:35.761459+05:30"
+  },
+  {
+   "nin": "IN0920947698",
+   "drugId": "UPD-31",
+   "balanceQty": 5040,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T21:32:35.761459+05:30"
+  },
+  {
+   "nin": "IN0956124977",
+   "drugId": "UPD-17",
+   "balanceQty": 14355,
+   "pipelineQty": 0,
+   "expiringQty90d": 4306,
+   "asOn": "2026-09-30T04:01:34.780463+05:30"
+  },
+  {
+   "nin": "IN0956124977",
+   "drugId": "UPD-52",
+   "balanceQty": 579,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T04:01:34.780463+05:30"
+  },
+  {
+   "nin": "IN0956124977",
+   "drugId": "UPD-53",
+   "balanceQty": 1114,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T04:01:34.780463+05:30"
+  },
+  {
+   "nin": "IN0956124977",
+   "drugId": "UPD-08",
+   "balanceQty": 1165,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T04:01:34.780463+05:30"
+  },
+  {
+   "nin": "IN0956124977",
+   "drugId": "UPD-71",
+   "balanceQty": 335.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 100.5,
+   "asOn": "2026-09-30T04:01:34.780463+05:30"
+  },
+  {
+   "nin": "IN0956124977",
+   "drugId": "UPD-66",
+   "balanceQty": 147,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T04:01:34.780463+05:30"
+  },
+  {
+   "nin": "IN0956124977",
+   "drugId": "UPD-90",
+   "balanceQty": 2794,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T04:01:34.780463+05:30"
+  },
+  {
+   "nin": "IN0956124977",
+   "drugId": "UPD-31",
+   "balanceQty": 1323,
+   "pipelineQty": 0,
+   "expiringQty90d": 339,
+   "asOn": "2026-09-30T04:01:34.780463+05:30"
+  },
+  {
+   "nin": "IN0984227532",
+   "drugId": "UPD-17",
+   "balanceQty": 4792,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T21:00:54.778154+05:30"
+  },
+  {
+   "nin": "IN0984227532",
+   "drugId": "UPD-52",
+   "balanceQty": 540,
+   "pipelineQty": 0,
+   "expiringQty90d": 74,
+   "asOn": "2026-09-29T21:00:54.778154+05:30"
+  },
+  {
+   "nin": "IN0984227532",
+   "drugId": "UPD-53",
+   "balanceQty": 364,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T21:00:54.778154+05:30"
+  },
+  {
+   "nin": "IN0984227532",
+   "drugId": "UPD-08",
+   "balanceQty": 679,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T21:00:54.778154+05:30"
+  },
+  {
+   "nin": "IN0984227532",
+   "drugId": "UPD-71",
+   "balanceQty": 100.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-29T21:00:54.778154+05:30"
+  },
+  {
+   "nin": "IN0984227532",
+   "drugId": "UPD-66",
+   "balanceQty": 182,
+   "pipelineQty": 0,
+   "expiringQty90d": 33,
+   "asOn": "2026-09-29T21:00:54.778154+05:30"
+  },
+  {
+   "nin": "IN0984227532",
+   "drugId": "UPD-90",
+   "balanceQty": 1972,
+   "pipelineQty": 0,
+   "expiringQty90d": 271,
+   "asOn": "2026-09-29T21:00:54.778154+05:30"
+  },
+  {
+   "nin": "IN0984227532",
+   "drugId": "UPD-31",
+   "balanceQty": 1151,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T21:00:54.778154+05:30"
+  },
+  {
+   "nin": "IN0987884044",
+   "drugId": "UPD-17",
+   "balanceQty": 1525,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T18:32:02.732384+05:30"
+  },
+  {
+   "nin": "IN0987884044",
+   "drugId": "UPD-52",
+   "balanceQty": 534,
+   "pipelineQty": 217,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T18:32:02.732384+05:30"
+  },
+  {
+   "nin": "IN0987884044",
+   "drugId": "UPD-53",
+   "balanceQty": 1276,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T18:32:02.732384+05:30"
+  },
+  {
+   "nin": "IN0987884044",
+   "drugId": "UPD-08",
+   "balanceQty": 3127,
+   "pipelineQty": 983,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T18:32:02.732384+05:30"
+  },
+  {
+   "nin": "IN0987884044",
+   "drugId": "UPD-71",
+   "balanceQty": 46.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-29T18:32:02.732384+05:30"
+  },
+  {
+   "nin": "IN0987884044",
+   "drugId": "UPD-66",
+   "balanceQty": 244,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T18:32:02.732384+05:30"
+  },
+  {
+   "nin": "IN0987884044",
+   "drugId": "UPD-90",
+   "balanceQty": 3946,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T18:32:02.732384+05:30"
+  },
+  {
+   "nin": "IN0987884044",
+   "drugId": "UPD-31",
+   "balanceQty": 5588,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T18:32:02.732384+05:30"
+  },
+  {
+   "nin": "IN0938750071",
+   "drugId": "UPD-17",
+   "balanceQty": 10148,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T10:18:21.169289+05:30"
+  },
+  {
+   "nin": "IN0938750071",
+   "drugId": "UPD-52",
+   "balanceQty": 210,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T10:18:21.169289+05:30"
+  },
+  {
+   "nin": "IN0938750071",
+   "drugId": "UPD-53",
+   "balanceQty": 774,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T10:18:21.169289+05:30"
+  },
+  {
+   "nin": "IN0938750071",
+   "drugId": "UPD-08",
+   "balanceQty": 0,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T10:18:21.169289+05:30"
+  },
+  {
+   "nin": "IN0938750071",
+   "drugId": "UPD-71",
+   "balanceQty": 0.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T10:18:21.169289+05:30"
+  },
+  {
+   "nin": "IN0938750071",
+   "drugId": "UPD-66",
+   "balanceQty": 347,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T10:18:21.169289+05:30"
+  },
+  {
+   "nin": "IN0938750071",
+   "drugId": "UPD-90",
+   "balanceQty": 4777,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T10:18:21.169289+05:30"
+  },
+  {
+   "nin": "IN0938750071",
+   "drugId": "UPD-31",
+   "balanceQty": 3456,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T10:18:21.169289+05:30"
+  },
+  {
+   "nin": "IN0992331337",
+   "drugId": "UPD-17",
+   "balanceQty": 4188,
+   "pipelineQty": 0,
+   "expiringQty90d": 1058,
+   "asOn": "2026-09-25T10:45:31.266140+05:30"
+  },
+  {
+   "nin": "IN0992331337",
+   "drugId": "UPD-52",
+   "balanceQty": 521,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-25T10:45:31.266140+05:30"
+  },
+  {
+   "nin": "IN0992331337",
+   "drugId": "UPD-53",
+   "balanceQty": 421,
+   "pipelineQty": 131,
+   "expiringQty90d": 103,
+   "asOn": "2026-09-25T10:45:31.266140+05:30"
+  },
+  {
+   "nin": "IN0992331337",
+   "drugId": "UPD-08",
+   "balanceQty": 661,
+   "pipelineQty": 0,
+   "expiringQty90d": 133,
+   "asOn": "2026-09-25T10:45:31.266140+05:30"
+  },
+  {
+   "nin": "IN0992331337",
+   "drugId": "UPD-71",
+   "balanceQty": 67.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-25T10:45:31.266140+05:30"
+  },
+  {
+   "nin": "IN0992331337",
+   "drugId": "UPD-66",
+   "balanceQty": 351,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-25T10:45:31.266140+05:30"
+  },
+  {
+   "nin": "IN0992331337",
+   "drugId": "UPD-90",
+   "balanceQty": 3015,
+   "pipelineQty": 0,
+   "expiringQty90d": 326,
+   "asOn": "2026-09-25T10:45:31.266140+05:30"
+  },
+  {
+   "nin": "IN0992331337",
+   "drugId": "UPD-31",
+   "balanceQty": 3145,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-25T10:45:31.266140+05:30"
+  },
+  {
+   "nin": "IN0977193546",
+   "drugId": "UPD-17",
+   "balanceQty": 3381,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:53:32.723173+05:30"
+  },
+  {
+   "nin": "IN0977193546",
+   "drugId": "UPD-52",
+   "balanceQty": 810,
+   "pipelineQty": 309,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:53:32.723173+05:30"
+  },
+  {
+   "nin": "IN0977193546",
+   "drugId": "UPD-53",
+   "balanceQty": 549,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:53:32.723173+05:30"
+  },
+  {
+   "nin": "IN0977193546",
+   "drugId": "UPD-08",
+   "balanceQty": 900,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:53:32.723173+05:30"
+  },
+  {
+   "nin": "IN0977193546",
+   "drugId": "UPD-71",
+   "balanceQty": 54.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T05:53:32.723173+05:30"
+  },
+  {
+   "nin": "IN0977193546",
+   "drugId": "UPD-66",
+   "balanceQty": 256,
+   "pipelineQty": 102,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:53:32.723173+05:30"
+  },
+  {
+   "nin": "IN0977193546",
+   "drugId": "UPD-90",
+   "balanceQty": 2272,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:53:32.723173+05:30"
+  },
+  {
+   "nin": "IN0977193546",
+   "drugId": "UPD-31",
+   "balanceQty": 1372,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:53:32.723173+05:30"
+  },
+  {
+   "nin": "IN0977562571",
+   "drugId": "UPD-17",
+   "balanceQty": 3870,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:25:33.747025+05:30"
+  },
+  {
+   "nin": "IN0977562571",
+   "drugId": "UPD-52",
+   "balanceQty": 1136,
+   "pipelineQty": 518,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:25:33.747025+05:30"
+  },
+  {
+   "nin": "IN0977562571",
+   "drugId": "UPD-53",
+   "balanceQty": 844,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:25:33.747025+05:30"
+  },
+  {
+   "nin": "IN0977562571",
+   "drugId": "UPD-08",
+   "balanceQty": 278,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:25:33.747025+05:30"
+  },
+  {
+   "nin": "IN0977562571",
+   "drugId": "UPD-71",
+   "balanceQty": 53.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T08:25:33.747025+05:30"
+  },
+  {
+   "nin": "IN0977562571",
+   "drugId": "UPD-66",
+   "balanceQty": 606,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:25:33.747025+05:30"
+  },
+  {
+   "nin": "IN0977562571",
+   "drugId": "UPD-90",
+   "balanceQty": 1486,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:25:33.747025+05:30"
+  },
+  {
+   "nin": "IN0977562571",
+   "drugId": "UPD-31",
+   "balanceQty": 3590,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:25:33.747025+05:30"
+  },
+  {
+   "nin": "IN0952127618",
+   "drugId": "UPD-17",
+   "balanceQty": 4106,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T09:59:58.285886+05:30"
+  },
+  {
+   "nin": "IN0952127618",
+   "drugId": "UPD-52",
+   "balanceQty": 388,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T09:59:58.285886+05:30"
+  },
+  {
+   "nin": "IN0952127618",
+   "drugId": "UPD-53",
+   "balanceQty": 540,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T09:59:58.285886+05:30"
+  },
+  {
+   "nin": "IN0952127618",
+   "drugId": "UPD-08",
+   "balanceQty": 770,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T09:59:58.285886+05:30"
+  },
+  {
+   "nin": "IN0952127618",
+   "drugId": "UPD-71",
+   "balanceQty": 58.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T09:59:58.285886+05:30"
+  },
+  {
+   "nin": "IN0952127618",
+   "drugId": "UPD-66",
+   "balanceQty": 166,
+   "pipelineQty": 36,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T09:59:58.285886+05:30"
+  },
+  {
+   "nin": "IN0952127618",
+   "drugId": "UPD-90",
+   "balanceQty": 1275,
+   "pipelineQty": 259,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T09:59:58.285886+05:30"
+  },
+  {
+   "nin": "IN0952127618",
+   "drugId": "UPD-31",
+   "balanceQty": 2739,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T09:59:58.285886+05:30"
+  },
+  {
+   "nin": "IN0976278942",
+   "drugId": "UPD-17",
+   "balanceQty": 1889,
+   "pipelineQty": 0,
+   "expiringQty90d": 255,
+   "asOn": "2026-09-29T19:21:14.515404+05:30"
+  },
+  {
+   "nin": "IN0976278942",
+   "drugId": "UPD-52",
+   "balanceQty": 843,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T19:21:14.515404+05:30"
+  },
+  {
+   "nin": "IN0976278942",
+   "drugId": "UPD-53",
+   "balanceQty": 1407,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T19:21:14.515404+05:30"
+  },
+  {
+   "nin": "IN0976278942",
+   "drugId": "UPD-08",
+   "balanceQty": 2086,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T19:21:14.515404+05:30"
+  },
+  {
+   "nin": "IN0976278942",
+   "drugId": "UPD-71",
+   "balanceQty": 91.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-29T19:21:14.515404+05:30"
+  },
+  {
+   "nin": "IN0976278942",
+   "drugId": "UPD-66",
+   "balanceQty": 245,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T19:21:14.515404+05:30"
+  },
+  {
+   "nin": "IN0976278942",
+   "drugId": "UPD-90",
+   "balanceQty": 2941,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T19:21:14.515404+05:30"
+  },
+  {
+   "nin": "IN0976278942",
+   "drugId": "UPD-31",
+   "balanceQty": 4136,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T19:21:14.515404+05:30"
+  },
+  {
+   "nin": "IN0950730307",
+   "drugId": "UPD-17",
+   "balanceQty": 2004,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T19:21:28.834567+05:30"
+  },
+  {
+   "nin": "IN0950730307",
+   "drugId": "UPD-52",
+   "balanceQty": 553,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T19:21:28.834567+05:30"
+  },
+  {
+   "nin": "IN0950730307",
+   "drugId": "UPD-53",
+   "balanceQty": 556,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T19:21:28.834567+05:30"
+  },
+  {
+   "nin": "IN0950730307",
+   "drugId": "UPD-08",
+   "balanceQty": 735,
+   "pipelineQty": 0,
+   "expiringQty90d": 163,
+   "asOn": "2026-09-29T19:21:28.834567+05:30"
+  },
+  {
+   "nin": "IN0950730307",
+   "drugId": "UPD-71",
+   "balanceQty": 90.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-29T19:21:28.834567+05:30"
+  },
+  {
+   "nin": "IN0950730307",
+   "drugId": "UPD-66",
+   "balanceQty": 102,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T19:21:28.834567+05:30"
+  },
+  {
+   "nin": "IN0950730307",
+   "drugId": "UPD-90",
+   "balanceQty": 1601,
+   "pipelineQty": 702,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T19:21:28.834567+05:30"
+  },
+  {
+   "nin": "IN0950730307",
+   "drugId": "UPD-31",
+   "balanceQty": 2342,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T19:21:28.834567+05:30"
+  },
+  {
+   "nin": "IN0998414695",
+   "drugId": "UPD-17",
+   "balanceQty": 3736,
+   "pipelineQty": 0,
+   "expiringQty90d": 590,
+   "asOn": "2026-09-30T08:47:06.617482+05:30"
+  },
+  {
+   "nin": "IN0998414695",
+   "drugId": "UPD-52",
+   "balanceQty": 1311,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:47:06.617482+05:30"
+  },
+  {
+   "nin": "IN0998414695",
+   "drugId": "UPD-53",
+   "balanceQty": 380,
+   "pipelineQty": 181,
+   "expiringQty90d": 84,
+   "asOn": "2026-09-30T08:47:06.617482+05:30"
+  },
+  {
+   "nin": "IN0998414695",
+   "drugId": "UPD-08",
+   "balanceQty": 1646,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:47:06.617482+05:30"
+  },
+  {
+   "nin": "IN0998414695",
+   "drugId": "UPD-71",
+   "balanceQty": 31.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T08:47:06.617482+05:30"
+  },
+  {
+   "nin": "IN0998414695",
+   "drugId": "UPD-66",
+   "balanceQty": 356,
+   "pipelineQty": 0,
+   "expiringQty90d": 86,
+   "asOn": "2026-09-30T08:47:06.617482+05:30"
+  },
+  {
+   "nin": "IN0998414695",
+   "drugId": "UPD-90",
+   "balanceQty": 1779,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:47:06.617482+05:30"
+  },
+  {
+   "nin": "IN0998414695",
+   "drugId": "UPD-31",
+   "balanceQty": 5283,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:47:06.617482+05:30"
+  },
+  {
+   "nin": "IN0976811173",
+   "drugId": "UPD-17",
+   "balanceQty": 2174,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T03:38:33.631825+05:30"
+  },
+  {
+   "nin": "IN0976811173",
+   "drugId": "UPD-52",
+   "balanceQty": 1309,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T03:38:33.631825+05:30"
+  },
+  {
+   "nin": "IN0976811173",
+   "drugId": "UPD-53",
+   "balanceQty": 651,
+   "pipelineQty": 0,
+   "expiringQty90d": 125,
+   "asOn": "2026-09-29T03:38:33.631825+05:30"
+  },
+  {
+   "nin": "IN0976811173",
+   "drugId": "UPD-08",
+   "balanceQty": 915,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T03:38:33.631825+05:30"
+  },
+  {
+   "nin": "IN0976811173",
+   "drugId": "UPD-71",
+   "balanceQty": 104.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 12.5,
+   "asOn": "2026-09-29T03:38:33.631825+05:30"
+  },
+  {
+   "nin": "IN0976811173",
+   "drugId": "UPD-66",
+   "balanceQty": 274,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T03:38:33.631825+05:30"
+  },
+  {
+   "nin": "IN0976811173",
+   "drugId": "UPD-90",
+   "balanceQty": 2449,
+   "pipelineQty": 1112,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T03:38:33.631825+05:30"
+  },
+  {
+   "nin": "IN0976811173",
+   "drugId": "UPD-31",
+   "balanceQty": 691,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T03:38:33.631825+05:30"
+  },
+  {
+   "nin": "IN0974377207",
+   "drugId": "UPD-17",
+   "balanceQty": 2853,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T13:37:27.870759+05:30"
+  },
+  {
+   "nin": "IN0974377207",
+   "drugId": "UPD-52",
+   "balanceQty": 236,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T13:37:27.870759+05:30"
+  },
+  {
+   "nin": "IN0974377207",
+   "drugId": "UPD-53",
+   "balanceQty": 548,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T13:37:27.870759+05:30"
+  },
+  {
+   "nin": "IN0974377207",
+   "drugId": "UPD-08",
+   "balanceQty": 628,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T13:37:27.870759+05:30"
+  },
+  {
+   "nin": "IN0974377207",
+   "drugId": "UPD-71",
+   "balanceQty": 0.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-29T13:37:27.870759+05:30"
+  },
+  {
+   "nin": "IN0974377207",
+   "drugId": "UPD-66",
+   "balanceQty": 64,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T13:37:27.870759+05:30"
+  },
+  {
+   "nin": "IN0974377207",
+   "drugId": "UPD-90",
+   "balanceQty": 0,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T13:37:27.870759+05:30"
+  },
+  {
+   "nin": "IN0974377207",
+   "drugId": "UPD-31",
+   "balanceQty": 1643,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T13:37:27.870759+05:30"
+  },
+  {
+   "nin": "IN0999418395",
+   "drugId": "UPD-17",
+   "balanceQty": 0,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T07:17:15.776535+05:30"
+  },
+  {
+   "nin": "IN0999418395",
+   "drugId": "UPD-52",
+   "balanceQty": 494,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T07:17:15.776535+05:30"
+  },
+  {
+   "nin": "IN0999418395",
+   "drugId": "UPD-53",
+   "balanceQty": 783,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T07:17:15.776535+05:30"
+  },
+  {
+   "nin": "IN0999418395",
+   "drugId": "UPD-08",
+   "balanceQty": 1750,
+   "pipelineQty": 535,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T07:17:15.776535+05:30"
+  },
+  {
+   "nin": "IN0999418395",
+   "drugId": "UPD-71",
+   "balanceQty": 208.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T07:17:15.776535+05:30"
+  },
+  {
+   "nin": "IN0999418395",
+   "drugId": "UPD-66",
+   "balanceQty": 420,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T07:17:15.776535+05:30"
+  },
+  {
+   "nin": "IN0999418395",
+   "drugId": "UPD-90",
+   "balanceQty": 4010,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T07:17:15.776535+05:30"
+  },
+  {
+   "nin": "IN0999418395",
+   "drugId": "UPD-31",
+   "balanceQty": 2837,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T07:17:15.776535+05:30"
+  },
+  {
+   "nin": "IN0932263665",
+   "drugId": "UPD-17",
+   "balanceQty": 8868,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T17:50:13.409357+05:30"
+  },
+  {
+   "nin": "IN0932263665",
+   "drugId": "UPD-52",
+   "balanceQty": 1129,
+   "pipelineQty": 491,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T17:50:13.409357+05:30"
+  },
+  {
+   "nin": "IN0932263665",
+   "drugId": "UPD-53",
+   "balanceQty": 376,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T17:50:13.409357+05:30"
+  },
+  {
+   "nin": "IN0932263665",
+   "drugId": "UPD-08",
+   "balanceQty": 1126,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T17:50:13.409357+05:30"
+  },
+  {
+   "nin": "IN0932263665",
+   "drugId": "UPD-71",
+   "balanceQty": 108.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 18.0,
+   "asOn": "2026-09-29T17:50:13.409357+05:30"
+  },
+  {
+   "nin": "IN0932263665",
+   "drugId": "UPD-66",
+   "balanceQty": 514,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T17:50:13.409357+05:30"
+  },
+  {
+   "nin": "IN0932263665",
+   "drugId": "UPD-90",
+   "balanceQty": 1379,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T17:50:13.409357+05:30"
+  },
+  {
+   "nin": "IN0932263665",
+   "drugId": "UPD-31",
+   "balanceQty": 0,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T17:50:13.409357+05:30"
+  },
+  {
+   "nin": "IN0995862186",
+   "drugId": "UPD-17",
+   "balanceQty": 1270,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:48:32.503012+05:30"
+  },
+  {
+   "nin": "IN0995862186",
+   "drugId": "UPD-52",
+   "balanceQty": 487,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:48:32.503012+05:30"
+  },
+  {
+   "nin": "IN0995862186",
+   "drugId": "UPD-53",
+   "balanceQty": 228,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:48:32.503012+05:30"
+  },
+  {
+   "nin": "IN0995862186",
+   "drugId": "UPD-08",
+   "balanceQty": 835,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:48:32.503012+05:30"
+  },
+  {
+   "nin": "IN0995862186",
+   "drugId": "UPD-71",
+   "balanceQty": 58.5,
+   "pipelineQty": 25.5,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T02:48:32.503012+05:30"
+  },
+  {
+   "nin": "IN0995862186",
+   "drugId": "UPD-66",
+   "balanceQty": 289,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:48:32.503012+05:30"
+  },
+  {
+   "nin": "IN0995862186",
+   "drugId": "UPD-90",
+   "balanceQty": 1986,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:48:32.503012+05:30"
+  },
+  {
+   "nin": "IN0995862186",
+   "drugId": "UPD-31",
+   "balanceQty": 3869,
+   "pipelineQty": 0,
+   "expiringQty90d": 495,
+   "asOn": "2026-09-30T02:48:32.503012+05:30"
+  },
+  {
+   "nin": "IN0993685036",
+   "drugId": "UPD-17",
+   "balanceQty": 2210,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:15:44.463441+05:30"
+  },
+  {
+   "nin": "IN0993685036",
+   "drugId": "UPD-52",
+   "balanceQty": 600,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:15:44.463441+05:30"
+  },
+  {
+   "nin": "IN0993685036",
+   "drugId": "UPD-53",
+   "balanceQty": 272,
+   "pipelineQty": 70,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:15:44.463441+05:30"
+  },
+  {
+   "nin": "IN0993685036",
+   "drugId": "UPD-08",
+   "balanceQty": 1169,
+   "pipelineQty": 0,
+   "expiringQty90d": 131,
+   "asOn": "2026-09-30T08:15:44.463441+05:30"
+  },
+  {
+   "nin": "IN0993685036",
+   "drugId": "UPD-71",
+   "balanceQty": 215.0,
+   "pipelineQty": 52.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T08:15:44.463441+05:30"
+  },
+  {
+   "nin": "IN0993685036",
+   "drugId": "UPD-66",
+   "balanceQty": 363,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:15:44.463441+05:30"
+  },
+  {
+   "nin": "IN0993685036",
+   "drugId": "UPD-90",
+   "balanceQty": 1941,
+   "pipelineQty": 0,
+   "expiringQty90d": 216,
+   "asOn": "2026-09-30T08:15:44.463441+05:30"
+  },
+  {
+   "nin": "IN0993685036",
+   "drugId": "UPD-31",
+   "balanceQty": 0,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:15:44.463441+05:30"
+  },
+  {
+   "nin": "IN0937538764",
+   "drugId": "UPD-17",
+   "balanceQty": 2834,
+   "pipelineQty": 0,
+   "expiringQty90d": 522,
+   "asOn": "2026-09-25T04:57:47.881918+05:30"
+  },
+  {
+   "nin": "IN0937538764",
+   "drugId": "UPD-52",
+   "balanceQty": 1231,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-25T04:57:47.881918+05:30"
+  },
+  {
+   "nin": "IN0937538764",
+   "drugId": "UPD-53",
+   "balanceQty": 882,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-25T04:57:47.881918+05:30"
+  },
+  {
+   "nin": "IN0937538764",
+   "drugId": "UPD-08",
+   "balanceQty": 1078,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-25T04:57:47.881918+05:30"
+  },
+  {
+   "nin": "IN0937538764",
+   "drugId": "UPD-71",
+   "balanceQty": 147.0,
+   "pipelineQty": 61.5,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-25T04:57:47.881918+05:30"
+  },
+  {
+   "nin": "IN0937538764",
+   "drugId": "UPD-66",
+   "balanceQty": 249,
+   "pipelineQty": 0,
+   "expiringQty90d": 63,
+   "asOn": "2026-09-25T04:57:47.881918+05:30"
+  },
+  {
+   "nin": "IN0937538764",
+   "drugId": "UPD-90",
+   "balanceQty": 2455,
+   "pipelineQty": 1096,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-25T04:57:47.881918+05:30"
+  },
+  {
+   "nin": "IN0937538764",
+   "drugId": "UPD-31",
+   "balanceQty": 2726,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-25T04:57:47.881918+05:30"
+  },
+  {
+   "nin": "IN0947350460",
+   "drugId": "UPD-17",
+   "balanceQty": 6653,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T19:58:53.367929+05:30"
+  },
+  {
+   "nin": "IN0947350460",
+   "drugId": "UPD-52",
+   "balanceQty": 1088,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T19:58:53.367929+05:30"
+  },
+  {
+   "nin": "IN0947350460",
+   "drugId": "UPD-53",
+   "balanceQty": 471,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T19:58:53.367929+05:30"
+  },
+  {
+   "nin": "IN0947350460",
+   "drugId": "UPD-08",
+   "balanceQty": 765,
+   "pipelineQty": 0,
+   "expiringQty90d": 134,
+   "asOn": "2026-09-29T19:58:53.367929+05:30"
+  },
+  {
+   "nin": "IN0947350460",
+   "drugId": "UPD-71",
+   "balanceQty": 48.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-29T19:58:53.367929+05:30"
+  },
+  {
+   "nin": "IN0947350460",
+   "drugId": "UPD-66",
+   "balanceQty": 297,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T19:58:53.367929+05:30"
+  },
+  {
+   "nin": "IN0947350460",
+   "drugId": "UPD-90",
+   "balanceQty": 2567,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T19:58:53.367929+05:30"
+  },
+  {
+   "nin": "IN0947350460",
+   "drugId": "UPD-31",
+   "balanceQty": 753,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T19:58:53.367929+05:30"
+  },
+  {
+   "nin": "IN0964365278",
+   "drugId": "UPD-17",
+   "balanceQty": 17266,
+   "pipelineQty": 0,
+   "expiringQty90d": 4939,
+   "asOn": "2026-09-26T22:34:48.065066+05:30"
+  },
+  {
+   "nin": "IN0964365278",
+   "drugId": "UPD-52",
+   "balanceQty": 936,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-26T22:34:48.065066+05:30"
+  },
+  {
+   "nin": "IN0964365278",
+   "drugId": "UPD-53",
+   "balanceQty": 774,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-26T22:34:48.065066+05:30"
+  },
+  {
+   "nin": "IN0964365278",
+   "drugId": "UPD-08",
+   "balanceQty": 5363,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-26T22:34:48.065066+05:30"
+  },
+  {
+   "nin": "IN0964365278",
+   "drugId": "UPD-71",
+   "balanceQty": 274.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 39.0,
+   "asOn": "2026-09-26T22:34:48.065066+05:30"
+  },
+  {
+   "nin": "IN0964365278",
+   "drugId": "UPD-66",
+   "balanceQty": 509,
+   "pipelineQty": 0,
+   "expiringQty90d": 93,
+   "asOn": "2026-09-26T22:34:48.065066+05:30"
+  },
+  {
+   "nin": "IN0964365278",
+   "drugId": "UPD-90",
+   "balanceQty": 7324,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-26T22:34:48.065066+05:30"
+  },
+  {
+   "nin": "IN0964365278",
+   "drugId": "UPD-31",
+   "balanceQty": 7252,
+   "pipelineQty": 2861,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-26T22:34:48.065066+05:30"
+  },
+  {
+   "nin": "IN0982013892",
+   "drugId": "UPD-17",
+   "balanceQty": 3372,
+   "pipelineQty": 1069,
+   "expiringQty90d": 843,
+   "asOn": "2026-09-30T02:41:12.470702+05:30"
+  },
+  {
+   "nin": "IN0982013892",
+   "drugId": "UPD-52",
+   "balanceQty": 820,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:41:12.470702+05:30"
+  },
+  {
+   "nin": "IN0982013892",
+   "drugId": "UPD-53",
+   "balanceQty": 189,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:41:12.470702+05:30"
+  },
+  {
+   "nin": "IN0982013892",
+   "drugId": "UPD-08",
+   "balanceQty": 704,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:41:12.470702+05:30"
+  },
+  {
+   "nin": "IN0982013892",
+   "drugId": "UPD-71",
+   "balanceQty": 0.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T02:41:12.470702+05:30"
+  },
+  {
+   "nin": "IN0982013892",
+   "drugId": "UPD-66",
+   "balanceQty": 298,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:41:12.470702+05:30"
+  },
+  {
+   "nin": "IN0982013892",
+   "drugId": "UPD-90",
+   "balanceQty": 1631,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:41:12.470702+05:30"
+  },
+  {
+   "nin": "IN0982013892",
+   "drugId": "UPD-31",
+   "balanceQty": 2135,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:41:12.470702+05:30"
+  },
+  {
+   "nin": "IN0927686131",
+   "drugId": "UPD-17",
+   "balanceQty": 6208,
+   "pipelineQty": 2581,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T07:20:01.851506+05:30"
+  },
+  {
+   "nin": "IN0927686131",
+   "drugId": "UPD-52",
+   "balanceQty": 0,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T07:20:01.851506+05:30"
+  },
+  {
+   "nin": "IN0927686131",
+   "drugId": "UPD-53",
+   "balanceQty": 0,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T07:20:01.851506+05:30"
+  },
+  {
+   "nin": "IN0927686131",
+   "drugId": "UPD-08",
+   "balanceQty": 657,
+   "pipelineQty": 0,
+   "expiringQty90d": 179,
+   "asOn": "2026-09-30T07:20:01.851506+05:30"
+  },
+  {
+   "nin": "IN0927686131",
+   "drugId": "UPD-71",
+   "balanceQty": 17.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T07:20:01.851506+05:30"
+  },
+  {
+   "nin": "IN0927686131",
+   "drugId": "UPD-66",
+   "balanceQty": 232,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T07:20:01.851506+05:30"
+  },
+  {
+   "nin": "IN0927686131",
+   "drugId": "UPD-90",
+   "balanceQty": 2875,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T07:20:01.851506+05:30"
+  },
+  {
+   "nin": "IN0927686131",
+   "drugId": "UPD-31",
+   "balanceQty": 5020,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T07:20:01.851506+05:30"
+  },
+  {
+   "nin": "IN0939738003",
+   "drugId": "UPD-17",
+   "balanceQty": 4766,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T20:41:21.246081+05:30"
+  },
+  {
+   "nin": "IN0939738003",
+   "drugId": "UPD-52",
+   "balanceQty": 1127,
+   "pipelineQty": 397,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T20:41:21.246081+05:30"
+  },
+  {
+   "nin": "IN0939738003",
+   "drugId": "UPD-53",
+   "balanceQty": 376,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T20:41:21.246081+05:30"
+  },
+  {
+   "nin": "IN0939738003",
+   "drugId": "UPD-08",
+   "balanceQty": 0,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T20:41:21.246081+05:30"
+  },
+  {
+   "nin": "IN0939738003",
+   "drugId": "UPD-71",
+   "balanceQty": 138.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-29T20:41:21.246081+05:30"
+  },
+  {
+   "nin": "IN0939738003",
+   "drugId": "UPD-66",
+   "balanceQty": 410,
+   "pipelineQty": 0,
+   "expiringQty90d": 107,
+   "asOn": "2026-09-29T20:41:21.246081+05:30"
+  },
+  {
+   "nin": "IN0939738003",
+   "drugId": "UPD-90",
+   "balanceQty": 0,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T20:41:21.246081+05:30"
+  },
+  {
+   "nin": "IN0939738003",
+   "drugId": "UPD-31",
+   "balanceQty": 0,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T20:41:21.246081+05:30"
+  },
+  {
+   "nin": "IN0985934615",
+   "drugId": "UPD-17",
+   "balanceQty": 13957,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T22:36:54.388370+05:30"
+  },
+  {
+   "nin": "IN0985934615",
+   "drugId": "UPD-52",
+   "balanceQty": 1684,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T22:36:54.388370+05:30"
+  },
+  {
+   "nin": "IN0985934615",
+   "drugId": "UPD-53",
+   "balanceQty": 1218,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T22:36:54.388370+05:30"
+  },
+  {
+   "nin": "IN0985934615",
+   "drugId": "UPD-08",
+   "balanceQty": 3427,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T22:36:54.388370+05:30"
+  },
+  {
+   "nin": "IN0985934615",
+   "drugId": "UPD-71",
+   "balanceQty": 284.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-29T22:36:54.388370+05:30"
+  },
+  {
+   "nin": "IN0985934615",
+   "drugId": "UPD-66",
+   "balanceQty": 848,
+   "pipelineQty": 286,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T22:36:54.388370+05:30"
+  },
+  {
+   "nin": "IN0985934615",
+   "drugId": "UPD-90",
+   "balanceQty": 7945,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T22:36:54.388370+05:30"
+  },
+  {
+   "nin": "IN0985934615",
+   "drugId": "UPD-31",
+   "balanceQty": 7973,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T22:36:54.388370+05:30"
+  },
+  {
+   "nin": "IN0960872941",
+   "drugId": "UPD-17",
+   "balanceQty": 2573,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T23:21:27.053241+05:30"
+  },
+  {
+   "nin": "IN0960872941",
+   "drugId": "UPD-52",
+   "balanceQty": 914,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T23:21:27.053241+05:30"
+  },
+  {
+   "nin": "IN0960872941",
+   "drugId": "UPD-53",
+   "balanceQty": 739,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T23:21:27.053241+05:30"
+  },
+  {
+   "nin": "IN0960872941",
+   "drugId": "UPD-08",
+   "balanceQty": 1561,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T23:21:27.053241+05:30"
+  },
+  {
+   "nin": "IN0960872941",
+   "drugId": "UPD-71",
+   "balanceQty": 147.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-29T23:21:27.053241+05:30"
+  },
+  {
+   "nin": "IN0960872941",
+   "drugId": "UPD-66",
+   "balanceQty": 0,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T23:21:27.053241+05:30"
+  },
+  {
+   "nin": "IN0960872941",
+   "drugId": "UPD-90",
+   "balanceQty": 1862,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T23:21:27.053241+05:30"
+  },
+  {
+   "nin": "IN0960872941",
+   "drugId": "UPD-31",
+   "balanceQty": 1981,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T23:21:27.053241+05:30"
+  },
+  {
+   "nin": "IN0935077598",
+   "drugId": "UPD-17",
+   "balanceQty": 1969,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T07:07:11.031358+05:30"
+  },
+  {
+   "nin": "IN0935077598",
+   "drugId": "UPD-52",
+   "balanceQty": 508,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T07:07:11.031358+05:30"
+  },
+  {
+   "nin": "IN0935077598",
+   "drugId": "UPD-53",
+   "balanceQty": 625,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T07:07:11.031358+05:30"
+  },
+  {
+   "nin": "IN0935077598",
+   "drugId": "UPD-08",
+   "balanceQty": 1342,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T07:07:11.031358+05:30"
+  },
+  {
+   "nin": "IN0935077598",
+   "drugId": "UPD-71",
+   "balanceQty": 83.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T07:07:11.031358+05:30"
+  },
+  {
+   "nin": "IN0935077598",
+   "drugId": "UPD-66",
+   "balanceQty": 142,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T07:07:11.031358+05:30"
+  },
+  {
+   "nin": "IN0935077598",
+   "drugId": "UPD-90",
+   "balanceQty": 871,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T07:07:11.031358+05:30"
+  },
+  {
+   "nin": "IN0935077598",
+   "drugId": "UPD-31",
+   "balanceQty": 2070,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T07:07:11.031358+05:30"
+  },
+  {
+   "nin": "IN0932709088",
+   "drugId": "UPD-17",
+   "balanceQty": 9092,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-25T07:29:21.218989+05:30"
+  },
+  {
+   "nin": "IN0932709088",
+   "drugId": "UPD-52",
+   "balanceQty": 1314,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-25T07:29:21.218989+05:30"
+  },
+  {
+   "nin": "IN0932709088",
+   "drugId": "UPD-53",
+   "balanceQty": 1118,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-25T07:29:21.218989+05:30"
+  },
+  {
+   "nin": "IN0932709088",
+   "drugId": "UPD-08",
+   "balanceQty": 1290,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-25T07:29:21.218989+05:30"
+  },
+  {
+   "nin": "IN0932709088",
+   "drugId": "UPD-71",
+   "balanceQty": 188.5,
+   "pipelineQty": 89.5,
+   "expiringQty90d": 55.0,
+   "asOn": "2026-09-25T07:29:21.218989+05:30"
+  },
+  {
+   "nin": "IN0932709088",
+   "drugId": "UPD-66",
+   "balanceQty": 76,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-25T07:29:21.218989+05:30"
+  },
+  {
+   "nin": "IN0932709088",
+   "drugId": "UPD-90",
+   "balanceQty": 3562,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-25T07:29:21.218989+05:30"
+  },
+  {
+   "nin": "IN0932709088",
+   "drugId": "UPD-31",
+   "balanceQty": 5889,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-25T07:29:21.218989+05:30"
+  },
+  {
+   "nin": "IN0981160686",
+   "drugId": "UPD-17",
+   "balanceQty": 9143,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:37:32.556150+05:30"
+  },
+  {
+   "nin": "IN0981160686",
+   "drugId": "UPD-52",
+   "balanceQty": 1354,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:37:32.556150+05:30"
+  },
+  {
+   "nin": "IN0981160686",
+   "drugId": "UPD-53",
+   "balanceQty": 1736,
+   "pipelineQty": 857,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:37:32.556150+05:30"
+  },
+  {
+   "nin": "IN0981160686",
+   "drugId": "UPD-08",
+   "balanceQty": 2941,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:37:32.556150+05:30"
+  },
+  {
+   "nin": "IN0981160686",
+   "drugId": "UPD-71",
+   "balanceQty": 288.0,
+   "pipelineQty": 91.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T08:37:32.556150+05:30"
+  },
+  {
+   "nin": "IN0981160686",
+   "drugId": "UPD-66",
+   "balanceQty": 1239,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:37:32.556150+05:30"
+  },
+  {
+   "nin": "IN0981160686",
+   "drugId": "UPD-90",
+   "balanceQty": 7231,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:37:32.556150+05:30"
+  },
+  {
+   "nin": "IN0981160686",
+   "drugId": "UPD-31",
+   "balanceQty": 3579,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:37:32.556150+05:30"
+  },
+  {
+   "nin": "IN0955876649",
+   "drugId": "UPD-17",
+   "balanceQty": 8384,
+   "pipelineQty": 0,
+   "expiringQty90d": 2424,
+   "asOn": "2026-09-30T07:26:29.107423+05:30"
+  },
+  {
+   "nin": "IN0955876649",
+   "drugId": "UPD-52",
+   "balanceQty": 221,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T07:26:29.107423+05:30"
+  },
+  {
+   "nin": "IN0955876649",
+   "drugId": "UPD-53",
+   "balanceQty": 0,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T07:26:29.107423+05:30"
+  },
+  {
+   "nin": "IN0955876649",
+   "drugId": "UPD-08",
+   "balanceQty": 249,
+   "pipelineQty": 0,
+   "expiringQty90d": 39,
+   "asOn": "2026-09-30T07:26:29.107423+05:30"
+  },
+  {
+   "nin": "IN0955876649",
+   "drugId": "UPD-71",
+   "balanceQty": 18.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T07:26:29.107423+05:30"
+  },
+  {
+   "nin": "IN0955876649",
+   "drugId": "UPD-66",
+   "balanceQty": 351,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T07:26:29.107423+05:30"
+  },
+  {
+   "nin": "IN0955876649",
+   "drugId": "UPD-90",
+   "balanceQty": 0,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T07:26:29.107423+05:30"
+  },
+  {
+   "nin": "IN0955876649",
+   "drugId": "UPD-31",
+   "balanceQty": 1130,
+   "pipelineQty": 0,
+   "expiringQty90d": 171,
+   "asOn": "2026-09-30T07:26:29.107423+05:30"
+  },
+  {
+   "nin": "IN0960484187",
+   "drugId": "UPD-17",
+   "balanceQty": 6744,
+   "pipelineQty": 3201,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:33:15.009303+05:30"
+  },
+  {
+   "nin": "IN0960484187",
+   "drugId": "UPD-52",
+   "balanceQty": 1149,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:33:15.009303+05:30"
+  },
+  {
+   "nin": "IN0960484187",
+   "drugId": "UPD-53",
+   "balanceQty": 1364,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:33:15.009303+05:30"
+  },
+  {
+   "nin": "IN0960484187",
+   "drugId": "UPD-08",
+   "balanceQty": 1908,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:33:15.009303+05:30"
+  },
+  {
+   "nin": "IN0960484187",
+   "drugId": "UPD-71",
+   "balanceQty": 57.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T05:33:15.009303+05:30"
+  },
+  {
+   "nin": "IN0960484187",
+   "drugId": "UPD-66",
+   "balanceQty": 671,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:33:15.009303+05:30"
+  },
+  {
+   "nin": "IN0960484187",
+   "drugId": "UPD-90",
+   "balanceQty": 1156,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:33:15.009303+05:30"
+  },
+  {
+   "nin": "IN0960484187",
+   "drugId": "UPD-31",
+   "balanceQty": 3359,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:33:15.009303+05:30"
+  },
+  {
+   "nin": "IN0931754239",
+   "drugId": "UPD-17",
+   "balanceQty": 4286,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-22T17:38:18.892652+05:30"
+  },
+  {
+   "nin": "IN0931754239",
+   "drugId": "UPD-52",
+   "balanceQty": 1055,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-22T17:38:18.892652+05:30"
+  },
+  {
+   "nin": "IN0931754239",
+   "drugId": "UPD-53",
+   "balanceQty": 629,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-22T17:38:18.892652+05:30"
+  },
+  {
+   "nin": "IN0931754239",
+   "drugId": "UPD-08",
+   "balanceQty": 874,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-22T17:38:18.892652+05:30"
+  },
+  {
+   "nin": "IN0931754239",
+   "drugId": "UPD-71",
+   "balanceQty": 142.0,
+   "pipelineQty": 34.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-22T17:38:18.892652+05:30"
+  },
+  {
+   "nin": "IN0931754239",
+   "drugId": "UPD-66",
+   "balanceQty": 445,
+   "pipelineQty": 0,
+   "expiringQty90d": 108,
+   "asOn": "2026-09-22T17:38:18.892652+05:30"
+  },
+  {
+   "nin": "IN0931754239",
+   "drugId": "UPD-90",
+   "balanceQty": 1689,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-22T17:38:18.892652+05:30"
+  },
+  {
+   "nin": "IN0931754239",
+   "drugId": "UPD-31",
+   "balanceQty": 3878,
+   "pipelineQty": 1860,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-22T17:38:18.892652+05:30"
+  },
+  {
+   "nin": "IN0921702366",
+   "drugId": "UPD-17",
+   "balanceQty": 17581,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:15:44.812517+05:30"
+  },
+  {
+   "nin": "IN0921702366",
+   "drugId": "UPD-52",
+   "balanceQty": 1284,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:15:44.812517+05:30"
+  },
+  {
+   "nin": "IN0921702366",
+   "drugId": "UPD-53",
+   "balanceQty": 0,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:15:44.812517+05:30"
+  },
+  {
+   "nin": "IN0921702366",
+   "drugId": "UPD-08",
+   "balanceQty": 2921,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:15:44.812517+05:30"
+  },
+  {
+   "nin": "IN0921702366",
+   "drugId": "UPD-71",
+   "balanceQty": 246.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T03:15:44.812517+05:30"
+  },
+  {
+   "nin": "IN0921702366",
+   "drugId": "UPD-66",
+   "balanceQty": 822,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:15:44.812517+05:30"
+  },
+  {
+   "nin": "IN0921702366",
+   "drugId": "UPD-90",
+   "balanceQty": 6997,
+   "pipelineQty": 0,
+   "expiringQty90d": 1162,
+   "asOn": "2026-09-30T03:15:44.812517+05:30"
+  },
+  {
+   "nin": "IN0921702366",
+   "drugId": "UPD-31",
+   "balanceQty": 4507,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:15:44.812517+05:30"
+  },
+  {
+   "nin": "IN0917544665",
+   "drugId": "UPD-17",
+   "balanceQty": 8925,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T07:02:45.914027+05:30"
+  },
+  {
+   "nin": "IN0917544665",
+   "drugId": "UPD-52",
+   "balanceQty": 513,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T07:02:45.914027+05:30"
+  },
+  {
+   "nin": "IN0917544665",
+   "drugId": "UPD-53",
+   "balanceQty": 940,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T07:02:45.914027+05:30"
+  },
+  {
+   "nin": "IN0917544665",
+   "drugId": "UPD-08",
+   "balanceQty": 422,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T07:02:45.914027+05:30"
+  },
+  {
+   "nin": "IN0917544665",
+   "drugId": "UPD-71",
+   "balanceQty": 75.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-29T07:02:45.914027+05:30"
+  },
+  {
+   "nin": "IN0917544665",
+   "drugId": "UPD-66",
+   "balanceQty": 198,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T07:02:45.914027+05:30"
+  },
+  {
+   "nin": "IN0917544665",
+   "drugId": "UPD-90",
+   "balanceQty": 2787,
+   "pipelineQty": 0,
+   "expiringQty90d": 631,
+   "asOn": "2026-09-29T07:02:45.914027+05:30"
+  },
+  {
+   "nin": "IN0917544665",
+   "drugId": "UPD-31",
+   "balanceQty": 4729,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T07:02:45.914027+05:30"
+  },
+  {
+   "nin": "IN0995705796",
+   "drugId": "UPD-17",
+   "balanceQty": 4265,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:34:17.084376+05:30"
+  },
+  {
+   "nin": "IN0995705796",
+   "drugId": "UPD-52",
+   "balanceQty": 656,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:34:17.084376+05:30"
+  },
+  {
+   "nin": "IN0995705796",
+   "drugId": "UPD-53",
+   "balanceQty": 520,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:34:17.084376+05:30"
+  },
+  {
+   "nin": "IN0995705796",
+   "drugId": "UPD-08",
+   "balanceQty": 1498,
+   "pipelineQty": 0,
+   "expiringQty90d": 173,
+   "asOn": "2026-09-30T05:34:17.084376+05:30"
+  },
+  {
+   "nin": "IN0995705796",
+   "drugId": "UPD-71",
+   "balanceQty": 128.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T05:34:17.084376+05:30"
+  },
+  {
+   "nin": "IN0995705796",
+   "drugId": "UPD-66",
+   "balanceQty": 194,
+   "pipelineQty": 49,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:34:17.084376+05:30"
+  },
+  {
+   "nin": "IN0995705796",
+   "drugId": "UPD-90",
+   "balanceQty": 2880,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:34:17.084376+05:30"
+  },
+  {
+   "nin": "IN0995705796",
+   "drugId": "UPD-31",
+   "balanceQty": 2191,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:34:17.084376+05:30"
+  },
+  {
+   "nin": "IN0986236710",
+   "drugId": "UPD-17",
+   "balanceQty": 4622,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T09:11:22.084741+05:30"
+  },
+  {
+   "nin": "IN0986236710",
+   "drugId": "UPD-52",
+   "balanceQty": 732,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T09:11:22.084741+05:30"
+  },
+  {
+   "nin": "IN0986236710",
+   "drugId": "UPD-53",
+   "balanceQty": 750,
+   "pipelineQty": 204,
+   "expiringQty90d": 203,
+   "asOn": "2026-09-30T09:11:22.084741+05:30"
+  },
+  {
+   "nin": "IN0986236710",
+   "drugId": "UPD-08",
+   "balanceQty": 961,
+   "pipelineQty": 0,
+   "expiringQty90d": 201,
+   "asOn": "2026-09-30T09:11:22.084741+05:30"
+  },
+  {
+   "nin": "IN0986236710",
+   "drugId": "UPD-71",
+   "balanceQty": 58.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T09:11:22.084741+05:30"
+  },
+  {
+   "nin": "IN0986236710",
+   "drugId": "UPD-66",
+   "balanceQty": 0,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T09:11:22.084741+05:30"
+  },
+  {
+   "nin": "IN0986236710",
+   "drugId": "UPD-90",
+   "balanceQty": 2178,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T09:11:22.084741+05:30"
+  },
+  {
+   "nin": "IN0986236710",
+   "drugId": "UPD-31",
+   "balanceQty": 1613,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T09:11:22.084741+05:30"
+  },
+  {
+   "nin": "IN0939640181",
+   "drugId": "UPD-17",
+   "balanceQty": 0,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T06:52:39.861872+05:30"
+  },
+  {
+   "nin": "IN0939640181",
+   "drugId": "UPD-52",
+   "balanceQty": 655,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T06:52:39.861872+05:30"
+  },
+  {
+   "nin": "IN0939640181",
+   "drugId": "UPD-53",
+   "balanceQty": 210,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T06:52:39.861872+05:30"
+  },
+  {
+   "nin": "IN0939640181",
+   "drugId": "UPD-08",
+   "balanceQty": 662,
+   "pipelineQty": 166,
+   "expiringQty90d": 109,
+   "asOn": "2026-09-30T06:52:39.861872+05:30"
+  },
+  {
+   "nin": "IN0939640181",
+   "drugId": "UPD-71",
+   "balanceQty": 44.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T06:52:39.861872+05:30"
+  },
+  {
+   "nin": "IN0939640181",
+   "drugId": "UPD-66",
+   "balanceQty": 181,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T06:52:39.861872+05:30"
+  },
+  {
+   "nin": "IN0939640181",
+   "drugId": "UPD-90",
+   "balanceQty": 790,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T06:52:39.861872+05:30"
+  },
+  {
+   "nin": "IN0939640181",
+   "drugId": "UPD-31",
+   "balanceQty": 1796,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T06:52:39.861872+05:30"
+  },
+  {
+   "nin": "IN0956753905",
+   "drugId": "UPD-17",
+   "balanceQty": 1405,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:55:31.950475+05:30"
+  },
+  {
+   "nin": "IN0956753905",
+   "drugId": "UPD-52",
+   "balanceQty": 430,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:55:31.950475+05:30"
+  },
+  {
+   "nin": "IN0956753905",
+   "drugId": "UPD-53",
+   "balanceQty": 653,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:55:31.950475+05:30"
+  },
+  {
+   "nin": "IN0956753905",
+   "drugId": "UPD-08",
+   "balanceQty": 0,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:55:31.950475+05:30"
+  },
+  {
+   "nin": "IN0956753905",
+   "drugId": "UPD-71",
+   "balanceQty": 46.5,
+   "pipelineQty": 15.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T08:55:31.950475+05:30"
+  },
+  {
+   "nin": "IN0956753905",
+   "drugId": "UPD-66",
+   "balanceQty": 66,
+   "pipelineQty": 15,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:55:31.950475+05:30"
+  },
+  {
+   "nin": "IN0956753905",
+   "drugId": "UPD-90",
+   "balanceQty": 1165,
+   "pipelineQty": 488,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:55:31.950475+05:30"
+  },
+  {
+   "nin": "IN0956753905",
+   "drugId": "UPD-31",
+   "balanceQty": 2440,
+   "pipelineQty": 743,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T08:55:31.950475+05:30"
+  },
+  {
+   "nin": "IN0942529052",
+   "drugId": "UPD-17",
+   "balanceQty": 6366,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T06:37:15.338756+05:30"
+  },
+  {
+   "nin": "IN0942529052",
+   "drugId": "UPD-52",
+   "balanceQty": 1054,
+   "pipelineQty": 0,
+   "expiringQty90d": 140,
+   "asOn": "2026-09-30T06:37:15.338756+05:30"
+  },
+  {
+   "nin": "IN0942529052",
+   "drugId": "UPD-53",
+   "balanceQty": 1167,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T06:37:15.338756+05:30"
+  },
+  {
+   "nin": "IN0942529052",
+   "drugId": "UPD-08",
+   "balanceQty": 823,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T06:37:15.338756+05:30"
+  },
+  {
+   "nin": "IN0942529052",
+   "drugId": "UPD-71",
+   "balanceQty": 90.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T06:37:15.338756+05:30"
+  },
+  {
+   "nin": "IN0942529052",
+   "drugId": "UPD-66",
+   "balanceQty": 213,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T06:37:15.338756+05:30"
+  },
+  {
+   "nin": "IN0942529052",
+   "drugId": "UPD-90",
+   "balanceQty": 1472,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T06:37:15.338756+05:30"
+  },
+  {
+   "nin": "IN0942529052",
+   "drugId": "UPD-31",
+   "balanceQty": 6521,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T06:37:15.338756+05:30"
+  },
+  {
+   "nin": "IN0923403824",
+   "drugId": "UPD-17",
+   "balanceQty": 9327,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T14:28:59.258356+05:30"
+  },
+  {
+   "nin": "IN0923403824",
+   "drugId": "UPD-52",
+   "balanceQty": 1470,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T14:28:59.258356+05:30"
+  },
+  {
+   "nin": "IN0923403824",
+   "drugId": "UPD-53",
+   "balanceQty": 1113,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T14:28:59.258356+05:30"
+  },
+  {
+   "nin": "IN0923403824",
+   "drugId": "UPD-08",
+   "balanceQty": 2388,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T14:28:59.258356+05:30"
+  },
+  {
+   "nin": "IN0923403824",
+   "drugId": "UPD-71",
+   "balanceQty": 257.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-29T14:28:59.258356+05:30"
+  },
+  {
+   "nin": "IN0923403824",
+   "drugId": "UPD-66",
+   "balanceQty": 939,
+   "pipelineQty": 0,
+   "expiringQty90d": 101,
+   "asOn": "2026-09-29T14:28:59.258356+05:30"
+  },
+  {
+   "nin": "IN0923403824",
+   "drugId": "UPD-90",
+   "balanceQty": 2202,
+   "pipelineQty": 0,
+   "expiringQty90d": 334,
+   "asOn": "2026-09-29T14:28:59.258356+05:30"
+  },
+  {
+   "nin": "IN0923403824",
+   "drugId": "UPD-31",
+   "balanceQty": 2875,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T14:28:59.258356+05:30"
+  },
+  {
+   "nin": "IN0959659377",
+   "drugId": "UPD-17",
+   "balanceQty": 4100,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:57:17.631422+05:30"
+  },
+  {
+   "nin": "IN0959659377",
+   "drugId": "UPD-52",
+   "balanceQty": 521,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:57:17.631422+05:30"
+  },
+  {
+   "nin": "IN0959659377",
+   "drugId": "UPD-53",
+   "balanceQty": 759,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:57:17.631422+05:30"
+  },
+  {
+   "nin": "IN0959659377",
+   "drugId": "UPD-08",
+   "balanceQty": 1135,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:57:17.631422+05:30"
+  },
+  {
+   "nin": "IN0959659377",
+   "drugId": "UPD-71",
+   "balanceQty": 60.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T03:57:17.631422+05:30"
+  },
+  {
+   "nin": "IN0959659377",
+   "drugId": "UPD-66",
+   "balanceQty": 538,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:57:17.631422+05:30"
+  },
+  {
+   "nin": "IN0959659377",
+   "drugId": "UPD-90",
+   "balanceQty": 2734,
+   "pipelineQty": 931,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:57:17.631422+05:30"
+  },
+  {
+   "nin": "IN0959659377",
+   "drugId": "UPD-31",
+   "balanceQty": 2761,
+   "pipelineQty": 869,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:57:17.631422+05:30"
+  },
+  {
+   "nin": "IN0964374006",
+   "drugId": "UPD-17",
+   "balanceQty": 7266,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T06:50:53.289751+05:30"
+  },
+  {
+   "nin": "IN0964374006",
+   "drugId": "UPD-52",
+   "balanceQty": 422,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T06:50:53.289751+05:30"
+  },
+  {
+   "nin": "IN0964374006",
+   "drugId": "UPD-53",
+   "balanceQty": 312,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T06:50:53.289751+05:30"
+  },
+  {
+   "nin": "IN0964374006",
+   "drugId": "UPD-08",
+   "balanceQty": 214,
+   "pipelineQty": 0,
+   "expiringQty90d": 51,
+   "asOn": "2026-09-30T06:50:53.289751+05:30"
+  },
+  {
+   "nin": "IN0964374006",
+   "drugId": "UPD-71",
+   "balanceQty": 108.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T06:50:53.289751+05:30"
+  },
+  {
+   "nin": "IN0964374006",
+   "drugId": "UPD-66",
+   "balanceQty": 239,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T06:50:53.289751+05:30"
+  },
+  {
+   "nin": "IN0964374006",
+   "drugId": "UPD-90",
+   "balanceQty": 1659,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T06:50:53.289751+05:30"
+  },
+  {
+   "nin": "IN0964374006",
+   "drugId": "UPD-31",
+   "balanceQty": 2238,
+   "pipelineQty": 1101,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T06:50:53.289751+05:30"
+  },
+  {
+   "nin": "IN0938961383",
+   "drugId": "UPD-17",
+   "balanceQty": 2044,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T00:13:07.990145+05:30"
+  },
+  {
+   "nin": "IN0938961383",
+   "drugId": "UPD-52",
+   "balanceQty": 537,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T00:13:07.990145+05:30"
+  },
+  {
+   "nin": "IN0938961383",
+   "drugId": "UPD-53",
+   "balanceQty": 682,
+   "pipelineQty": 338,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T00:13:07.990145+05:30"
+  },
+  {
+   "nin": "IN0938961383",
+   "drugId": "UPD-08",
+   "balanceQty": 0,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T00:13:07.990145+05:30"
+  },
+  {
+   "nin": "IN0938961383",
+   "drugId": "UPD-71",
+   "balanceQty": 131.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T00:13:07.990145+05:30"
+  },
+  {
+   "nin": "IN0938961383",
+   "drugId": "UPD-66",
+   "balanceQty": 262,
+   "pipelineQty": 0,
+   "expiringQty90d": 67,
+   "asOn": "2026-09-30T00:13:07.990145+05:30"
+  },
+  {
+   "nin": "IN0938961383",
+   "drugId": "UPD-90",
+   "balanceQty": 1083,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T00:13:07.990145+05:30"
+  },
+  {
+   "nin": "IN0938961383",
+   "drugId": "UPD-31",
+   "balanceQty": 3830,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T00:13:07.990145+05:30"
+  },
+  {
+   "nin": "IN0952596436",
+   "drugId": "UPD-17",
+   "balanceQty": 4790,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T04:15:20.103686+05:30"
+  },
+  {
+   "nin": "IN0952596436",
+   "drugId": "UPD-52",
+   "balanceQty": 370,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T04:15:20.103686+05:30"
+  },
+  {
+   "nin": "IN0952596436",
+   "drugId": "UPD-53",
+   "balanceQty": 438,
+   "pipelineQty": 0,
+   "expiringQty90d": 51,
+   "asOn": "2026-09-30T04:15:20.103686+05:30"
+  },
+  {
+   "nin": "IN0952596436",
+   "drugId": "UPD-08",
+   "balanceQty": 1042,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T04:15:20.103686+05:30"
+  },
+  {
+   "nin": "IN0952596436",
+   "drugId": "UPD-71",
+   "balanceQty": 68.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 9.0,
+   "asOn": "2026-09-30T04:15:20.103686+05:30"
+  },
+  {
+   "nin": "IN0952596436",
+   "drugId": "UPD-66",
+   "balanceQty": 193,
+   "pipelineQty": 74,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T04:15:20.103686+05:30"
+  },
+  {
+   "nin": "IN0952596436",
+   "drugId": "UPD-90",
+   "balanceQty": 1828,
+   "pipelineQty": 0,
+   "expiringQty90d": 372,
+   "asOn": "2026-09-30T04:15:20.103686+05:30"
+  },
+  {
+   "nin": "IN0952596436",
+   "drugId": "UPD-31",
+   "balanceQty": 789,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T04:15:20.103686+05:30"
+  },
+  {
+   "nin": "IN0960351478",
+   "drugId": "UPD-17",
+   "balanceQty": 5108,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:04:53.568608+05:30"
+  },
+  {
+   "nin": "IN0960351478",
+   "drugId": "UPD-52",
+   "balanceQty": 442,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:04:53.568608+05:30"
+  },
+  {
+   "nin": "IN0960351478",
+   "drugId": "UPD-53",
+   "balanceQty": 601,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:04:53.568608+05:30"
+  },
+  {
+   "nin": "IN0960351478",
+   "drugId": "UPD-08",
+   "balanceQty": 155,
+   "pipelineQty": 63,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:04:53.568608+05:30"
+  },
+  {
+   "nin": "IN0960351478",
+   "drugId": "UPD-71",
+   "balanceQty": 42.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T03:04:53.568608+05:30"
+  },
+  {
+   "nin": "IN0960351478",
+   "drugId": "UPD-66",
+   "balanceQty": 163,
+   "pipelineQty": 79,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:04:53.568608+05:30"
+  },
+  {
+   "nin": "IN0960351478",
+   "drugId": "UPD-90",
+   "balanceQty": 264,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:04:53.568608+05:30"
+  },
+  {
+   "nin": "IN0960351478",
+   "drugId": "UPD-31",
+   "balanceQty": 325,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T03:04:53.568608+05:30"
+  },
+  {
+   "nin": "IN0912698121",
+   "drugId": "UPD-17",
+   "balanceQty": 7222,
+   "pipelineQty": 3420,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:00:03.637464+05:30"
+  },
+  {
+   "nin": "IN0912698121",
+   "drugId": "UPD-52",
+   "balanceQty": 704,
+   "pipelineQty": 299,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:00:03.637464+05:30"
+  },
+  {
+   "nin": "IN0912698121",
+   "drugId": "UPD-53",
+   "balanceQty": 615,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:00:03.637464+05:30"
+  },
+  {
+   "nin": "IN0912698121",
+   "drugId": "UPD-08",
+   "balanceQty": 716,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:00:03.637464+05:30"
+  },
+  {
+   "nin": "IN0912698121",
+   "drugId": "UPD-71",
+   "balanceQty": 75.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 8.0,
+   "asOn": "2026-09-30T05:00:03.637464+05:30"
+  },
+  {
+   "nin": "IN0912698121",
+   "drugId": "UPD-66",
+   "balanceQty": 325,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:00:03.637464+05:30"
+  },
+  {
+   "nin": "IN0912698121",
+   "drugId": "UPD-90",
+   "balanceQty": 1347,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:00:03.637464+05:30"
+  },
+  {
+   "nin": "IN0912698121",
+   "drugId": "UPD-31",
+   "balanceQty": 3691,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:00:03.637464+05:30"
+  },
+  {
+   "nin": "IN0917140071",
+   "drugId": "UPD-17",
+   "balanceQty": 3909,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:35:58.373731+05:30"
+  },
+  {
+   "nin": "IN0917140071",
+   "drugId": "UPD-52",
+   "balanceQty": 276,
+   "pipelineQty": 0,
+   "expiringQty90d": 63,
+   "asOn": "2026-09-30T05:35:58.373731+05:30"
+  },
+  {
+   "nin": "IN0917140071",
+   "drugId": "UPD-53",
+   "balanceQty": 545,
+   "pipelineQty": 156,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:35:58.373731+05:30"
+  },
+  {
+   "nin": "IN0917140071",
+   "drugId": "UPD-08",
+   "balanceQty": 1222,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:35:58.373731+05:30"
+  },
+  {
+   "nin": "IN0917140071",
+   "drugId": "UPD-71",
+   "balanceQty": 107.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T05:35:58.373731+05:30"
+  },
+  {
+   "nin": "IN0917140071",
+   "drugId": "UPD-66",
+   "balanceQty": 149,
+   "pipelineQty": 60,
+   "expiringQty90d": 34,
+   "asOn": "2026-09-30T05:35:58.373731+05:30"
+  },
+  {
+   "nin": "IN0917140071",
+   "drugId": "UPD-90",
+   "balanceQty": 944,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T05:35:58.373731+05:30"
+  },
+  {
+   "nin": "IN0917140071",
+   "drugId": "UPD-31",
+   "balanceQty": 1873,
+   "pipelineQty": 0,
+   "expiringQty90d": 217,
+   "asOn": "2026-09-30T05:35:58.373731+05:30"
+  },
+  {
+   "nin": "IN0985961056",
+   "drugId": "UPD-17",
+   "balanceQty": 2800,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:04:19.230745+05:30"
+  },
+  {
+   "nin": "IN0985961056",
+   "drugId": "UPD-52",
+   "balanceQty": 697,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:04:19.230745+05:30"
+  },
+  {
+   "nin": "IN0985961056",
+   "drugId": "UPD-53",
+   "balanceQty": 71,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:04:19.230745+05:30"
+  },
+  {
+   "nin": "IN0985961056",
+   "drugId": "UPD-08",
+   "balanceQty": 1046,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:04:19.230745+05:30"
+  },
+  {
+   "nin": "IN0985961056",
+   "drugId": "UPD-71",
+   "balanceQty": 41.0,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T02:04:19.230745+05:30"
+  },
+  {
+   "nin": "IN0985961056",
+   "drugId": "UPD-66",
+   "balanceQty": 143,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:04:19.230745+05:30"
+  },
+  {
+   "nin": "IN0985961056",
+   "drugId": "UPD-90",
+   "balanceQty": 1522,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:04:19.230745+05:30"
+  },
+  {
+   "nin": "IN0985961056",
+   "drugId": "UPD-31",
+   "balanceQty": 1792,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T02:04:19.230745+05:30"
+  },
+  {
+   "nin": "IN0926270044",
+   "drugId": "UPD-17",
+   "balanceQty": 2447,
+   "pipelineQty": 0,
+   "expiringQty90d": 411,
+   "asOn": "2026-09-29T22:56:49.165528+05:30"
+  },
+  {
+   "nin": "IN0926270044",
+   "drugId": "UPD-52",
+   "balanceQty": 370,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T22:56:49.165528+05:30"
+  },
+  {
+   "nin": "IN0926270044",
+   "drugId": "UPD-53",
+   "balanceQty": 335,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T22:56:49.165528+05:30"
+  },
+  {
+   "nin": "IN0926270044",
+   "drugId": "UPD-08",
+   "balanceQty": 595,
+   "pipelineQty": 205,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T22:56:49.165528+05:30"
+  },
+  {
+   "nin": "IN0926270044",
+   "drugId": "UPD-71",
+   "balanceQty": 157.0,
+   "pipelineQty": 64.0,
+   "expiringQty90d": 28.5,
+   "asOn": "2026-09-29T22:56:49.165528+05:30"
+  },
+  {
+   "nin": "IN0926270044",
+   "drugId": "UPD-66",
+   "balanceQty": 191,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T22:56:49.165528+05:30"
+  },
+  {
+   "nin": "IN0926270044",
+   "drugId": "UPD-90",
+   "balanceQty": 436,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T22:56:49.165528+05:30"
+  },
+  {
+   "nin": "IN0926270044",
+   "drugId": "UPD-31",
+   "balanceQty": 1914,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T22:56:49.165528+05:30"
+  },
+  {
+   "nin": "IN0995350657",
+   "drugId": "UPD-17",
+   "balanceQty": 1803,
+   "pipelineQty": 698,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T09:46:10.181840+05:30"
+  },
+  {
+   "nin": "IN0995350657",
+   "drugId": "UPD-52",
+   "balanceQty": 725,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T09:46:10.181840+05:30"
+  },
+  {
+   "nin": "IN0995350657",
+   "drugId": "UPD-53",
+   "balanceQty": 142,
+   "pipelineQty": 0,
+   "expiringQty90d": 38,
+   "asOn": "2026-09-30T09:46:10.181840+05:30"
+  },
+  {
+   "nin": "IN0995350657",
+   "drugId": "UPD-08",
+   "balanceQty": 798,
+   "pipelineQty": 0,
+   "expiringQty90d": 92,
+   "asOn": "2026-09-30T09:46:10.181840+05:30"
+  },
+  {
+   "nin": "IN0995350657",
+   "drugId": "UPD-71",
+   "balanceQty": 70.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 0.0,
+   "asOn": "2026-09-30T09:46:10.181840+05:30"
+  },
+  {
+   "nin": "IN0995350657",
+   "drugId": "UPD-66",
+   "balanceQty": 175,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T09:46:10.181840+05:30"
+  },
+  {
+   "nin": "IN0995350657",
+   "drugId": "UPD-90",
+   "balanceQty": 1545,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-30T09:46:10.181840+05:30"
+  },
+  {
+   "nin": "IN0995350657",
+   "drugId": "UPD-31",
+   "balanceQty": 2510,
+   "pipelineQty": 0,
+   "expiringQty90d": 487,
+   "asOn": "2026-09-30T09:46:10.181840+05:30"
+  },
+  {
+   "nin": "IN0927328920",
+   "drugId": "UPD-17",
+   "balanceQty": 5628,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T21:28:01.205071+05:30"
+  },
+  {
+   "nin": "IN0927328920",
+   "drugId": "UPD-52",
+   "balanceQty": 602,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T21:28:01.205071+05:30"
+  },
+  {
+   "nin": "IN0927328920",
+   "drugId": "UPD-53",
+   "balanceQty": 368,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T21:28:01.205071+05:30"
+  },
+  {
+   "nin": "IN0927328920",
+   "drugId": "UPD-08",
+   "balanceQty": 1238,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T21:28:01.205071+05:30"
+  },
+  {
+   "nin": "IN0927328920",
+   "drugId": "UPD-71",
+   "balanceQty": 169.5,
+   "pipelineQty": 0.0,
+   "expiringQty90d": 34.0,
+   "asOn": "2026-09-29T21:28:01.205071+05:30"
+  },
+  {
+   "nin": "IN0927328920",
+   "drugId": "UPD-66",
+   "balanceQty": 278,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T21:28:01.205071+05:30"
+  },
+  {
+   "nin": "IN0927328920",
+   "drugId": "UPD-90",
+   "balanceQty": 2135,
+   "pipelineQty": 0,
+   "expiringQty90d": 275,
+   "asOn": "2026-09-29T21:28:01.205071+05:30"
+  },
+  {
+   "nin": "IN0927328920",
+   "drugId": "UPD-31",
+   "balanceQty": 2208,
+   "pipelineQty": 0,
+   "expiringQty90d": 0,
+   "asOn": "2026-09-29T21:28:01.205071+05:30"
+  }
+ ]
+}

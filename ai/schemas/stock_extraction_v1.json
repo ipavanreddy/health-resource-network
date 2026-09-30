@@ -1,0 +1,92 @@
+{
+  "$defs": {
+    "ExtractedItem": {
+      "properties": {
+        "spoken_name": {
+          "description": "Medicine name exactly as said/written by staff",
+          "title": "Spoken Name",
+          "type": "string"
+        },
+        "drug_code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Matched drug_code from the medicine master, or null if no match",
+          "title": "Drug Code"
+        },
+        "quantity": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Quantity stated. null if not stated. 0 only if stated as finished/nil",
+          "title": "Quantity"
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Unit as stated or from the medicine master",
+          "title": "Unit"
+        },
+        "match_confidence": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Match Confidence",
+          "type": "number"
+        }
+      },
+      "required": [
+        "spoken_name",
+        "drug_code",
+        "quantity",
+        "unit",
+        "match_confidence"
+      ],
+      "title": "ExtractedItem",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "items": {
+      "items": {
+        "$ref": "#/$defs/ExtractedItem"
+      },
+      "title": "Items",
+      "type": "array"
+    },
+    "unrecognised": {
+      "description": "Mentions that could not be matched to the medicine master",
+      "items": {
+        "type": "string"
+      },
+      "title": "Unrecognised",
+      "type": "array"
+    },
+    "requires_confirmation": {
+      "default": true,
+      "title": "Requires Confirmation",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "items",
+    "unrecognised"
+  ],
+  "title": "StockExtraction",
+  "type": "object"
+}

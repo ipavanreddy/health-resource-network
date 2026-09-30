@@ -1,0 +1,67 @@
+{
+  "properties": {
+    "summary": {
+      "title": "Summary",
+      "type": "string"
+    },
+    "risk_level": {
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "title": "Risk Level",
+      "type": "string"
+    },
+    "reasons": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Reasons",
+      "type": "array"
+    },
+    "impact": {
+      "title": "Impact",
+      "type": "string"
+    },
+    "uncertainties": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Uncertainties",
+      "type": "array"
+    },
+    "travel_minutes": {
+      "title": "Travel Minutes",
+      "type": "number"
+    },
+    "confidence": {
+      "maximum": 1,
+      "minimum": 0,
+      "title": "Confidence",
+      "type": "number"
+    },
+    "transfer_note": {
+      "description": "Short note to accompany the physical transfer",
+      "title": "Transfer Note",
+      "type": "string"
+    },
+    "requires_human_review": {
+      "default": true,
+      "title": "Requires Human Review",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "summary",
+    "risk_level",
+    "reasons",
+    "impact",
+    "uncertainties",
+    "travel_minutes",
+    "confidence",
+    "transfer_note"
+  ],
+  "title": "RedistributionExplanation",
+  "type": "object"
+}

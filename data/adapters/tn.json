@@ -1,0 +1,25 @@
+{
+  "state": "TN",
+  "config": {
+    "name": "Tamil Nadu",
+    "default_language": "ta",
+    "languages": ["ta", "en"],
+    "season_focus": "North-east monsoon (Oct-Dec): post-flood diarrhoea",
+    "focus_medicine_groups": ["diarrhoea", "fever"],
+    "cross_district_transfers": false,
+    "readiness_weights": {"stock_cover": 40, "beds": 20, "staff": 20, "freshness": 10, "surge_stability": 10},
+    "forecast_model": "phc-demand-baseline"
+  },
+  "adapter": {
+    "adapter_id": "tn-stock-export-v1",
+    "description": "Illustrative district warehouse stock export (synthetic format, not a real state system schema)",
+    "facility_key": "HFR_ID",
+    "fields": {"drug_code": "ITEM_CODE", "on_hand": "CLOSING_STOCK", "in_transit": "IN_TRANSIT_QTY",
+               "near_expiry_qty": "NEAR_EXPIRY_QTY"},
+    "timestamp": {"fields": ["REPORT_DT"], "format": "%d/%m/%Y %H:%M", "utc_offset": "+05:30"},
+    "drug_code_map": {"TN-D0101": "PCM-500-TAB", "TN-D0412": "ORS-SACHET", "TN-D0415": "ZNC-20-TAB",
+                      "TN-D0220": "AMX-500-CAP", "TN-D0810": "IVF-RL-500", "TN-D0633": "ACT-AL-TAB",
+                      "TN-D0901": "MTF-500-TAB", "TN-D0950": "IFA-TAB"},
+    "unit_factors": {}
+  }
+}

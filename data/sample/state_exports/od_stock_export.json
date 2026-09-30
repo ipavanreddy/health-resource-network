@@ -1,0 +1,4643 @@
+{
+ "metadata": {
+  "source": "PHC Pulse synthetic generator (data/generator/synth.py)",
+  "dataset_version": "phc-pulse-synthetic-1.0.0",
+  "generator_version": "1.0.0",
+  "seed": 20260930,
+  "reference_timestamp": "2026-09-30T10:30:00+05:30",
+  "history_start": "2023-10-01",
+  "history_end": "2026-09-30",
+  "history_days": 1096,
+  "geographic_scope": {
+   "TN": [
+    "Madurai",
+    "Thanjavur"
+   ],
+   "UP": [
+    "Gorakhpur",
+    "Deoria"
+   ],
+   "OD": [
+    "Koraput",
+    "Rayagada"
+   ]
+  },
+  "facility_count": 198,
+  "dispensing_facility_count": 192,
+  "medicine_count": 8,
+  "is_synthetic": true,
+  "is_sample": true,
+  "notice": "SYNTHETIC DATA: generated for demonstration; not real facility, stock or patient data."
+ },
+ "state": "OD",
+ "records": [
+  {
+   "inst_id": "IN2146717726",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 5246,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "04:30"
+  },
+  {
+   "inst_id": "IN2146717726",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 622,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "04:30"
+  },
+  {
+   "inst_id": "IN2146717726",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 689,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "04:30"
+  },
+  {
+   "inst_id": "IN2146717726",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 259,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "04:30"
+  },
+  {
+   "inst_id": "IN2146717726",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 115,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 25,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "04:30"
+  },
+  {
+   "inst_id": "IN2146717726",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 0,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "04:30"
+  },
+  {
+   "inst_id": "IN2146717726",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 938,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 196,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "04:30"
+  },
+  {
+   "inst_id": "IN2146717726",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 997,
+   "stock_in_transit": 481,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "04:30"
+  },
+  {
+   "inst_id": "IN2149453661",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 14802,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-23",
+   "rpt_time": "11:40"
+  },
+  {
+   "inst_id": "IN2149453661",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 2210,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-23",
+   "rpt_time": "11:40"
+  },
+  {
+   "inst_id": "IN2149453661",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 499,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-23",
+   "rpt_time": "11:40"
+  },
+  {
+   "inst_id": "IN2149453661",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 5489,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-23",
+   "rpt_time": "11:40"
+  },
+  {
+   "inst_id": "IN2149453661",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 590,
+   "stock_in_transit": 233,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-23",
+   "rpt_time": "11:40"
+  },
+  {
+   "inst_id": "IN2149453661",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 625,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-23",
+   "rpt_time": "11:40"
+  },
+  {
+   "inst_id": "IN2149453661",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 2336,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-23",
+   "rpt_time": "11:40"
+  },
+  {
+   "inst_id": "IN2149453661",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 11153,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-23",
+   "rpt_time": "11:40"
+  },
+  {
+   "inst_id": "IN2188526196",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 7326,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:20"
+  },
+  {
+   "inst_id": "IN2188526196",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 213,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:20"
+  },
+  {
+   "inst_id": "IN2188526196",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 853,
+   "stock_in_transit": 324,
+   "expiry_lt_90": 136,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:20"
+  },
+  {
+   "inst_id": "IN2188526196",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1485,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:20"
+  },
+  {
+   "inst_id": "IN2188526196",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 158,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 18,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:20"
+  },
+  {
+   "inst_id": "IN2188526196",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 396,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:20"
+  },
+  {
+   "inst_id": "IN2188526196",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 1064,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:20"
+  },
+  {
+   "inst_id": "IN2188526196",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 3072,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:20"
+  },
+  {
+   "inst_id": "IN2123689548",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 4846,
+   "stock_in_transit": 1857,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:06"
+  },
+  {
+   "inst_id": "IN2123689548",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 554,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 145,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:06"
+  },
+  {
+   "inst_id": "IN2123689548",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 545,
+   "stock_in_transit": 136,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:06"
+  },
+  {
+   "inst_id": "IN2123689548",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 467,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:06"
+  },
+  {
+   "inst_id": "IN2123689548",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 149,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:06"
+  },
+  {
+   "inst_id": "IN2123689548",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 107,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:06"
+  },
+  {
+   "inst_id": "IN2123689548",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 989,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:06"
+  },
+  {
+   "inst_id": "IN2123689548",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 1577,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:06"
+  },
+  {
+   "inst_id": "IN2181010941",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 3757,
+   "stock_in_transit": 1522,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "06:46"
+  },
+  {
+   "inst_id": "IN2181010941",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 442,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "06:46"
+  },
+  {
+   "inst_id": "IN2181010941",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 330,
+   "stock_in_transit": 128,
+   "expiry_lt_90": 50,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "06:46"
+  },
+  {
+   "inst_id": "IN2181010941",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 721,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "06:46"
+  },
+  {
+   "inst_id": "IN2181010941",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 128,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "06:46"
+  },
+  {
+   "inst_id": "IN2181010941",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 133,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "06:46"
+  },
+  {
+   "inst_id": "IN2181010941",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 1679,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "06:46"
+  },
+  {
+   "inst_id": "IN2181010941",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 332,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 57,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "06:46"
+  },
+  {
+   "inst_id": "IN2152476388",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 8832,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "04:21"
+  },
+  {
+   "inst_id": "IN2152476388",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 2746,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "04:21"
+  },
+  {
+   "inst_id": "IN2152476388",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 2236,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "04:21"
+  },
+  {
+   "inst_id": "IN2152476388",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 7498,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 1538,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "04:21"
+  },
+  {
+   "inst_id": "IN2152476388",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 271,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "04:21"
+  },
+  {
+   "inst_id": "IN2152476388",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 564,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "04:21"
+  },
+  {
+   "inst_id": "IN2152476388",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 5963,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "04:21"
+  },
+  {
+   "inst_id": "IN2152476388",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 2196,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 432,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "04:21"
+  },
+  {
+   "inst_id": "IN2140413252",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 3709,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:42"
+  },
+  {
+   "inst_id": "IN2140413252",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 958,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:42"
+  },
+  {
+   "inst_id": "IN2140413252",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 302,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:42"
+  },
+  {
+   "inst_id": "IN2140413252",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1210,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:42"
+  },
+  {
+   "inst_id": "IN2140413252",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 273,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:42"
+  },
+  {
+   "inst_id": "IN2140413252",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 393,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:42"
+  },
+  {
+   "inst_id": "IN2140413252",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 2657,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:42"
+  },
+  {
+   "inst_id": "IN2140413252",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 1978,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:42"
+  },
+  {
+   "inst_id": "IN2166627629",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 3717,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:14"
+  },
+  {
+   "inst_id": "IN2166627629",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 453,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:14"
+  },
+  {
+   "inst_id": "IN2166627629",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 640,
+   "stock_in_transit": 161,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:14"
+  },
+  {
+   "inst_id": "IN2166627629",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1883,
+   "stock_in_transit": 775,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:14"
+  },
+  {
+   "inst_id": "IN2166627629",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 64,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:14"
+  },
+  {
+   "inst_id": "IN2166627629",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 147,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:14"
+  },
+  {
+   "inst_id": "IN2166627629",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 2461,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:14"
+  },
+  {
+   "inst_id": "IN2166627629",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 2928,
+   "stock_in_transit": 1378,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:14"
+  },
+  {
+   "inst_id": "IN2163788442",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 3930,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "03:01"
+  },
+  {
+   "inst_id": "IN2163788442",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 536,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "03:01"
+  },
+  {
+   "inst_id": "IN2163788442",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 1068,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "03:01"
+  },
+  {
+   "inst_id": "IN2163788442",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 848,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 166,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "03:01"
+  },
+  {
+   "inst_id": "IN2163788442",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 119,
+   "stock_in_transit": 59,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "03:01"
+  },
+  {
+   "inst_id": "IN2163788442",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 2359,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 708,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "03:01"
+  },
+  {
+   "inst_id": "IN2163788442",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 2589,
+   "stock_in_transit": 1068,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "03:01"
+  },
+  {
+   "inst_id": "IN2163788442",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 1594,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "03:01"
+  },
+  {
+   "inst_id": "IN2144390214",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 8281,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 1212,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "10:46"
+  },
+  {
+   "inst_id": "IN2144390214",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 1272,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "10:46"
+  },
+  {
+   "inst_id": "IN2144390214",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 2030,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "10:46"
+  },
+  {
+   "inst_id": "IN2144390214",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 2100,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "10:46"
+  },
+  {
+   "inst_id": "IN2144390214",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 447,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "10:46"
+  },
+  {
+   "inst_id": "IN2144390214",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 4549,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "10:46"
+  },
+  {
+   "inst_id": "IN2144390214",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 4845,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "10:46"
+  },
+  {
+   "inst_id": "IN2144390214",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 3646,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 713,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "10:46"
+  },
+  {
+   "inst_id": "IN2161953122",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 3829,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "13:16"
+  },
+  {
+   "inst_id": "IN2161953122",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 773,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "13:16"
+  },
+  {
+   "inst_id": "IN2161953122",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 553,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "13:16"
+  },
+  {
+   "inst_id": "IN2161953122",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1702,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "13:16"
+  },
+  {
+   "inst_id": "IN2161953122",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 236,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "13:16"
+  },
+  {
+   "inst_id": "IN2161953122",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 3880,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 1164,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "13:16"
+  },
+  {
+   "inst_id": "IN2161953122",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 2048,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 305,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "13:16"
+  },
+  {
+   "inst_id": "IN2161953122",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 1454,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "13:16"
+  },
+  {
+   "inst_id": "IN2155737008",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 4694,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-21",
+   "rpt_time": "15:41"
+  },
+  {
+   "inst_id": "IN2155737008",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 684,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-21",
+   "rpt_time": "15:41"
+  },
+  {
+   "inst_id": "IN2155737008",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 610,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-21",
+   "rpt_time": "15:41"
+  },
+  {
+   "inst_id": "IN2155737008",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1386,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-21",
+   "rpt_time": "15:41"
+  },
+  {
+   "inst_id": "IN2155737008",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 369,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-21",
+   "rpt_time": "15:41"
+  },
+  {
+   "inst_id": "IN2155737008",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1787,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-21",
+   "rpt_time": "15:41"
+  },
+  {
+   "inst_id": "IN2155737008",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 1173,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-21",
+   "rpt_time": "15:41"
+  },
+  {
+   "inst_id": "IN2155737008",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 2378,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 459,
+   "rpt_date": "2026-09-21",
+   "rpt_time": "15:41"
+  },
+  {
+   "inst_id": "IN2157454722",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 1424,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "03:05"
+  },
+  {
+   "inst_id": "IN2157454722",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 312,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "03:05"
+  },
+  {
+   "inst_id": "IN2157454722",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 272,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "03:05"
+  },
+  {
+   "inst_id": "IN2157454722",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 323,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "03:05"
+  },
+  {
+   "inst_id": "IN2157454722",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 71,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "03:05"
+  },
+  {
+   "inst_id": "IN2157454722",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1731,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 519,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "03:05"
+  },
+  {
+   "inst_id": "IN2157454722",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 757,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "03:05"
+  },
+  {
+   "inst_id": "IN2157454722",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 773,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "03:05"
+  },
+  {
+   "inst_id": "IN2178008471",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 4666,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:38"
+  },
+  {
+   "inst_id": "IN2178008471",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 1140,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:38"
+  },
+  {
+   "inst_id": "IN2178008471",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 1121,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:38"
+  },
+  {
+   "inst_id": "IN2178008471",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1613,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:38"
+  },
+  {
+   "inst_id": "IN2178008471",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 130,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:38"
+  },
+  {
+   "inst_id": "IN2178008471",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 3980,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:38"
+  },
+  {
+   "inst_id": "IN2178008471",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 3141,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:38"
+  },
+  {
+   "inst_id": "IN2178008471",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 4278,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:38"
+  },
+  {
+   "inst_id": "IN2132822739",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 2286,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:17"
+  },
+  {
+   "inst_id": "IN2132822739",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 344,
+   "stock_in_transit": 91,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:17"
+  },
+  {
+   "inst_id": "IN2132822739",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 598,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:17"
+  },
+  {
+   "inst_id": "IN2132822739",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 667,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:17"
+  },
+  {
+   "inst_id": "IN2132822739",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 146,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:17"
+  },
+  {
+   "inst_id": "IN2132822739",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 2594,
+   "stock_in_transit": 1250,
+   "expiry_lt_90": 778,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:17"
+  },
+  {
+   "inst_id": "IN2132822739",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 2249,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:17"
+  },
+  {
+   "inst_id": "IN2132822739",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 3443,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:17"
+  },
+  {
+   "inst_id": "IN2154523443",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 5247,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 928,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:01"
+  },
+  {
+   "inst_id": "IN2154523443",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 598,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:01"
+  },
+  {
+   "inst_id": "IN2154523443",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 549,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:01"
+  },
+  {
+   "inst_id": "IN2154523443",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 287,
+   "stock_in_transit": 58,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:01"
+  },
+  {
+   "inst_id": "IN2154523443",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 191,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:01"
+  },
+  {
+   "inst_id": "IN2154523443",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 2280,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:01"
+  },
+  {
+   "inst_id": "IN2154523443",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 2704,
+   "stock_in_transit": 1288,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:01"
+  },
+  {
+   "inst_id": "IN2154523443",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 2078,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 267,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:01"
+  },
+  {
+   "inst_id": "IN2117577667",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 4368,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:16"
+  },
+  {
+   "inst_id": "IN2117577667",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 283,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:16"
+  },
+  {
+   "inst_id": "IN2117577667",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 626,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:16"
+  },
+  {
+   "inst_id": "IN2117577667",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 670,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:16"
+  },
+  {
+   "inst_id": "IN2117577667",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 58,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:16"
+  },
+  {
+   "inst_id": "IN2117577667",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 756,
+   "stock_in_transit": 163,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:16"
+  },
+  {
+   "inst_id": "IN2117577667",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 2102,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:16"
+  },
+  {
+   "inst_id": "IN2117577667",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 1438,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:16"
+  },
+  {
+   "inst_id": "IN2165991944",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 1119,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:41"
+  },
+  {
+   "inst_id": "IN2165991944",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 1135,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:41"
+  },
+  {
+   "inst_id": "IN2165991944",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 418,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:41"
+  },
+  {
+   "inst_id": "IN2165991944",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1762,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 204,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:41"
+  },
+  {
+   "inst_id": "IN2165991944",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 131,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:41"
+  },
+  {
+   "inst_id": "IN2165991944",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 0,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:41"
+  },
+  {
+   "inst_id": "IN2165991944",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 2891,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:41"
+  },
+  {
+   "inst_id": "IN2165991944",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 1666,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 267,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:41"
+  },
+  {
+   "inst_id": "IN2151814069",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 11918,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:24"
+  },
+  {
+   "inst_id": "IN2151814069",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 2198,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:24"
+  },
+  {
+   "inst_id": "IN2151814069",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 1337,
+   "stock_in_transit": 501,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:24"
+  },
+  {
+   "inst_id": "IN2151814069",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 733,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 138,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:24"
+  },
+  {
+   "inst_id": "IN2151814069",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 224,
+   "stock_in_transit": 91,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:24"
+  },
+  {
+   "inst_id": "IN2151814069",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1941,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 493,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:24"
+  },
+  {
+   "inst_id": "IN2151814069",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 734,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:24"
+  },
+  {
+   "inst_id": "IN2151814069",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 0,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:24"
+  },
+  {
+   "inst_id": "IN2119844252",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 3433,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 919,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:43"
+  },
+  {
+   "inst_id": "IN2119844252",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 959,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:43"
+  },
+  {
+   "inst_id": "IN2119844252",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 675,
+   "stock_in_transit": 300,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:43"
+  },
+  {
+   "inst_id": "IN2119844252",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 2467,
+   "stock_in_transit": 573,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:43"
+  },
+  {
+   "inst_id": "IN2119844252",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 245,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:43"
+  },
+  {
+   "inst_id": "IN2119844252",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1362,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:43"
+  },
+  {
+   "inst_id": "IN2119844252",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 3699,
+   "stock_in_transit": 1278,
+   "expiry_lt_90": 626,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:43"
+  },
+  {
+   "inst_id": "IN2119844252",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 4590,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:43"
+  },
+  {
+   "inst_id": "IN2186839921",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 1783,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 219,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "05:09"
+  },
+  {
+   "inst_id": "IN2186839921",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 598,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "05:09"
+  },
+  {
+   "inst_id": "IN2186839921",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 306,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "05:09"
+  },
+  {
+   "inst_id": "IN2186839921",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 0,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "05:09"
+  },
+  {
+   "inst_id": "IN2186839921",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 122,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "05:09"
+  },
+  {
+   "inst_id": "IN2186839921",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1454,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "05:09"
+  },
+  {
+   "inst_id": "IN2186839921",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 1548,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "05:09"
+  },
+  {
+   "inst_id": "IN2186839921",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 486,
+   "stock_in_transit": 237,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "05:09"
+  },
+  {
+   "inst_id": "IN2125178273",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 2057,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-25",
+   "rpt_time": "07:28"
+  },
+  {
+   "inst_id": "IN2125178273",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 391,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 95,
+   "rpt_date": "2026-09-25",
+   "rpt_time": "07:28"
+  },
+  {
+   "inst_id": "IN2125178273",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 458,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 113,
+   "rpt_date": "2026-09-25",
+   "rpt_time": "07:28"
+  },
+  {
+   "inst_id": "IN2125178273",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 178,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-25",
+   "rpt_time": "07:28"
+  },
+  {
+   "inst_id": "IN2125178273",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 215,
+   "stock_in_transit": 60,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-25",
+   "rpt_time": "07:28"
+  },
+  {
+   "inst_id": "IN2125178273",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1480,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-25",
+   "rpt_time": "07:28"
+  },
+  {
+   "inst_id": "IN2125178273",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 2659,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 792,
+   "rpt_date": "2026-09-25",
+   "rpt_time": "07:28"
+  },
+  {
+   "inst_id": "IN2125178273",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 1281,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-25",
+   "rpt_time": "07:28"
+  },
+  {
+   "inst_id": "IN2138916899",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 4563,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:45"
+  },
+  {
+   "inst_id": "IN2138916899",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 360,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:45"
+  },
+  {
+   "inst_id": "IN2138916899",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 99,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 19,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:45"
+  },
+  {
+   "inst_id": "IN2138916899",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 228,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:45"
+  },
+  {
+   "inst_id": "IN2138916899",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 302,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:45"
+  },
+  {
+   "inst_id": "IN2138916899",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1970,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:45"
+  },
+  {
+   "inst_id": "IN2138916899",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 1601,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:45"
+  },
+  {
+   "inst_id": "IN2138916899",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 2777,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:45"
+  },
+  {
+   "inst_id": "IN2167342057",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 7861,
+   "stock_in_transit": 2894,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:38"
+  },
+  {
+   "inst_id": "IN2167342057",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 418,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:38"
+  },
+  {
+   "inst_id": "IN2167342057",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 896,
+   "stock_in_transit": 229,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:38"
+  },
+  {
+   "inst_id": "IN2167342057",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1982,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:38"
+  },
+  {
+   "inst_id": "IN2167342057",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 356,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:38"
+  },
+  {
+   "inst_id": "IN2167342057",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1693,
+   "stock_in_transit": 785,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:38"
+  },
+  {
+   "inst_id": "IN2167342057",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 1450,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:38"
+  },
+  {
+   "inst_id": "IN2167342057",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 2755,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:38"
+  },
+  {
+   "inst_id": "IN2197389076",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 5118,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:53"
+  },
+  {
+   "inst_id": "IN2197389076",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 182,
+   "stock_in_transit": 61,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:53"
+  },
+  {
+   "inst_id": "IN2197389076",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 335,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:53"
+  },
+  {
+   "inst_id": "IN2197389076",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 390,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:53"
+  },
+  {
+   "inst_id": "IN2197389076",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 289,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:53"
+  },
+  {
+   "inst_id": "IN2197389076",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1705,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:53"
+  },
+  {
+   "inst_id": "IN2197389076",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 1282,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 134,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:53"
+  },
+  {
+   "inst_id": "IN2197389076",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 3423,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:53"
+  },
+  {
+   "inst_id": "IN2133345242",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 1852,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:17"
+  },
+  {
+   "inst_id": "IN2133345242",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 502,
+   "stock_in_transit": 111,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:17"
+  },
+  {
+   "inst_id": "IN2133345242",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 0,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:17"
+  },
+  {
+   "inst_id": "IN2133345242",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 298,
+   "stock_in_transit": 67,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:17"
+  },
+  {
+   "inst_id": "IN2133345242",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 126,
+   "stock_in_transit": 55,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:17"
+  },
+  {
+   "inst_id": "IN2133345242",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 842,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:17"
+  },
+  {
+   "inst_id": "IN2133345242",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 1437,
+   "stock_in_transit": 565,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:17"
+  },
+  {
+   "inst_id": "IN2133345242",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 1179,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 261,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:17"
+  },
+  {
+   "inst_id": "IN2198982670",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 706,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:50"
+  },
+  {
+   "inst_id": "IN2198982670",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 66,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:50"
+  },
+  {
+   "inst_id": "IN2198982670",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 245,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:50"
+  },
+  {
+   "inst_id": "IN2198982670",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 618,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:50"
+  },
+  {
+   "inst_id": "IN2198982670",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 185,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:50"
+  },
+  {
+   "inst_id": "IN2198982670",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1166,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:50"
+  },
+  {
+   "inst_id": "IN2198982670",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 1699,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 411,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:50"
+  },
+  {
+   "inst_id": "IN2198982670",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 2148,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:50"
+  },
+  {
+   "inst_id": "IN2185084991",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 1448,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:27"
+  },
+  {
+   "inst_id": "IN2185084991",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 651,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:27"
+  },
+  {
+   "inst_id": "IN2185084991",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 459,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:27"
+  },
+  {
+   "inst_id": "IN2185084991",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1094,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 182,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:27"
+  },
+  {
+   "inst_id": "IN2185084991",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 169,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:27"
+  },
+  {
+   "inst_id": "IN2185084991",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 983,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:27"
+  },
+  {
+   "inst_id": "IN2185084991",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 1853,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:27"
+  },
+  {
+   "inst_id": "IN2185084991",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 0,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:27"
+  },
+  {
+   "inst_id": "IN2131223563",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 6715,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:20"
+  },
+  {
+   "inst_id": "IN2131223563",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 1216,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:20"
+  },
+  {
+   "inst_id": "IN2131223563",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 748,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:20"
+  },
+  {
+   "inst_id": "IN2131223563",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1945,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:20"
+  },
+  {
+   "inst_id": "IN2131223563",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 155,
+   "stock_in_transit": 76,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:20"
+  },
+  {
+   "inst_id": "IN2131223563",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1323,
+   "stock_in_transit": 545,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:20"
+  },
+  {
+   "inst_id": "IN2131223563",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 2485,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:20"
+  },
+  {
+   "inst_id": "IN2131223563",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 836,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:20"
+  },
+  {
+   "inst_id": "IN2185273447",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 6607,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "18:40"
+  },
+  {
+   "inst_id": "IN2185273447",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 1325,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "18:40"
+  },
+  {
+   "inst_id": "IN2185273447",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 248,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 69,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "18:40"
+  },
+  {
+   "inst_id": "IN2185273447",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1144,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "18:40"
+  },
+  {
+   "inst_id": "IN2185273447",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 231,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "18:40"
+  },
+  {
+   "inst_id": "IN2185273447",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 319,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 66,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "18:40"
+  },
+  {
+   "inst_id": "IN2185273447",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 2081,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "18:40"
+  },
+  {
+   "inst_id": "IN2185273447",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 4663,
+   "stock_in_transit": 1954,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "18:40"
+  },
+  {
+   "inst_id": "IN2127080817",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 6933,
+   "stock_in_transit": 2940,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:02"
+  },
+  {
+   "inst_id": "IN2127080817",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 1155,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 229,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:02"
+  },
+  {
+   "inst_id": "IN2127080817",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 838,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:02"
+  },
+  {
+   "inst_id": "IN2127080817",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1805,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:02"
+  },
+  {
+   "inst_id": "IN2127080817",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 252,
+   "stock_in_transit": 94,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:02"
+  },
+  {
+   "inst_id": "IN2127080817",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 835,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:02"
+  },
+  {
+   "inst_id": "IN2127080817",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 1533,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:02"
+  },
+  {
+   "inst_id": "IN2127080817",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 3681,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:02"
+  },
+  {
+   "inst_id": "IN2174885390",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 841,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:11"
+  },
+  {
+   "inst_id": "IN2174885390",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 725,
+   "stock_in_transit": 189,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:11"
+  },
+  {
+   "inst_id": "IN2174885390",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 603,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:11"
+  },
+  {
+   "inst_id": "IN2174885390",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1391,
+   "stock_in_transit": 474,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:11"
+  },
+  {
+   "inst_id": "IN2174885390",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 74,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:11"
+  },
+  {
+   "inst_id": "IN2174885390",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 2286,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:11"
+  },
+  {
+   "inst_id": "IN2174885390",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 2524,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 564,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:11"
+  },
+  {
+   "inst_id": "IN2174885390",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 2599,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:11"
+  },
+  {
+   "inst_id": "IN2178540600",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 4751,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:41"
+  },
+  {
+   "inst_id": "IN2178540600",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 534,
+   "stock_in_transit": 222,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:41"
+  },
+  {
+   "inst_id": "IN2178540600",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 323,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 71,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:41"
+  },
+  {
+   "inst_id": "IN2178540600",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 2138,
+   "stock_in_transit": 770,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:41"
+  },
+  {
+   "inst_id": "IN2178540600",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 257,
+   "stock_in_transit": 113,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:41"
+  },
+  {
+   "inst_id": "IN2178540600",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 977,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:41"
+  },
+  {
+   "inst_id": "IN2178540600",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 1696,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:41"
+  },
+  {
+   "inst_id": "IN2178540600",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 2522,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:41"
+  },
+  {
+   "inst_id": "IN2165774750",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 0,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:18"
+  },
+  {
+   "inst_id": "IN2165774750",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 1429,
+   "stock_in_transit": 451,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:18"
+  },
+  {
+   "inst_id": "IN2165774750",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 725,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:18"
+  },
+  {
+   "inst_id": "IN2165774750",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 4916,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 893,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:18"
+  },
+  {
+   "inst_id": "IN2165774750",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 536,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:18"
+  },
+  {
+   "inst_id": "IN2165774750",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 4337,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:18"
+  },
+  {
+   "inst_id": "IN2165774750",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 8686,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:18"
+  },
+  {
+   "inst_id": "IN2165774750",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 0,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:18"
+  },
+  {
+   "inst_id": "IN2119881387",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 4505,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "12:48"
+  },
+  {
+   "inst_id": "IN2119881387",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 439,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 129,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "12:48"
+  },
+  {
+   "inst_id": "IN2119881387",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 138,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "12:48"
+  },
+  {
+   "inst_id": "IN2119881387",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1283,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "12:48"
+  },
+  {
+   "inst_id": "IN2119881387",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 36,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 9,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "12:48"
+  },
+  {
+   "inst_id": "IN2119881387",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1006,
+   "stock_in_transit": 440,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "12:48"
+  },
+  {
+   "inst_id": "IN2119881387",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 3069,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "12:48"
+  },
+  {
+   "inst_id": "IN2119881387",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 3710,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "12:48"
+  },
+  {
+   "inst_id": "IN2187779006",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 0,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "06:16"
+  },
+  {
+   "inst_id": "IN2187779006",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 0,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "06:16"
+  },
+  {
+   "inst_id": "IN2187779006",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 122,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "06:16"
+  },
+  {
+   "inst_id": "IN2187779006",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 738,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "06:16"
+  },
+  {
+   "inst_id": "IN2187779006",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 70,
+   "stock_in_transit": 29,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "06:16"
+  },
+  {
+   "inst_id": "IN2187779006",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1023,
+   "stock_in_transit": 419,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "06:16"
+  },
+  {
+   "inst_id": "IN2187779006",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 727,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 124,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "06:16"
+  },
+  {
+   "inst_id": "IN2187779006",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 1173,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "06:16"
+  },
+  {
+   "inst_id": "IN2175206303",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 2769,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:45"
+  },
+  {
+   "inst_id": "IN2175206303",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 1567,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:45"
+  },
+  {
+   "inst_id": "IN2175206303",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 849,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 192,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:45"
+  },
+  {
+   "inst_id": "IN2175206303",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 393,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:45"
+  },
+  {
+   "inst_id": "IN2175206303",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 157,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:45"
+  },
+  {
+   "inst_id": "IN2175206303",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 252,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:45"
+  },
+  {
+   "inst_id": "IN2175206303",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 684,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:45"
+  },
+  {
+   "inst_id": "IN2175206303",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 4543,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:45"
+  },
+  {
+   "inst_id": "IN2121557314",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 5456,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 1163,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "10:00"
+  },
+  {
+   "inst_id": "IN2121557314",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 664,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "10:00"
+  },
+  {
+   "inst_id": "IN2121557314",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 1417,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "10:00"
+  },
+  {
+   "inst_id": "IN2121557314",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 3138,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "10:00"
+  },
+  {
+   "inst_id": "IN2121557314",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 260,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "10:00"
+  },
+  {
+   "inst_id": "IN2121557314",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1692,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "10:00"
+  },
+  {
+   "inst_id": "IN2121557314",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 1906,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "10:00"
+  },
+  {
+   "inst_id": "IN2121557314",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 6172,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "10:00"
+  },
+  {
+   "inst_id": "IN2148733108",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 2738,
+   "stock_in_transit": 692,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "21:20"
+  },
+  {
+   "inst_id": "IN2148733108",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 756,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "21:20"
+  },
+  {
+   "inst_id": "IN2148733108",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 494,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "21:20"
+  },
+  {
+   "inst_id": "IN2148733108",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 0,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "21:20"
+  },
+  {
+   "inst_id": "IN2148733108",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 324,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "21:20"
+  },
+  {
+   "inst_id": "IN2148733108",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1391,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "21:20"
+  },
+  {
+   "inst_id": "IN2148733108",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 917,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "21:20"
+  },
+  {
+   "inst_id": "IN2148733108",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 1315,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "21:20"
+  },
+  {
+   "inst_id": "IN2114581593",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 5004,
+   "stock_in_transit": 1558,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "14:48"
+  },
+  {
+   "inst_id": "IN2114581593",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 788,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "14:48"
+  },
+  {
+   "inst_id": "IN2114581593",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 741,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "14:48"
+  },
+  {
+   "inst_id": "IN2114581593",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1607,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "14:48"
+  },
+  {
+   "inst_id": "IN2114581593",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 124,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "14:48"
+  },
+  {
+   "inst_id": "IN2114581593",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 909,
+   "stock_in_transit": 230,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "14:48"
+  },
+  {
+   "inst_id": "IN2114581593",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 960,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "14:48"
+  },
+  {
+   "inst_id": "IN2114581593",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 2054,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "14:48"
+  },
+  {
+   "inst_id": "IN2138959870",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 10583,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:14"
+  },
+  {
+   "inst_id": "IN2138959870",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 367,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:14"
+  },
+  {
+   "inst_id": "IN2138959870",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 951,
+   "stock_in_transit": 269,
+   "expiry_lt_90": 268,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:14"
+  },
+  {
+   "inst_id": "IN2138959870",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 3693,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:14"
+  },
+  {
+   "inst_id": "IN2138959870",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 297,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 68,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:14"
+  },
+  {
+   "inst_id": "IN2138959870",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 3682,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:14"
+  },
+  {
+   "inst_id": "IN2138959870",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 3827,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:14"
+  },
+  {
+   "inst_id": "IN2138959870",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 5613,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:14"
+  },
+  {
+   "inst_id": "IN2173894439",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 6359,
+   "stock_in_transit": 2205,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:12"
+  },
+  {
+   "inst_id": "IN2173894439",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 888,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:12"
+  },
+  {
+   "inst_id": "IN2173894439",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 920,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:12"
+  },
+  {
+   "inst_id": "IN2173894439",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1581,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:12"
+  },
+  {
+   "inst_id": "IN2173894439",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 206,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:12"
+  },
+  {
+   "inst_id": "IN2173894439",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1922,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:12"
+  },
+  {
+   "inst_id": "IN2173894439",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 3065,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:12"
+  },
+  {
+   "inst_id": "IN2173894439",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 1898,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:12"
+  },
+  {
+   "inst_id": "IN2142062697",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 3396,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:58"
+  },
+  {
+   "inst_id": "IN2142062697",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 985,
+   "stock_in_transit": 351,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:58"
+  },
+  {
+   "inst_id": "IN2142062697",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 577,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:58"
+  },
+  {
+   "inst_id": "IN2142062697",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1069,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:58"
+  },
+  {
+   "inst_id": "IN2142062697",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 155,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:58"
+  },
+  {
+   "inst_id": "IN2142062697",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 303,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:58"
+  },
+  {
+   "inst_id": "IN2142062697",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 4229,
+   "stock_in_transit": 2059,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:58"
+  },
+  {
+   "inst_id": "IN2142062697",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 4305,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 641,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "22:58"
+  },
+  {
+   "inst_id": "IN2170952114",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 6860,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "19:30"
+  },
+  {
+   "inst_id": "IN2170952114",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 1142,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "19:30"
+  },
+  {
+   "inst_id": "IN2170952114",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 224,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 48,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "19:30"
+  },
+  {
+   "inst_id": "IN2170952114",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 3155,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "19:30"
+  },
+  {
+   "inst_id": "IN2170952114",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 342,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "19:30"
+  },
+  {
+   "inst_id": "IN2170952114",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1067,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "19:30"
+  },
+  {
+   "inst_id": "IN2170952114",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 5102,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "19:30"
+  },
+  {
+   "inst_id": "IN2170952114",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 4492,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "19:30"
+  },
+  {
+   "inst_id": "IN2169663507",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 4207,
+   "stock_in_transit": 1951,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "08:50"
+  },
+  {
+   "inst_id": "IN2169663507",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 382,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "08:50"
+  },
+  {
+   "inst_id": "IN2169663507",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 364,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 100,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "08:50"
+  },
+  {
+   "inst_id": "IN2169663507",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1003,
+   "stock_in_transit": 482,
+   "expiry_lt_90": 106,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "08:50"
+  },
+  {
+   "inst_id": "IN2169663507",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 162,
+   "stock_in_transit": 36,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "08:50"
+  },
+  {
+   "inst_id": "IN2169663507",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 2059,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "08:50"
+  },
+  {
+   "inst_id": "IN2169663507",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 1253,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "08:50"
+  },
+  {
+   "inst_id": "IN2169663507",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 2147,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "08:50"
+  },
+  {
+   "inst_id": "IN2192317580",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 11247,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-28",
+   "rpt_time": "23:22"
+  },
+  {
+   "inst_id": "IN2192317580",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 1772,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 521,
+   "rpt_date": "2026-09-28",
+   "rpt_time": "23:22"
+  },
+  {
+   "inst_id": "IN2192317580",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 1625,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-28",
+   "rpt_time": "23:22"
+  },
+  {
+   "inst_id": "IN2192317580",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 2817,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-28",
+   "rpt_time": "23:22"
+  },
+  {
+   "inst_id": "IN2192317580",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 440,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-28",
+   "rpt_time": "23:22"
+  },
+  {
+   "inst_id": "IN2192317580",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1681,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-28",
+   "rpt_time": "23:22"
+  },
+  {
+   "inst_id": "IN2192317580",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 3918,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-28",
+   "rpt_time": "23:22"
+  },
+  {
+   "inst_id": "IN2192317580",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 6987,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-28",
+   "rpt_time": "23:22"
+  },
+  {
+   "inst_id": "IN2168371295",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 11420,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:33"
+  },
+  {
+   "inst_id": "IN2168371295",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 1095,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:33"
+  },
+  {
+   "inst_id": "IN2168371295",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 293,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:33"
+  },
+  {
+   "inst_id": "IN2168371295",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 2747,
+   "stock_in_transit": 753,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:33"
+  },
+  {
+   "inst_id": "IN2168371295",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 360,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:33"
+  },
+  {
+   "inst_id": "IN2168371295",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 4421,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:33"
+  },
+  {
+   "inst_id": "IN2168371295",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 2047,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:33"
+  },
+  {
+   "inst_id": "IN2168371295",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 1305,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "08:33"
+  },
+  {
+   "inst_id": "IN2164777730",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 2125,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:30"
+  },
+  {
+   "inst_id": "IN2164777730",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 978,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:30"
+  },
+  {
+   "inst_id": "IN2164777730",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 305,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:30"
+  },
+  {
+   "inst_id": "IN2164777730",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 858,
+   "stock_in_transit": 262,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:30"
+  },
+  {
+   "inst_id": "IN2164777730",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 104,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:30"
+  },
+  {
+   "inst_id": "IN2164777730",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 773,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:30"
+  },
+  {
+   "inst_id": "IN2164777730",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 2831,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 814,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:30"
+  },
+  {
+   "inst_id": "IN2164777730",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 3121,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "23:30"
+  },
+  {
+   "inst_id": "IN2168472345",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 8307,
+   "stock_in_transit": 1835,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:20"
+  },
+  {
+   "inst_id": "IN2168472345",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 1052,
+   "stock_in_transit": 465,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:20"
+  },
+  {
+   "inst_id": "IN2168472345",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 380,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:20"
+  },
+  {
+   "inst_id": "IN2168472345",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1134,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:20"
+  },
+  {
+   "inst_id": "IN2168472345",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 115,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 31,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:20"
+  },
+  {
+   "inst_id": "IN2168472345",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 451,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:20"
+  },
+  {
+   "inst_id": "IN2168472345",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 3466,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 551,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:20"
+  },
+  {
+   "inst_id": "IN2168472345",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 4861,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "01:20"
+  },
+  {
+   "inst_id": "IN2124466452",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 3492,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:30"
+  },
+  {
+   "inst_id": "IN2124466452",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 0,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:30"
+  },
+  {
+   "inst_id": "IN2124466452",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 383,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:30"
+  },
+  {
+   "inst_id": "IN2124466452",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1108,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:30"
+  },
+  {
+   "inst_id": "IN2124466452",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 82,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 11,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:30"
+  },
+  {
+   "inst_id": "IN2124466452",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1037,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:30"
+  },
+  {
+   "inst_id": "IN2124466452",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 791,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:30"
+  },
+  {
+   "inst_id": "IN2124466452",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 1747,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:30"
+  },
+  {
+   "inst_id": "IN2173715161",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 2892,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:58"
+  },
+  {
+   "inst_id": "IN2173715161",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 820,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:58"
+  },
+  {
+   "inst_id": "IN2173715161",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 711,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 79,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:58"
+  },
+  {
+   "inst_id": "IN2173715161",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 928,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:58"
+  },
+  {
+   "inst_id": "IN2173715161",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 89,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:58"
+  },
+  {
+   "inst_id": "IN2173715161",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 863,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:58"
+  },
+  {
+   "inst_id": "IN2173715161",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 1538,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:58"
+  },
+  {
+   "inst_id": "IN2173715161",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 1335,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:58"
+  },
+  {
+   "inst_id": "IN2120539667",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 3590,
+   "stock_in_transit": 1347,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "00:05"
+  },
+  {
+   "inst_id": "IN2120539667",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 1377,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "00:05"
+  },
+  {
+   "inst_id": "IN2120539667",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 1629,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 409,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "00:05"
+  },
+  {
+   "inst_id": "IN2120539667",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 2418,
+   "stock_in_transit": 486,
+   "expiry_lt_90": 304,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "00:05"
+  },
+  {
+   "inst_id": "IN2120539667",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 302,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "00:05"
+  },
+  {
+   "inst_id": "IN2120539667",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 3238,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "00:05"
+  },
+  {
+   "inst_id": "IN2120539667",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 4909,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 1435,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "00:05"
+  },
+  {
+   "inst_id": "IN2120539667",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 4563,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 562,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "00:05"
+  },
+  {
+   "inst_id": "IN2162893229",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 3872,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:54"
+  },
+  {
+   "inst_id": "IN2162893229",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 247,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 40,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:54"
+  },
+  {
+   "inst_id": "IN2162893229",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 207,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:54"
+  },
+  {
+   "inst_id": "IN2162893229",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 789,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:54"
+  },
+  {
+   "inst_id": "IN2162893229",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 77,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:54"
+  },
+  {
+   "inst_id": "IN2162893229",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 227,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:54"
+  },
+  {
+   "inst_id": "IN2162893229",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 938,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 115,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:54"
+  },
+  {
+   "inst_id": "IN2162893229",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 0,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:54"
+  },
+  {
+   "inst_id": "IN2118494472",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 3622,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:51"
+  },
+  {
+   "inst_id": "IN2118494472",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 362,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 92,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:51"
+  },
+  {
+   "inst_id": "IN2118494472",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 650,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:51"
+  },
+  {
+   "inst_id": "IN2118494472",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 869,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:51"
+  },
+  {
+   "inst_id": "IN2118494472",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 130,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 21,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:51"
+  },
+  {
+   "inst_id": "IN2118494472",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1416,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:51"
+  },
+  {
+   "inst_id": "IN2118494472",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 1730,
+   "stock_in_transit": 794,
+   "expiry_lt_90": 501,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:51"
+  },
+  {
+   "inst_id": "IN2118494472",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 476,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "02:51"
+  },
+  {
+   "inst_id": "IN2158269163",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 599,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:55"
+  },
+  {
+   "inst_id": "IN2158269163",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 281,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 74,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:55"
+  },
+  {
+   "inst_id": "IN2158269163",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 513,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:55"
+  },
+  {
+   "inst_id": "IN2158269163",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1259,
+   "stock_in_transit": 500,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:55"
+  },
+  {
+   "inst_id": "IN2158269163",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 48,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:55"
+  },
+  {
+   "inst_id": "IN2158269163",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 2021,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:55"
+  },
+  {
+   "inst_id": "IN2158269163",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 1566,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:55"
+  },
+  {
+   "inst_id": "IN2158269163",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 3678,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "09:55"
+  },
+  {
+   "inst_id": "IN2173344082",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 4433,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "16:57"
+  },
+  {
+   "inst_id": "IN2173344082",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 765,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "16:57"
+  },
+  {
+   "inst_id": "IN2173344082",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 537,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "16:57"
+  },
+  {
+   "inst_id": "IN2173344082",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1328,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "16:57"
+  },
+  {
+   "inst_id": "IN2173344082",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 211,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "16:57"
+  },
+  {
+   "inst_id": "IN2173344082",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1522,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "16:57"
+  },
+  {
+   "inst_id": "IN2173344082",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 1747,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "16:57"
+  },
+  {
+   "inst_id": "IN2173344082",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 1834,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 343,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "16:57"
+  },
+  {
+   "inst_id": "IN2188580364",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 2128,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "17:07"
+  },
+  {
+   "inst_id": "IN2188580364",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 332,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 49,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "17:07"
+  },
+  {
+   "inst_id": "IN2188580364",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 206,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 54,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "17:07"
+  },
+  {
+   "inst_id": "IN2188580364",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 0,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "17:07"
+  },
+  {
+   "inst_id": "IN2188580364",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 100,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "17:07"
+  },
+  {
+   "inst_id": "IN2188580364",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1467,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "17:07"
+  },
+  {
+   "inst_id": "IN2188580364",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 828,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "17:07"
+  },
+  {
+   "inst_id": "IN2188580364",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 447,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "17:07"
+  },
+  {
+   "inst_id": "IN2169566059",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 547,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "06:16"
+  },
+  {
+   "inst_id": "IN2169566059",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 315,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "06:16"
+  },
+  {
+   "inst_id": "IN2169566059",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 352,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "06:16"
+  },
+  {
+   "inst_id": "IN2169566059",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1326,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "06:16"
+  },
+  {
+   "inst_id": "IN2169566059",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 32,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 9,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "06:16"
+  },
+  {
+   "inst_id": "IN2169566059",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1734,
+   "stock_in_transit": 391,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "06:16"
+  },
+  {
+   "inst_id": "IN2169566059",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 2110,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "06:16"
+  },
+  {
+   "inst_id": "IN2169566059",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 1492,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "06:16"
+  },
+  {
+   "inst_id": "IN2149185141",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 2451,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 707,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:12"
+  },
+  {
+   "inst_id": "IN2149185141",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 1030,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:12"
+  },
+  {
+   "inst_id": "IN2149185141",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 493,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 133,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:12"
+  },
+  {
+   "inst_id": "IN2149185141",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1828,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:12"
+  },
+  {
+   "inst_id": "IN2149185141",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 322,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:12"
+  },
+  {
+   "inst_id": "IN2149185141",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 762,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 217,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:12"
+  },
+  {
+   "inst_id": "IN2149185141",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 1971,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:12"
+  },
+  {
+   "inst_id": "IN2149185141",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 2537,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "07:12"
+  },
+  {
+   "inst_id": "IN2184369272",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 4264,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "00:02"
+  },
+  {
+   "inst_id": "IN2184369272",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 595,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "00:02"
+  },
+  {
+   "inst_id": "IN2184369272",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 115,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "00:02"
+  },
+  {
+   "inst_id": "IN2184369272",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1967,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "00:02"
+  },
+  {
+   "inst_id": "IN2184369272",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 26,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 3,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "00:02"
+  },
+  {
+   "inst_id": "IN2184369272",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1123,
+   "stock_in_transit": 387,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "00:02"
+  },
+  {
+   "inst_id": "IN2184369272",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 1627,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "00:02"
+  },
+  {
+   "inst_id": "IN2184369272",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 1115,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 132,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "00:02"
+  },
+  {
+   "inst_id": "IN2192921797",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 3790,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "00:09"
+  },
+  {
+   "inst_id": "IN2192921797",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 841,
+   "stock_in_transit": 357,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "00:09"
+  },
+  {
+   "inst_id": "IN2192921797",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 665,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "00:09"
+  },
+  {
+   "inst_id": "IN2192921797",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1450,
+   "stock_in_transit": 586,
+   "expiry_lt_90": 175,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "00:09"
+  },
+  {
+   "inst_id": "IN2192921797",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 104,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "00:09"
+  },
+  {
+   "inst_id": "IN2192921797",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1396,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "00:09"
+  },
+  {
+   "inst_id": "IN2192921797",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 397,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "00:09"
+  },
+  {
+   "inst_id": "IN2192921797",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 734,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "00:09"
+  },
+  {
+   "inst_id": "IN2181008140",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 4089,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 882,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "05:48"
+  },
+  {
+   "inst_id": "IN2181008140",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 596,
+   "stock_in_transit": 260,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "05:48"
+  },
+  {
+   "inst_id": "IN2181008140",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 141,
+   "stock_in_transit": 48,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "05:48"
+  },
+  {
+   "inst_id": "IN2181008140",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1147,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "05:48"
+  },
+  {
+   "inst_id": "IN2181008140",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 120,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "05:48"
+  },
+  {
+   "inst_id": "IN2181008140",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 1685,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "05:48"
+  },
+  {
+   "inst_id": "IN2181008140",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 2970,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "05:48"
+  },
+  {
+   "inst_id": "IN2181008140",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 2889,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 476,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "05:48"
+  },
+  {
+   "inst_id": "IN2147200690",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 4691,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "05:00"
+  },
+  {
+   "inst_id": "IN2147200690",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 164,
+   "stock_in_transit": 71,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "05:00"
+  },
+  {
+   "inst_id": "IN2147200690",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 337,
+   "stock_in_transit": 118,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "05:00"
+  },
+  {
+   "inst_id": "IN2147200690",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1849,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "05:00"
+  },
+  {
+   "inst_id": "IN2147200690",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 208,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 61,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "05:00"
+  },
+  {
+   "inst_id": "IN2147200690",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 798,
+   "stock_in_transit": 238,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "05:00"
+  },
+  {
+   "inst_id": "IN2147200690",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 2320,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "05:00"
+  },
+  {
+   "inst_id": "IN2147200690",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 1692,
+   "stock_in_transit": 360,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-30",
+   "rpt_time": "05:00"
+  },
+  {
+   "inst_id": "IN2168294016",
+   "med_cd": "ODM/AN/001",
+   "stock_in_hand": 5254,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "09:58"
+  },
+  {
+   "inst_id": "IN2168294016",
+   "med_cd": "ODM/GI/004",
+   "stock_in_hand": 443,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "09:58"
+  },
+  {
+   "inst_id": "IN2168294016",
+   "med_cd": "ODM/GI/005",
+   "stock_in_hand": 1102,
+   "stock_in_transit": 456,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "09:58"
+  },
+  {
+   "inst_id": "IN2168294016",
+   "med_cd": "ODM/AB/012",
+   "stock_in_hand": 1366,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "09:58"
+  },
+  {
+   "inst_id": "IN2168294016",
+   "med_cd": "ODM/IV/002",
+   "stock_in_hand": 325,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "09:58"
+  },
+  {
+   "inst_id": "IN2168294016",
+   "med_cd": "ODM/AM/003",
+   "stock_in_hand": 0,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "09:58"
+  },
+  {
+   "inst_id": "IN2168294016",
+   "med_cd": "ODM/DM/001",
+   "stock_in_hand": 4044,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "09:58"
+  },
+  {
+   "inst_id": "IN2168294016",
+   "med_cd": "ODM/NU/007",
+   "stock_in_hand": 2717,
+   "stock_in_transit": 0,
+   "expiry_lt_90": 0,
+   "rpt_date": "2026-09-29",
+   "rpt_time": "09:58"
+  }
+ ]
+}

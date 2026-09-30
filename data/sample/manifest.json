@@ -1,0 +1,274 @@
+{
+ "source": "PHC Pulse synthetic generator (data/generator/synth.py)",
+ "dataset_version": "phc-pulse-synthetic-1.0.0",
+ "generator_version": "1.0.0",
+ "seed": 20260930,
+ "reference_timestamp": "2026-09-30T10:30:00+05:30",
+ "history_start": "2023-10-01",
+ "history_end": "2026-09-30",
+ "history_days": 1096,
+ "geographic_scope": {
+  "TN": [
+   "Madurai",
+   "Thanjavur"
+  ],
+  "UP": [
+   "Gorakhpur",
+   "Deoria"
+  ],
+  "OD": [
+   "Koraput",
+   "Rayagada"
+  ]
+ },
+ "facility_count": 198,
+ "dispensing_facility_count": 192,
+ "medicine_count": 8,
+ "is_synthetic": true,
+ "is_sample": true,
+ "notice": "SYNTHETIC DATA: generated for demonstration; not real facility, stock or patient data.",
+ "events": [
+  {
+   "type": "historical_outbreak",
+   "state": "TN",
+   "district": "MDU",
+   "block": "Melur",
+   "group": "diarrhoea",
+   "start": "2025-10-18",
+   "days": 22,
+   "peak_multiplier": 2.04
+  },
+  {
+   "type": "historical_outbreak",
+   "state": "TN",
+   "district": "MDU",
+   "block": "Alanganallur",
+   "group": "diarrhoea",
+   "start": "2024-11-12",
+   "days": 27,
+   "peak_multiplier": 2.68
+  },
+  {
+   "type": "historical_outbreak",
+   "state": "TN",
+   "district": "TNJ",
+   "block": "Budalur",
+   "group": "diarrhoea",
+   "start": "2025-11-03",
+   "days": 18,
+   "peak_multiplier": 2.53
+  },
+  {
+   "type": "historical_outbreak",
+   "state": "TN",
+   "district": "TNJ",
+   "block": "Budalur",
+   "group": "diarrhoea",
+   "start": "2024-11-22",
+   "days": 19,
+   "peak_multiplier": 2.7
+  },
+  {
+   "type": "historical_outbreak",
+   "state": "UP",
+   "district": "GKP",
+   "block": "Khorabar",
+   "group": "fever",
+   "start": "2025-08-21",
+   "days": 26,
+   "peak_multiplier": 2.8
+  },
+  {
+   "type": "historical_outbreak",
+   "state": "UP",
+   "district": "GKP",
+   "block": "Bansgaon",
+   "group": "fever",
+   "start": "2024-09-07",
+   "days": 20,
+   "peak_multiplier": 2.71
+  },
+  {
+   "type": "historical_outbreak",
+   "state": "UP",
+   "district": "DEO",
+   "block": "Bhatpar Rani",
+   "group": "fever",
+   "start": "2025-09-02",
+   "days": 23,
+   "peak_multiplier": 2.14
+  },
+  {
+   "type": "historical_outbreak",
+   "state": "UP",
+   "district": "DEO",
+   "block": "Gauri Bazar",
+   "group": "fever",
+   "start": "2024-08-31",
+   "days": 25,
+   "peak_multiplier": 2.66
+  },
+  {
+   "type": "historical_outbreak",
+   "state": "OD",
+   "district": "KPT",
+   "block": "Pottangi",
+   "group": "malaria",
+   "start": "2025-07-26",
+   "days": 18,
+   "peak_multiplier": 2.05
+  },
+  {
+   "type": "historical_outbreak",
+   "state": "OD",
+   "district": "KPT",
+   "block": "Kotpad",
+   "group": "malaria",
+   "start": "2024-08-22",
+   "days": 27,
+   "peak_multiplier": 2.73
+  },
+  {
+   "type": "historical_outbreak",
+   "state": "OD",
+   "district": "RGD",
+   "block": "Padmapur",
+   "group": "malaria",
+   "start": "2025-07-02",
+   "days": 24,
+   "peak_multiplier": 1.88
+  },
+  {
+   "type": "historical_outbreak",
+   "state": "OD",
+   "district": "RGD",
+   "block": "Gunupur",
+   "group": "malaria",
+   "start": "2024-08-22",
+   "days": 27,
+   "peak_multiplier": 2.53
+  },
+  {
+   "type": "live_scenario",
+   "scenario": "A",
+   "state": "TN",
+   "district": "MDU",
+   "blocks": [
+    "Melur",
+    "Madurai East"
+   ],
+   "group": "diarrhoea",
+   "start": "2026-09-22",
+   "multiplier": 3.2
+  },
+  {
+   "type": "live_scenario",
+   "scenario": "B",
+   "state": "UP",
+   "district": "GKP",
+   "blocks": [
+    "Campierganj",
+    "Pipraich"
+   ],
+   "group": "fever",
+   "start": "2026-09-13",
+   "multiplier": 2.4
+  },
+  {
+   "type": "live_scenario",
+   "scenario": "C",
+   "state": "OD",
+   "district": "KPT",
+   "blocks": [
+    "Jeypore",
+    "Kotpad"
+   ],
+   "group": "malaria",
+   "start": "2026-09-15",
+   "multiplier": 2.5
+  }
+ ],
+ "scenarios": [
+  {
+   "id": "A",
+   "state": "TN",
+   "district": "MDU",
+   "surge_blocks": [
+    "Melur",
+    "Madurai East"
+   ],
+   "donor_blocks": [
+    "Thirumangalam",
+    "Vadipatti"
+   ],
+   "group": "diarrhoea",
+   "multiplier": 3.2,
+   "start_days_ago": 9,
+   "language": "ta",
+   "title": "Tamil Nadu · Madurai: post-flood diarrhoea surge, ORS stock-out risk",
+   "hero_block": "Melur",
+   "focus_drugs": [
+    "ORS-SACHET",
+    "ZNC-20-TAB"
+   ],
+   "hero_facility_id": "PHC-TN-MDU-001",
+   "hero_facility_name": "PHC Melur"
+  },
+  {
+   "id": "B",
+   "state": "UP",
+   "district": "GKP",
+   "surge_blocks": [
+    "Campierganj",
+    "Pipraich"
+   ],
+   "donor_blocks": [
+    "Sahjanwa",
+    "Khorabar"
+   ],
+   "group": "fever",
+   "multiplier": 2.4,
+   "start_days_ago": 18,
+   "language": "hi",
+   "title": "Uttar Pradesh · Gorakhpur: vector-borne season, paracetamol / IV fluid demand",
+   "hero_block": "Campierganj",
+   "focus_drugs": [
+    "IVF-RL-500",
+    "PCM-500-TAB"
+   ],
+   "hero_facility_id": "PHC-UP-GKP-001",
+   "hero_facility_name": "PHC Campierganj"
+  },
+  {
+   "id": "C",
+   "state": "OD",
+   "district": "KPT",
+   "surge_blocks": [
+    "Jeypore",
+    "Kotpad"
+   ],
+   "donor_blocks": [
+    "Lamtaput",
+    "Boipariguda"
+   ],
+   "group": "malaria",
+   "multiplier": 2.5,
+   "start_days_ago": 16,
+   "language": "en",
+   "title": "Odisha · Koraput: malaria season, antimalarial redistribution",
+   "hero_block": "Jeypore",
+   "focus_drugs": [
+    "ACT-AL-TAB"
+   ],
+   "hero_facility_id": "PHC-OD-KPT-001",
+   "hero_facility_name": "PHC Jeypore"
+  }
+ ],
+ "files": [
+  "medicines.json",
+  "facilities.json",
+  "state_exports/",
+  "daily_consumption_sample.csv"
+ ],
+ "sample_only": true
+}

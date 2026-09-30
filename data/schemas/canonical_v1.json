@@ -1,0 +1,220 @@
+{
+  "$defs": {
+    "Beds": {
+      "properties": {
+        "total": {
+          "title": "Total",
+          "type": "integer"
+        },
+        "occupied": {
+          "title": "Occupied",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "total",
+        "occupied"
+      ],
+      "title": "Beds",
+      "type": "object"
+    },
+    "CanonicalStock": {
+      "properties": {
+        "drug_code": {
+          "title": "Drug Code",
+          "type": "string"
+        },
+        "on_hand": {
+          "title": "On Hand",
+          "type": "integer"
+        },
+        "in_transit": {
+          "title": "In Transit",
+          "type": "integer"
+        },
+        "days_of_cover": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Days Of Cover"
+        },
+        "status": {
+          "title": "Status",
+          "type": "string"
+        },
+        "stockout_risk": {
+          "title": "Stockout Risk",
+          "type": "number"
+        },
+        "near_expiry_qty": {
+          "title": "Near Expiry Qty",
+          "type": "integer"
+        },
+        "updated_at": {
+          "format": "date-time",
+          "title": "Updated At",
+          "type": "string"
+        },
+        "source": {
+          "title": "Source",
+          "type": "string"
+        }
+      },
+      "required": [
+        "drug_code",
+        "on_hand",
+        "in_transit",
+        "days_of_cover",
+        "status",
+        "stockout_risk",
+        "near_expiry_qty",
+        "updated_at",
+        "source"
+      ],
+      "title": "CanonicalStock",
+      "type": "object"
+    },
+    "DataLabel": {
+      "properties": {
+        "source": {
+          "title": "Source",
+          "type": "string"
+        },
+        "dataset_version": {
+          "title": "Dataset Version",
+          "type": "string"
+        },
+        "is_synthetic": {
+          "title": "Is Synthetic",
+          "type": "boolean"
+        },
+        "reference_timestamp": {
+          "title": "Reference Timestamp",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source",
+        "dataset_version",
+        "is_synthetic",
+        "reference_timestamp"
+      ],
+      "title": "DataLabel",
+      "type": "object"
+    },
+    "Risk": {
+      "properties": {
+        "stockout_risk": {
+          "description": "Max stock-out risk over tracer medicines",
+          "title": "Stockout Risk",
+          "type": "number"
+        },
+        "surge_flag": {
+          "title": "Surge Flag",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "stockout_risk",
+        "surge_flag"
+      ],
+      "title": "Risk",
+      "type": "object"
+    },
+    "Staff": {
+      "properties": {
+        "sanctioned": {
+          "title": "Sanctioned",
+          "type": "integer"
+        },
+        "present": {
+          "title": "Present",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "sanctioned",
+        "present"
+      ],
+      "title": "Staff",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "schema_version": {
+      "default": "canonical-v1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "state": {
+      "title": "State",
+      "type": "string"
+    },
+    "district": {
+      "title": "District",
+      "type": "string"
+    },
+    "block": {
+      "title": "Block",
+      "type": "string"
+    },
+    "facility_id": {
+      "title": "Facility Id",
+      "type": "string"
+    },
+    "hfr_id": {
+      "title": "Hfr Id",
+      "type": "string"
+    },
+    "timestamp": {
+      "format": "date-time",
+      "title": "Timestamp",
+      "type": "string"
+    },
+    "stock": {
+      "items": {
+        "$ref": "#/$defs/CanonicalStock"
+      },
+      "title": "Stock",
+      "type": "array"
+    },
+    "beds": {
+      "$ref": "#/$defs/Beds"
+    },
+    "staff": {
+      "$ref": "#/$defs/Staff"
+    },
+    "footfall": {
+      "additionalProperties": true,
+      "title": "Footfall",
+      "type": "object"
+    },
+    "risk": {
+      "$ref": "#/$defs/Risk"
+    },
+    "data_label": {
+      "$ref": "#/$defs/DataLabel"
+    }
+  },
+  "required": [
+    "state",
+    "district",
+    "block",
+    "facility_id",
+    "hfr_id",
+    "timestamp",
+    "stock",
+    "beds",
+    "staff",
+    "footfall",
+    "risk",
+    "data_label"
+  ],
+  "title": "CanonicalFacilityRecord",
+  "type": "object"
+}

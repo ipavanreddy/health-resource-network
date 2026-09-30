@@ -1,0 +1,135 @@
+{
+  "$defs": {
+    "RegisterRow": {
+      "properties": {
+        "medicine_text": {
+          "description": "Medicine name as written in the register",
+          "title": "Medicine Text",
+          "type": "string"
+        },
+        "drug_code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Drug Code"
+        },
+        "opening": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "null if illegible or missing",
+          "title": "Opening"
+        },
+        "received": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Received"
+        },
+        "issued": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Issued"
+        },
+        "closing": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Closing"
+        },
+        "match_confidence": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Match Confidence",
+          "type": "number"
+        },
+        "illegible_cells": {
+          "description": "Names of cells that could not be read, e.g. ['closing']",
+          "items": {
+            "type": "string"
+          },
+          "title": "Illegible Cells",
+          "type": "array"
+        }
+      },
+      "required": [
+        "medicine_text",
+        "drug_code",
+        "opening",
+        "received",
+        "issued",
+        "closing",
+        "match_confidence",
+        "illegible_cells"
+      ],
+      "title": "RegisterRow",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "register_date": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Date written on the page (as written), or null",
+      "title": "Register Date"
+    },
+    "rows": {
+      "items": {
+        "$ref": "#/$defs/RegisterRow"
+      },
+      "title": "Rows",
+      "type": "array"
+    },
+    "unrecognised": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Unrecognised",
+      "type": "array"
+    },
+    "requires_confirmation": {
+      "default": true,
+      "title": "Requires Confirmation",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "register_date",
+    "rows",
+    "unrecognised"
+  ],
+  "title": "RegisterExtraction",
+  "type": "object"
+}

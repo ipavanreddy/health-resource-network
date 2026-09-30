@@ -1,0 +1,19 @@
+{
+  "properties": {
+    "transcript": {
+      "description": "Verbatim transcript in the spoken language; empty if inaudible",
+      "title": "Transcript",
+      "type": "string"
+    },
+    "language": {
+      "title": "Language",
+      "type": "string"
+    }
+  },
+  "required": [
+    "transcript",
+    "language"
+  ],
+  "title": "Transcript",
+  "type": "object"
+}

@@ -1,0 +1,25 @@
+{
+  "state": "OD",
+  "config": {
+    "name": "Odisha",
+    "default_language": "en",
+    "languages": ["en", "hi"],
+    "season_focus": "Monsoon (Jun-Sep): malaria",
+    "focus_medicine_groups": ["malaria", "fever"],
+    "cross_district_transfers": false,
+    "readiness_weights": {"stock_cover": 45, "beds": 15, "staff": 20, "freshness": 10, "surge_stability": 10},
+    "forecast_model": "phc-demand-baseline"
+  },
+  "adapter": {
+    "adapter_id": "od-scm-export-v1",
+    "description": "Illustrative supply-chain CSV export (synthetic format); date and time in separate columns",
+    "facility_key": "inst_id",
+    "fields": {"drug_code": "med_cd", "on_hand": "stock_in_hand", "in_transit": "stock_in_transit",
+               "near_expiry_qty": "expiry_lt_90"},
+    "timestamp": {"fields": ["rpt_date", "rpt_time"], "format": "%Y-%m-%d %H:%M", "utc_offset": "+05:30"},
+    "drug_code_map": {"ODM/AN/001": "PCM-500-TAB", "ODM/GI/004": "ORS-SACHET", "ODM/GI/005": "ZNC-20-TAB",
+                      "ODM/AB/012": "AMX-500-CAP", "ODM/IV/002": "IVF-RL-500", "ODM/AM/003": "ACT-AL-TAB",
+                      "ODM/DM/001": "MTF-500-TAB", "ODM/NU/007": "IFA-TAB"},
+    "unit_factors": {}
+  }
+}

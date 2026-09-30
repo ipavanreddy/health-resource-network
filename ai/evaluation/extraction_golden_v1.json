@@ -1,0 +1,20 @@
+{
+  "description": "Golden stock-report extraction cases (team-written, synthetic). expected: drug_code -> quantity (null = not stated).",
+  "cases": [
+    {"id": "en-prd", "language": "en", "text": "Paracetamol 500, 1,200 tablets left. ORS 40 packets. Amoxicillin finished.",
+     "expected": {"PCM-500-TAB": 1200, "ORS-SACHET": 40, "AMX-500-CAP": 0}, "unrecognised": 0},
+    {"id": "ta-demo", "language": "ta", "text": "பாராசிட்டமால் 500, 1200 மாத்திரைகள் உள்ளன. ஓஆர்எஸ் 40 பாக்கெட் உள்ளது. அமாக்ஸிசிலின் தீர்ந்துவிட்டது.",
+     "expected": {"PCM-500-TAB": 1200, "ORS-SACHET": 40, "AMX-500-CAP": 0}, "unrecognised": 0},
+    {"id": "hi-demo", "language": "hi", "text": "पैरासिटामोल 500, 900 गोलियां बची हैं। आईवी फ्लूइड 12 बोतल। ओआरएस 150 पैकेट।",
+     "expected": {"PCM-500-TAB": 900, "IVF-RL-500": 12, "ORS-SACHET": 150}, "unrecognised": 0},
+    {"id": "en-missing-qty", "language": "en", "text": "ORS some left. Zinc 300.",
+     "expected": {"ORS-SACHET": null, "ZNC-20-TAB": 300}, "unrecognised": 0},
+    {"id": "en-unknown", "language": "en", "text": "Metformin 2000. Cetirizine 50 tablets.",
+     "expected": {"MTF-500-TAB": 2000}, "unrecognised": 1},
+    {"id": "hi-finished", "language": "hi", "text": "मलेरिया की दवा खत्म। आयरन की गोली 800।",
+     "expected": {"ACT-AL-TAB": 0, "IFA-TAB": 800}, "unrecognised": 0},
+    {"id": "en-brand", "language": "en", "text": "Dolo 650 strips none left; RL 20 bottles; coartem 96",
+     "expected": {"PCM-500-TAB": 0, "IVF-RL-500": 20, "ACT-AL-TAB": 96}, "unrecognised": 0,
+     "note": "Brand name + strength (650) followed by 'none left' means finished, not 650 in stock."}
+  ]
+}

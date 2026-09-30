@@ -1,0 +1,204 @@
+{
+ "metadata": {
+  "source": "PHC Pulse synthetic generator (data/generator/synth.py)",
+  "dataset_version": "phc-pulse-synthetic-1.0.0",
+  "generator_version": "1.0.0",
+  "seed": 20260930,
+  "reference_timestamp": "2026-09-30T10:30:00+05:30",
+  "history_start": "2023-10-01",
+  "history_end": "2026-09-30",
+  "history_days": 1096,
+  "geographic_scope": {
+   "TN": [
+    "Madurai",
+    "Thanjavur"
+   ],
+   "UP": [
+    "Gorakhpur",
+    "Deoria"
+   ],
+   "OD": [
+    "Koraput",
+    "Rayagada"
+   ]
+  },
+  "facility_count": 198,
+  "dispensing_facility_count": 192,
+  "medicine_count": 8,
+  "is_synthetic": true,
+  "is_sample": true,
+  "notice": "SYNTHETIC DATA: generated for demonstration; not real facility, stock or patient data."
+ },
+ "medicines": [
+  {
+   "drug_code": "PCM-500-TAB",
+   "name": "Paracetamol",
+   "strength": "500 mg",
+   "form": "tablet",
+   "unit": "tablet",
+   "group": "fever",
+   "is_tracer": true,
+   "local_names": [
+    "paracetamol",
+    "para",
+    "pcm",
+    "crocin",
+    "dolo",
+    "பாராசிட்டமால்",
+    "பாராசிட்டமோல்",
+    "காய்ச்சல் மாத்திரை",
+    "पैरासिटामोल",
+    "पेरासिटामोल",
+    "बुखार की गोली"
+   ],
+   "strength_number": 500
+  },
+  {
+   "drug_code": "ORS-SACHET",
+   "name": "Oral Rehydration Salts",
+   "strength": "20.5 g/L",
+   "form": "sachet",
+   "unit": "sachet",
+   "group": "diarrhoea",
+   "is_tracer": true,
+   "local_names": [
+    "ors",
+    "oral rehydration",
+    "jeevan jal",
+    "ஓஆர்எஸ்",
+    "ஓ.ஆர்.எஸ்",
+    "உப்பு சர்க்கரை கரைசல்",
+    "ओआरएस",
+    "ओ आर एस",
+    "जीवन जल"
+   ],
+   "strength_number": null
+  },
+  {
+   "drug_code": "ZNC-20-TAB",
+   "name": "Zinc (dispersible)",
+   "strength": "20 mg",
+   "form": "tablet",
+   "unit": "tablet",
+   "group": "diarrhoea",
+   "is_tracer": true,
+   "local_names": [
+    "zinc",
+    "துத்தநாகம்",
+    "ஜிங்க்",
+    "ஜிங்க் மாத்திரை",
+    "जिंक",
+    "ज़िंक"
+   ],
+   "strength_number": 20
+  },
+  {
+   "drug_code": "AMX-500-CAP",
+   "name": "Amoxicillin",
+   "strength": "500 mg",
+   "form": "capsule",
+   "unit": "capsule",
+   "group": "antibiotic",
+   "is_tracer": true,
+   "local_names": [
+    "amoxicillin",
+    "amoxycillin",
+    "amoxy",
+    "amox",
+    "அமாக்ஸிசிலின்",
+    "அமோக்ஸிசிலின்",
+    "எமோக்ஸிசிலின்",
+    "एमोक्सिसिलिन",
+    "अमोक्सिसिलिन"
+   ],
+   "strength_number": 500
+  },
+  {
+   "drug_code": "IVF-RL-500",
+   "name": "Ringer Lactate (IV fluid)",
+   "strength": "500 ml",
+   "form": "bottle",
+   "unit": "bottle",
+   "group": "fever",
+   "is_tracer": true,
+   "local_names": [
+    "ringer lactate",
+    "ringer",
+    "rl",
+    "iv fluid",
+    "iv fluids",
+    "drip",
+    "ரிங்கர்",
+    "சலைன்",
+    "குளுக்கோஸ் பாட்டில்",
+    "आईवी फ्लूइड",
+    "आईवी",
+    "ड्रिप",
+    "रिंगर",
+    "बोतल चढ़ाने"
+   ],
+   "strength_number": 500
+  },
+  {
+   "drug_code": "ACT-AL-TAB",
+   "name": "Artemether + Lumefantrine",
+   "strength": "20/120 mg",
+   "form": "tablet",
+   "unit": "tablet",
+   "group": "malaria",
+   "is_tracer": true,
+   "local_names": [
+    "act",
+    "artemether",
+    "lumefantrine",
+    "coartem",
+    "malaria tablet",
+    "malaria medicine",
+    "மலேரியா மாத்திரை",
+    "मलेरिया की दवा",
+    "मलेरिया की गोली",
+    "आर्टेमिथर"
+   ],
+   "strength_number": null
+  },
+  {
+   "drug_code": "MTF-500-TAB",
+   "name": "Metformin",
+   "strength": "500 mg",
+   "form": "tablet",
+   "unit": "tablet",
+   "group": "chronic",
+   "is_tracer": false,
+   "local_names": [
+    "metformin",
+    "glycomet",
+    "மெட்ஃபார்மின்",
+    "சர்க்கரை மாத்திரை",
+    "मेटफॉर्मिन",
+    "शुगर की गोली"
+   ],
+   "strength_number": 500
+  },
+  {
+   "drug_code": "IFA-TAB",
+   "name": "Iron + Folic Acid",
+   "strength": "60 mg + 0.5 mg",
+   "form": "tablet",
+   "unit": "tablet",
+   "group": "chronic",
+   "is_tracer": false,
+   "local_names": [
+    "ifa",
+    "iron folic",
+    "iron",
+    "folic",
+    "இரும்புச்சத்து மாத்திரை",
+    "அயர்ன்",
+    "आयरन",
+    "आयरन की गोली",
+    "आयरन फोलिक"
+   ],
+   "strength_number": null
+  }
+ ]
+}

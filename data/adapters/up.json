@@ -1,0 +1,25 @@
+{
+  "state": "UP",
+  "config": {
+    "name": "Uttar Pradesh",
+    "default_language": "hi",
+    "languages": ["hi", "en"],
+    "season_focus": "Post-monsoon (Aug-Nov): dengue / vector-borne fever",
+    "focus_medicine_groups": ["fever", "malaria"],
+    "cross_district_transfers": true,
+    "readiness_weights": {"stock_cover": 40, "beds": 20, "staff": 20, "freshness": 10, "surge_stability": 10},
+    "forecast_model": "phc-demand-baseline"
+  },
+  "adapter": {
+    "adapter_id": "up-stock-api-v1",
+    "description": "Illustrative JSON stock API (synthetic format). IV fluid reported in litres.",
+    "facility_key": "nin",
+    "fields": {"drug_code": "drugId", "on_hand": "balanceQty", "in_transit": "pipelineQty",
+               "near_expiry_qty": "expiringQty90d"},
+    "timestamp": {"fields": ["asOn"], "format": "iso"},
+    "drug_code_map": {"UPD-17": "PCM-500-TAB", "UPD-52": "ORS-SACHET", "UPD-53": "ZNC-20-TAB",
+                      "UPD-08": "AMX-500-CAP", "UPD-71": "IVF-RL-500", "UPD-66": "ACT-AL-TAB",
+                      "UPD-90": "MTF-500-TAB", "UPD-31": "IFA-TAB"},
+    "unit_factors": {"IVF-RL-500": 2}
+  }
+}
