@@ -1,50 +1,92 @@
-# Third-party datasets, models and libraries
+# Third-party datasets, models, libraries and services
 
-Every reused dataset, model and library must be cited here (hackathon rule).
+Every reused dataset, model, library, map tile source and service is listed here (hackathon rule). Transitive
+dependencies are pinned in `pnpm-lock.yaml` and `services/api/uv.lock`.
 
-## Libraries
-
-| Name | Type | Licence | Source URL | Used for |
-|---|---|---|---|---|
-| Next.js | Library | MIT | https://nextjs.org | Frontend |
-| React | Library | MIT | https://react.dev | Frontend |
-| shadcn/ui | Library | MIT | https://ui.shadcn.com | UI components |
-| Base UI (@base-ui/react) | Library | MIT | https://base-ui.com | UI primitives under shadcn/ui |
-| Tailwind CSS | Library | MIT | https://tailwindcss.com | Styling |
-| lucide-react | Library | ISC | https://lucide.dev | Icons |
-| sonner | Library | MIT | https://sonner.emilkowal.ski | Toast notifications |
-| Leaflet | Library | BSD-2-Clause | https://leafletjs.com | Dashboard map fallback when no Google Maps key |
-| @types/leaflet | Library | MIT | https://github.com/DefinitelyTyped/DefinitelyTyped | Leaflet type definitions |
-| Geist font | Font | SIL OFL 1.1 | https://vercel.com/font | UI typography (scaffold) |
-| FastAPI | Library | MIT | https://fastapi.tiangolo.com | API |
-| Pydantic / pydantic-settings | Library | MIT | https://docs.pydantic.dev | Schemas, validation, config |
-| Uvicorn | Library | BSD-3-Clause | https://www.uvicorn.org | ASGI server |
-| HTTPX | Library | BSD-3-Clause | https://www.python-httpx.org | REST calls to Routes / Speech / TTS / Translation |
-| NumPy | Library | BSD-3-Clause | https://numpy.org | Synthetic data generator, forecast baseline |
-| Google OR-Tools | Library | Apache-2.0 | https://developers.google.com/optimization | Redistribution optimiser (min-cost flow) |
-| pandas | Library | BSD-3-Clause | https://pandas.pydata.org | Transitive dependency of OR-Tools |
-| Google Gen AI SDK (google-genai) | Library | Apache-2.0 | https://github.com/googleapis/python-genai | Gemini calls |
-| google-cloud-bigquery | Library | Apache-2.0 | https://github.com/googleapis/python-bigquery | BigQuery sink and BQML forecast |
-| firebase-admin | Library | Apache-2.0 | https://github.com/firebase/firebase-admin-python | Firestore notifications |
-| pytest | Library | MIT | https://pytest.org | Tests |
-| Ruff | Tool | MIT | https://docs.astral.sh/ruff | Python lint |
-
-## Services / models (used when the corresponding env var is set)
+## Models and AI services
 
 | Name | Type | Terms | Source URL | Used for |
 |---|---|---|---|---|
-| Gemini (model from `GEMINI_MODEL`) | Model API | Google AI / Google Cloud terms | https://ai.google.dev | Stock extraction, register photo reading, audio transcription, transfer explanations |
-| Cloud Speech-to-Text, Text-to-Speech, Translation | API | Google Cloud terms | https://cloud.google.com | Voice reports, spoken confirmations, translation |
-| Google Maps Platform (Routes API, Maps JavaScript API) | API | Google Maps Platform terms | https://developers.google.com/maps | Travel times, dashboard map |
-| BigQuery / BigQuery ML (ARIMA_PLUS) | Service | Google Cloud terms | https://cloud.google.com/bigquery | Event storage, shared forecast model |
-| Firebase / Firestore | Service | Firebase terms | https://firebase.google.com | Notifications |
-| OpenStreetMap tiles and map data | Dataset / tiles | ODbL 1.0 (data), OSMF Tile Usage Policy | https://www.openstreetmap.org/copyright | Map fallback tiles, attributed "© OpenStreetMap contributors" |
+| Gemini 2.5 Flash (`gemini-2.5-flash`, via Vertex AI; model set by `GEMINI_MODEL`) | Foundation model (API) | Google Cloud / Vertex AI Generative AI terms | https://cloud.google.com/vertex-ai/generative-ai/docs/models | Stock extraction from voice/text, handwritten register photo reading, audio transcription fallback, transfer explanations |
+| Cloud Speech-to-Text v1 | Speech model (API) | Google Cloud terms | https://cloud.google.com/speech-to-text | Tamil / Hindi / English voice stock reports |
+| Cloud Text-to-Speech v1 | Speech model (API) | Google Cloud terms | https://cloud.google.com/text-to-speech | Spoken confirmations |
+| Cloud Translation v2 | Translation model (API) | Google Cloud terms | https://cloud.google.com/translate | Free-text translation |
+| BigQuery ML ARIMA_PLUS | Time-series model (trained by us in BigQuery) | Google Cloud terms | https://cloud.google.com/bigquery/docs/arima-plus | Shared weekly demand model (challenger) |
+| PHC Pulse demand baseline (`phc-demand-baseline`) | Model (ours) | Project licence | this repo (`services/api/app/forecasting/baseline.py`) | Serving demand forecast (seasonal exponential smoothing) |
+| Browser Web Speech API (SpeechRecognition, speechSynthesis) | Browser API | Browser vendor terms | https://developer.mozilla.org/docs/Web/API/Web_Speech_API | Live transcript preview and speech fallback in the PHC app |
+
+## Google Cloud and Maps services
+
+| Name | Type | Terms | Source URL | Used for |
+|---|---|---|---|---|
+| Google Maps Routes API (`computeRouteMatrix`) | API | Google Maps Platform terms | https://developers.google.com/maps/documentation/routes | Drive times between facilities for the optimiser |
+| Google Maps JavaScript API (map tiles and basemap data © Google) | API / map tiles | Google Maps Platform terms | https://developers.google.com/maps/documentation/javascript | DHO facility map |
+| BigQuery | Data warehouse | Google Cloud terms | https://cloud.google.com/bigquery | Event ledger, canonical facility and consumption tables |
+| Cloud Storage | Object storage | Google Cloud terms | https://cloud.google.com/storage | Register photos and voice recordings |
+| Cloud Run, Cloud Build, Artifact Registry, Secret Manager | Platform | Google Cloud terms | https://cloud.google.com/run | Hosting, image builds, secrets |
+| Firebase / Cloud Firestore (optional, not yet enabled) | Database | Firebase terms | https://firebase.google.com | Real-time notifications when enabled |
+
+## Map tiles and geographic data
+
+| Name | Type | Licence | Source URL | Used for |
+|---|---|---|---|---|
+| Google Maps basemap | Map tiles | Google Maps Platform terms | https://cloud.google.com/maps-platform/terms | Dashboard map when the browser key is accepted |
+| OpenStreetMap tiles and map data | Map tiles / dataset | ODbL 1.0 (data), OSMF Tile Usage Policy | https://www.openstreetmap.org/copyright | Map fallback, attributed "© OpenStreetMap contributors" |
 
 ## Datasets and reference material
 
 | Name | Type | Licence | Source URL | Used for |
 |---|---|---|---|---|
-| PHC Pulse synthetic dataset (`data/generator/synth.py`) | Dataset (generated) | Project licence | this repo | All facility, stock, consumption, beds and staff data. **Synthetic; not real data.** |
+| PHC Pulse synthetic dataset (`data/generator/synth.py`) | Dataset (generated by us) | Project licence | this repo | All facility, stock, consumption, beds and staff data. **Synthetic; not real data.** |
 | National List of Essential Medicines 2022 (India) | Reference | Government of India publication | https://cdsco.gov.in | Choice of tracer medicines and strengths in the medicine master (names only) |
-| Indian district / block names (Madurai, Thanjavur, Gorakhpur, Deoria, Koraput, Rayagada) | Reference | Public administrative names | https://lgdirectory.gov.in | Labels for synthetic facilities; locations are jittered and facilities are fictional |
-| Sample register page (`apps/phc-web/public/sample-register.svg`) | Image | Project licence | this repo | Team-made synthetic register page for the photo demo |
+| Indian state / district / block names (Madurai, Thanjavur, Gorakhpur, Deoria, Koraput, Rayagada) | Reference | Public administrative names | https://lgdirectory.gov.in | Labels for synthetic facilities; facilities are fictional and locations jittered |
+| Ayushman Bharat Health Facility Registry (HFR) ID format | Reference | Public documentation | https://facility.abdm.gov.in | Shape of the synthetic `hfr_id` field (no real IDs) |
+| Sample register page (`apps/phc-web/public/sample-register.svg`) | Image (made by us) | Project licence | this repo | Synthetic register page for the photo demo |
+| Extraction golden set (`ai/evaluation/extraction_golden_v1.json`) | Dataset (made by us) | Project licence | this repo | Evaluating stock extraction |
+
+## Libraries: frontend
+
+| Name | Licence | Source URL | Used for |
+|---|---|---|---|
+| Next.js | MIT | https://nextjs.org | App framework (standalone output on Cloud Run) |
+| React, React DOM | MIT | https://react.dev | UI |
+| TypeScript | Apache-2.0 | https://www.typescriptlang.org | Types |
+| shadcn/ui (`shadcn`, `cn`) | MIT | https://ui.shadcn.com | UI components |
+| Base UI (`@base-ui/react`) | MIT | https://base-ui.com | UI primitives under shadcn/ui |
+| class-variance-authority | Apache-2.0 | https://github.com/joe-bell/cva | Component variants |
+| Tailwind CSS, `@tailwindcss/postcss` | MIT | https://tailwindcss.com | Styling |
+| tw-animate-css | MIT | https://github.com/Wombosvideo/tw-animate-css | Animations |
+| next-themes | MIT | https://github.com/pacocoursey/next-themes | Theme handling |
+| lucide-react | ISC | https://lucide.dev | Icons |
+| sonner | MIT | https://sonner.emilkowal.ski | Toasts |
+| Leaflet, `@types/leaflet` | BSD-2-Clause, MIT | https://leafletjs.com | Map fallback |
+| Geist / Geist Mono fonts (via `next/font`) | SIL OFL 1.1 | https://vercel.com/font | Typography |
+| ESLint, eslint-config-next | MIT | https://eslint.org | Lint |
+
+## Libraries: API, data and tooling
+
+| Name | Licence | Source URL | Used for |
+|---|---|---|---|
+| FastAPI | MIT | https://fastapi.tiangolo.com | API |
+| Pydantic, pydantic-settings | MIT | https://docs.pydantic.dev | Schemas, validation (incl. Gemini response schemas), config |
+| Uvicorn (with uvloop, httptools) | BSD-3-Clause | https://www.uvicorn.org | ASGI server |
+| python-multipart | Apache-2.0 | https://github.com/Kludex/python-multipart | Photo / audio uploads |
+| HTTPX | BSD-3-Clause | https://www.python-httpx.org | REST calls to Routes / Speech / TTS / Translation |
+| NumPy | BSD-3-Clause | https://numpy.org | Generator, forecasting, risk |
+| Google OR-Tools | Apache-2.0 | https://developers.google.com/optimization | Redistribution optimiser (SimpleMinCostFlow) |
+| pandas | BSD-3-Clause | https://pandas.pydata.org | Transitive dependency of OR-Tools |
+| Google Gen AI SDK (`google-genai`) | Apache-2.0 | https://github.com/googleapis/python-genai | Gemini calls (Vertex AI or API key) |
+| google-cloud-bigquery | Apache-2.0 | https://github.com/googleapis/python-bigquery | Event sink, BQML forecast, loader |
+| google-cloud-storage | Apache-2.0 | https://github.com/googleapis/python-storage | Capture media |
+| firebase-admin | Apache-2.0 | https://github.com/firebase/firebase-admin-python | Firestore notifications (optional) |
+| pytest | MIT | https://pytest.org | Tests |
+| Ruff | MIT | https://docs.astral.sh/ruff | Python lint |
+| uv (also `ghcr.io/astral-sh/uv` image) | MIT / Apache-2.0 | https://docs.astral.sh/uv | Python packaging and container builds |
+| python-pptx | MIT | https://github.com/scanny/python-pptx | Generating the pitch deck (`docs/pitch/build_deck.py`) |
+
+## Container base images
+
+| Name | Licence | Source URL | Used for |
+|---|---|---|---|
+| `python:3.12-slim` | PSF / Debian licences | https://hub.docker.com/_/python | API image |
+| `node:22-slim` | MIT / Debian licences | https://hub.docker.com/_/node | Next.js images |
