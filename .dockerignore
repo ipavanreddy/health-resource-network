@@ -1,0 +1,16 @@
+# Used when building from the repository root: docker build -f services/api/Dockerfile .
+**/node_modules
+**/.next
+**/.venv
+**/__pycache__
+**/.pytest_cache
+**/.ruff_cache
+**/.env
+**/.env.local
+**/.env.*.local
+**/*.json.key
+**/service-account*.json
+**/*-credentials.json
+.git
+data/generated
+data/raw
